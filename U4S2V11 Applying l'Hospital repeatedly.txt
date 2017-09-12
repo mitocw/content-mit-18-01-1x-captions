@@ -1,0 +1,67 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V11 Applying l'Hospital repeatedly.txt
+#
+# Captions for MITx 18.01.1x module [F6_aj0H5Ok0]
+#
+# This file has 57 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I'm going to give you another example which
+shows that it works a little better than the method
+that I started out with.
+
+Here's what happens if we consider the function, (cosine)
+x minus 1 divided by x squared.
+All right?
+Now that was a little harder to deal with.
+And again, this is one of these 0 over 0 things
+near x equals 0.
+As x tends to zero, this goes to an indeterminate form here.
+Now according to our method, this is equivalent to-- now
+I'm going to use this little wiggle
+because I don't want to write limit limit
+limit limit a million times.
+So I'm going to use a little wiggle here.
+So as x goes to 0, this is going to behave the same way
+as differentiating numerator and denominator.
+So again, this is going to be minus (sine(x))
+in the numerator.
+And the denominator, it's going to be 2x.
+
+Now notice that we've still haven't won yet because this
+is still a 0 over 0 type.
+When you plug in x equals zero, you still get zero.
+But that doesn't damage the method.
+That doesn't make the method fail.
+This is 0 over 0.
+We can apply L'Hopital's rule a second time.
+OK?
+
+And as x goes to 0, this is the same thing as-- again,
+differentiating the numerator and denominator.
+So here, I get minus (cosine(x)) in the numerator,
+and I get 2 in the denominator.
+Again, this is way easier than differentiating
+ratios of functions.
+We're only differentiating the numerator and the denominator
+separately.
+
+And now this is the end.
+As x goes to 0, this is minus (cosine) of 0 divided by 2,
+which is minus 1/2.
+And that's the-- All right?
+Now, the justification for this comes only
+when you win in the end and get the limit.
+Because what the theorem says is, that if one of these limits
+exist, then the preceding one exists.
+And once the proceeding one exists, then the one
+before it exists.
+So once we know that this one exists, that works backwards.
+It applies to the preceding limit, which then
+applies to the very first one.
+And the logical structure here is a little subtle,
+which is that if the right side exist,
+then the left side will also exists.

@@ -1,0 +1,112 @@
+#
+# File:   content-mit-18-01-1x-captions/U0S2V08 Limit Laws and Continuity.txt
+#
+# Captions for MITx 18.01.1x module [Tz5dcq_bx3k]
+#
+# This file has 103 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this video, we'll see what the limit laws tell us
+about the continuity of functions.
+
+Let's say we have two functions, f and g, which
+are continuous at a point a.
+By definition, that means that there are limits,
+as x approaches a, match their values at a.
+And suppose that we have h of x equaling f of x times g of x.
+What can we say about the continuity of h?
+
+Well, the limit of a product is the product of the two limits.
+And so as x approaches a, f of x is approaching f of a,
+and g of x is approaching g of a.
+So h of x is approaching f of a times g of a, which is h of a.
+So the limit of h of x as x approaches
+a equals the value of h at a.
+In other words, h is continuous at a.
+
+So what we've just proven is that if f and g are
+continuous at some point, then their product
+is continuous at that point.
+And if f and g are continuous everywhere,
+then their product will be continuous everywhere.
+And the same thing will go for their sum or their difference.
+We just use the other limit laws in exactly the same way.
+
+We can deduce that a lot of functions
+are continuous, based on these principles.
+For instance, 5 is a constant function,
+so that's continuous everywhere.
+And x we know is a function that's continuous everywhere,
+so 5 times x will be continuous everywhere.
+And then we can take 5x times x, and that's
+the product of 2 continuous function, so it'll
+be continuous, and that equals 5x squared.
+And anything like that.
+We can even add these things, so 5x squared plus x.
+That's the sum of continuous function, so it's continuous.
+Basically any polynomial will be continuous
+on the entire real line.
+
+What else can we do?
+Well, we had a limit law for division, part one anyway.
+In the case where the limit of the denominator was not 0.
+And that tells us that if f and g are continuous,
+then the quotient f over g will be continuous also,
+as long as we're talking about points where g is not zero.
+In other words, as long as the quotient is defined.
+So for instance, tangent is sine x over cosine x.
+And that's the quotient of two functions, which are continuous
+everywhere.
+So the tangent function will be continuous at all points
+where cosine x is not 0.
+And if you remember the graph of the tangent function,
+this should make sense.
+The graph looks like this, and it's continuous
+everywhere except for these points where there are breaks,
+and that's minus pi over 2, pi over 2, et cetera.
+Exactly the places where cosine is zero.
+If on the other hand, we take the function
+1 over x squared plus 1, here we have a polynomial
+over a polynomial, so again, the quotient of two functions,
+which are continuous everywhere, but this denominator
+is never zero.
+So this quotient is going to be continuous everywhere.
+No exceptions.
+
+There's one other thing that we should discuss,
+and that's the composition of functions.
+If f and g are continuous everywhere,
+what can we say about h of x, which
+is equal to f of g of x, the composition of f with g?
+Well, as x approaches some value a,
+we know g of x is going to be approaching g of a,
+and that's just because we know g is continuous.
+But we also know that f is continuous at g
+of a, so we've got some value approaching some point.
+That means f of this value is going to be
+approaching f of that point.
+f of g of x is going to be approaching f of g of a.
+And we can translate that as h of x approaching h of a.
+In other words, h is continuous at this point a.
+So up above, we can say that if f and g are continuous
+everywhere, then f composed with g
+will also be continuous everywhere.
+And this little circle if you've never seen it before,
+that just denotes composition.
+So for instance, if we take sine of x squared plus 1,
+here we have the composition of two functions,
+the inner function is x squared plus 1, that's a polynomial,
+so it's continuous everywhere.
+And the sine function, the outer function, we
+know that's continuous everywhere,
+so this overall function is continuous everywhere.
+
+Alright.
+Well we've discussed addition, subtraction, multiplication,
+division, and now composition.
+And those are all of the common ways
+that we'll be using to build up complicated functions.
+So we should be good to go.

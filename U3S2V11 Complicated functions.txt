@@ -1,0 +1,100 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S2V11 Complicated functions.txt
+#
+# Captions for MITx 18.01.1x module [OLBo45OeEsk]
+#
+# This file has 91 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I want to show you how we can use big O notation
+to keep track of error terms.
+In order for this to be a useful notation,
+we're going to need to develop a bit of an algebra of using
+big O notation.
+And to develop this algebra, we have
+to keep in mind what does big O of x, or in the case
+that we're going to be interested in,
+what does big O of x cubed really mean.
+Well, a function is big O of x cubed
+if it's dominant behavior near x equal 0 looks like x cubed.
+Let's go ahead and see how this plays out with some examples.
+And the example that I'm going to look at is e to the sine x.
+This is basically a function you will never
+encounter in the real world, but it is a function.
+This is equal to e get to the x plus big O of x cubed.
+This is the quadratic approximation of sine x,
+even though there's no quadratic term,
+and note that I am using an equal sign here
+instead of an approximately equal sign, because I'm keeping
+track of this error term.
+This is an equality.
+So now I'm going to go ahead and make a substitution.
+I'm going to call x plus big O of x cubed u.
+So then this is e to the u.
+And I can find the quadratic approximation of this function.
+This is 1 plus u plus u squared over 2 plus big O of u cubed.
+And then I can just go ahead and plug-in x plus big O
+of x cubed n for u.
+That gives me 1 plus x plus big O
+of x cubed plus the quantity x plus big O of x cubed
+squared all over 2 plus big O of the quantity
+x plus big O of x cubed, cubed.
+
+The first thing to keep in mind is
+that this term here, this big O of x plus big O of x cubed,
+the dominant term here is still going to be x cubed.
+So this is big O of x cubed, because all of these higher
+order terms in here are negligible in comparison
+to the x cubed.
+Now let's do it the other terms.
+If I square this, I'm going to get
+x squared over 2 plus a bunch of higher order terms.
+All of that just gets absorbed into this big O of x cubed.
+
+Similarly, this error term all just
+gets absorbed into this big O of x cubed.
+So what I'm left with is 1 plus x plus x squared
+over 2 plus big O x cubed.
+And that's the quadratic approximation.
+
+Let's look at another example.
+The example we're going to look at
+is the same example we looked at with linear approximation.
+We're going to do a product.
+And I want to look at e to the negative 3 x divided
+by the square root of 1 plus x.
+To find the approximation of the product,
+I'm going to take the product of the approximations.
+So let's find the quadratic approximations of each term.
+e to the negative 3 x, this is 1 minus 3 x
+plus 9 x squared over 2 plus, well,
+I could write this as big O of negative 3 x cubed,
+but this constant term isn't going
+to change the dominant behavior.
+So I'm just going to get rid of that
+and write this as big O of x cubed.
+Then I know 1 plus x to the negative 1/2, that
+is given by 1 minus x over 2 plus 3/8 x
+squared plus big O of x cubed.
+So to find the approximation, I'm
+just going to do some algebra, and I'm
+going to multiply this out.
+
+And any time I get a term that is x cubed or higher, I'm just
+throwing that into this error term, which I know
+is big O of x cubed.
+So let's go ahead and do that algebra.
+I'm going to speed it up a little bit,
+but you can pause this and do the algebra out on your own
+if you are interested.
+And we get 1 minus 7/2 x plus 51/8 x
+squared plus big O of x cubed.
+
+I hoped that you find this notation useful.
+So I'm going to give you an opportunity
+now to get some practice using it
+in finding quadratic approximations of some more
+complicated functions.

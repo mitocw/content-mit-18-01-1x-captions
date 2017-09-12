@@ -1,0 +1,88 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S1V13 Inflection Points.txt
+#
+# Captions for MITx 18.01.1x module [WxVAPGjU10U]
+#
+# This file has 79 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We've talked about how the second derivative can
+be used to classify critical points using
+the second derivative test, but it can also
+be used to draw more accurate graphs.
+Remember that the sign of the second derivative
+on an interval tells us whether the graph is
+concave up or concave down.
+And to find the intervals on which
+f double prime is positive or negative,
+we can use our old friend interval sampling.
+So for instance, let's say that f of x
+is x to the fifth over 20 plus x to the fourth over 4.
+Then f prime of x equals x to the fourth over 4 plus x cubed.
+And f double prime of x equals x cubed plus 3x squared.
+Now, that factors as x squared times x plus 3.
+So drawing a number line, f double prime is 0 at x equals 0
+and at x equals minus 3.
+So we have three intervals to check.
+We can start on the left.
+If we look at f double prime over y minus 4,
+that's equal negative 16.
+So it's negative.
+And that tells us that f double prime
+is negative on this entire interval,
+and therefore f is going to be concave down.
+
+Over on this interval, f double prime of minus 1 is equal 2,
+and that's positive.
+So the second derivative will be positive on this stretch,
+and f will be concave up.
+
+A bit of terminology here.
+A point where the second derivative switches sign
+is called an inflection point.
+So here at x equals minus 3, f double prime changes
+from negative to positive.
+f changes from being concave down to concave up.
+That's an inflection point.
+Inflection points are very important in how
+humans visually perceive curves and surfaces.
+So if you want to have good looking graphs,
+these are a good thing to pay attention to.
+
+What about here at x equals 0?
+Is that an inflection point?
+Well f double prime is equal 0 at x equals zero.
+But if we test something over here,
+let's say f double prime of 1, f double prime of 1 equals 4.
+And that's positive.
+So on this interval, f double prime is positive,
+and f is concave up.
+So to the left of 0, f is concave up,
+and just to the right of 0, it's again concave up.
+And that's telling us that 0 is not an inflection point.
+
+Just a word of warning.
+You might hear non-mathematicians
+using the term, inflection point, in various ways.
+For instance, they might say, company sales
+hit an inflection point in June.
+Now, if they mean that sales were accelerating, concave up,
+and then in June they started to decelerate, concave down,
+then that's a proper use of the term inflection point.
+But a lot of times people just use
+it to mean something has changed in some fashion that's
+kind of vague.
+For instance, I've seen the sentence,
+the fall of the Berlin Wall was a political inflection point.
+And that's just not very mathematical.
+But for us, we've got a very specific meaning.
+An inflection point is where specifically
+the second derivative of the function changes sign.
+We have a short question for you.
+And then when we come back, we'll
+see how we can put all of this information
+together and get a really good graph for our function.
+So stay tuned.

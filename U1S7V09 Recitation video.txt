@@ -1,0 +1,151 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S7V09 Recitation video.txt
+#
+# Captions for MITx 18.01.1x module [xpAtsNQliuI]
+#
+# This file has 142 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Hi.
+Welcome back to recitation.
+In last lecture we talked about finding the derivatives
+of trigonometric functions-- in particular, the sine function
+and the cosine function.
+So today let's do an example of putting that into practice.
+So here's a function h of x equal to sine
+of x plus square root of 3 times cosine of x.
+And I'm asking you to find which values of x
+have the property that the derivative of h of x
+is equal to 0.
+So why don't you take a minute to think
+about that, work it out on your own, pause the video,
+and we'll come back and we'll work it out together.
+
+All right so you've hopefully had a chance
+to look over this problem, try it out for yourself.
+Now let's see how to go about it.
+So we have the function h of x that's
+equal to sine x plus square root of 3 cosine x.
+And we want to know when its derivative's equal to 0.
+So in order to answer that question,
+we should figure out what its derivative actually
+is and try and write down a formula for its derivative.
+So in this case, that's not that bad.
+If we take a derivative of h, well, h
+is a sum of two functions-- sine x
+and square root of 3 cosine x.
+And we know that the derivative of a sum
+is just the sum of the derivatives.
+So we have the h prime of x is equal to d over dx
+sine x plus d over dx of square root of 3 times cosine x.
+Now, we learned last time in lecture
+that the derivative of sine x is cosine of x.
+And we learned the derivative of cosine of x is minus sine x.
+So here we have a constant multiple,
+but by the constant multiple rule that just gets pulled out.
+So this is equal to cosine x minus square root of 3
+times sine x.
+So this is h prime of x.
+And now we want to solve the equation h prime of x equals 0.
+So we want to find those values of x
+such that cosine x minus square root of 3 sine x is equal to 0.
+Now, there are a couple of different ways
+to go about this.
+I think my preferred way is I would add the square root of 3
+sine x to one side, and then I want to get my x's together,
+so I would divide by cosine x.
+So that gives me--
+so on the left side I'll be left with cosine x divided
+by cosine x, so that's just 1.
+And on the right side I'll have square root of 3 times
+sine x over cosine x--
+so that's just square root of 3 times tan x.
+And I can rewrite this as tan of x
+is equal to 1 divided by square root of 3.
+Now, to find x here either you can remember your special trig
+angles and know which values of x make this work
+or you could apply the arctangent function here.
+So in either case, the simplest solution
+here is x equals pi over 6.
+So if you like, you can draw a little right triangle.
+
+If this is x--
+if tan x is 1 over square root of 3,
+we should have this side being 1 and this side
+being square root of 3, and--
+OK, in that case in this right triangle
+the hypotenuse would be 2, and so then you
+would recognize this is a 30 degree angle or pi
+over 6 radian angle.
+But one thing to remember is that tangent
+of x is a periodic function with period pi.
+So not only is pi over 6 a solution,
+but pi over 6 plus pi is a solution.
+So that's 7 pi over 6 or pi over 6
+plus 2 pi, which is 13 pi over six or pi over 6
+minus pi, which is minus 5 pi over 6, et cetera.
+So there are actually infinitely many solutions.
+They're given by pi over 6 plus an arbitrary multiple of pi.
+So then we're done.
+So I do want to mention, though, that there's
+a there's another approach to this question, which
+is we can start by multiplying this expression for h of x.
+So if you look at h of x-- that's sign of x plus square
+root of 3 times cosine x--
+it resembles closely one of your trigonometric identities
+that you know about.
+So in particular, to make it resemble it even more,
+I can multiply and divide by 2.
+So I can rewrite h of x equals 2 times
+1/2 sine x plus square root of 3 over 2 times cosine x.
+And now 1/2 is equal to cosine of pi over 3,
+and square root of 3 over 2 is equal to sine of pi over 3.
+So I can rewrite this as 2 times cosine pi
+over 3 sine x plus sine pi over 3 cosine x.
+And this is exactly what you get when you do the angle addition
+formula for sine.
+This is the expanded out form, and so we
+can apply it in reverse and get that this
+is equal to 2 times sine of x plus pi over 3.
+So so far we haven't done any calculus.
+We've just done-- so in this solution, our first solution,
+we did some calculus first, and then
+some algebra and trigonometry.
+So so far we've just done some algebra and trigonometry.
+Now, the points where h prime of x is equal to 0
+are the points where the graph of this function
+has a horizontal tangent line.
+So either you can compute its derivative using your rules
+or by the definition, or you can just
+say, oh, we know what this graph looks like.
+So I've drawn a schematic up here.
+So this is a graph.
+This graph is y equals 2 sine of x plus pi over 3--
+it's what you get if you take the graph y equals sine x
+and you shift it left by pi over 3
+and you scale it up by a factor of 2.
+So this here is at x equals minus pi over 3.
+This route is x equals 2 pi over 3.
+And the points we're interested in
+are the points where there's a horizontal tangent line, where
+the derivative is 0.
+And so there's one of these right at this value, which
+is pi over 6.
+And the second one is this is that minimum there,
+so that happens at x equals 7 pi over 6--
+pi over 6 because for the usual sine
+function it happens at pi over 2,
+but we've shifted everything left by pi over 3,
+and so pi over 2 minus pi over 3 is pi over 6.
+And here for y equals sine x, this minimum
+would happen at 3 pi over 2, but we've
+shifted it left by pi over 3.
+And so on.
+There's another trough over here,
+and another peak over there, and so on.
+So that's the second way you can do this question, using
+this cute trig identity here.
+And that's that.

@@ -1,0 +1,61 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S2V04 Geometric intuition for quadratic approximation.txt
+#
+# Captions for MITx 18.01.1x module [p56Cyzosboc]
+#
+# This file has 52 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this section, we're going to introduce
+the quadratic approximation.
+To get started, I want to explain the geometric intuition
+for what the quadratic approximation really is.
+Let's look at the function cosine x, near x equals 0.
+First I want to remind you what the linear approximation means
+geometrically.
+The linear approximation near x equals 0
+is the tangent line, which is this horizontal line.
+And a good way to think about the linear approximation
+is as the best fit line to the function at x equals 0.
+What do I mean by best fit?
+If I let L of x denote this tangent line, then best fit
+means that the value of the tangent line and the value
+of the function are equal at 0.
+So L of 0 is equal to f of 0.
+And the value of the derivative of the tangent line
+is equal to the derivative of the function at x equals 0.
+So L prime of 0 is equal to f prime of 0.
+However, this particular approximation
+doesn't give us a lot of information
+about cosine near 0.
+I can't tell from the tangent line alone
+whether or not the function is curving
+up away from this tangent line or down below it.
+So we'd like to add some information about the curvature
+or the second derivative of our function to our approximation.
+And this is the idea of the quadratic approximation.
+The quadratic approximation is the best fit quadratic function
+or best fit parabola.
+In this example, with cosine of x,
+the best fit parabola is given by the function
+p of x is equal to 1 minus x squared over 2.
+This is the best fit parabola at x
+equals 0, because the value of the quadratic and the function
+should agree at 0.
+The value of the first derivative
+of the quadratic and the function should agree at 0.
+And the value of the second derivatives should agree at 0.
+
+Rather than give you the formula for finding
+quadratic approximations immediately,
+I'm going to have you just work through some problems that
+helps you discover what this formula should be on your own,
+because it's actually not that tricky.
+But there is a constant involved that might
+seem a little bit weird if you don't
+know where it's coming from.
+After that, we'll get a bunch of practice
+finding quadratic approximations.

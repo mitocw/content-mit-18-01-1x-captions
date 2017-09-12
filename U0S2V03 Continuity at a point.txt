@@ -1,0 +1,103 @@
+#
+# File:   content-mit-18-01-1x-captions/U0S2V03 Continuity at a point.txt
+#
+# Captions for MITx 18.01.1x module [Q9TroXUyfhE]
+#
+# This file has 94 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So hopefully you remember that the limit of a function as x
+approaches a point, and the value
+of the function at the point, don't have to be equal.
+But they could be equal.
+So we're going to give a name to this situation in which they
+happen to be equal.
+We're going to say that our function is
+continuous at the point x equals a, if the limit of f of x, as x
+approaches a equals f of a itself.
+Now one great thing about functions
+being continuous at points is that if we
+know that f is going to be continuous at x
+equals a, then that makes calculating this limit really
+easy.
+We can just calculate f of a instead.
+So continuity, when we have it, makes life a lot simpler.
+So it's fantastic.
+So back to the definition.
+We need the limit and the value to be equal.
+In particular, they both need to exist.
+Graphically, that's going to look like this.
+f of a has to exist, so we have to have a point
+at x equals a somewhere.
+And then the limit as x approaches
+a has to equal this same value.
+So when we come in from the left,
+we have to approach that value, and also coming in
+from the right.
+Same thing.
+It's the overall limit has to equal that value.
+So that's basically what being continuous at the point x
+equals a has to look like.
+There are a variety of ways in which a function might fail
+to be continuous at x equals a.
+First off, the limit might exist but the value of f at a
+might not exist.
+That would look like this.
+And just keep the same picture just
+erase the point at x equals itself.
+So we still have a limit, but now f of a doesn't exist.
+This is no longer continuous.
+And we have a hole at x equals a.
+Another way to be discontinuous would
+be if the limit exists and then f of a also exists,
+but they're not equal.
+That would look just like this, where
+we put a value for f of a that's different than the limit
+as x approaches a.
+So we still have the hole in the graph of f,
+and that's a discontinuity.
+Finally, there are the cases where f of a exists,
+but the limit does not exist.
+So we know that there are a lot of ways
+that a limit might not exist.
+For instance, it might blow up as we come in from one side.
+
+One case I want to point out specifically
+is where the limit from the left exists,
+and the limit from the right exists,
+but they're just not equal.
+So when they don't match, the overall limit doesn't exist,
+and the function is not continuous,
+we get this jump at x equals a.
+Something to notice here-- we don't have an overall limit,
+but we do have the limit of f of x as x
+approaches a from the right.
+And that does happen to be equal to f of a.
+So when that happens, then we say that f
+is right-continuous at a.
+And we can have a similar definition for left-continuous.
+I'm not going to write that down.
+So in this picture f is right-continuous,
+but not left-continuous at x equals a.
+But to be continuous overall, we need
+to be both right- and left-continuous
+at the point in question.
+We're not here so instead we have this jump,
+we have a discontinuity.
+So to summarize, if you're discontinuous at a point,
+then either the graph is going to jump there,
+or maybe it has a hole-- we saw that earlier-- or coming in
+from one side, the function blows up or goes crazy somehow.
+But If your function is continuous at x equals a, that
+means none of that stuff happens,
+and instead we have just a nice happy function
+right at this point.
+And not only is the picture happy,
+but it makes computing limits easy.
+And so most of the rest of the sequence
+is going to be about how can we recognize just from a formula,
+whether a function is going to be continuous.
+Sound good?

@@ -1,0 +1,147 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V06 Finishing the example, sketching the graph.txt
+#
+# Captions for MITx 18.01.1x module [QTkcd9plVNA]
+#
+# This file has 138 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Welcome back.
+I'm going to go ahead and add the critical point
+at x equals e squared that you just found to the graph
+we started in the last video.
+And note that I'm not going to worry too much about what level
+this point is at.
+I'm just going to draw this picture qualitatively rather
+than quantitatively.
+I'm also going to add the information
+that you found about the sign of the derivative
+on each of these intervals.
+What you saw was that f prime was greater than 0.
+In other words, the function is increasing
+on the intervals from 0 to 1 and from e squared to infinity.
+And you saw that f prime was less than 0,
+in other words, that the function is decreasing
+on the interval from 1 to e squared.
+So now we're almost done.
+We can pretty much tell that the picture has this general shape.
+But we're going to go ahead and look
+at the second derivative of f.
+This will allow us to double check
+that e squared is in fact a minimum,
+and we'll make our picture look even prettier by identifying
+where the function is concave up and concave down.
+So the second derivative is given by negative 2
+log x plus 6, all over x log x to the 4.
+We want to identify intervals where the second derivative is
+positive and negative.
+First, note that the denominator is always
+positive on the intervals from 0 to 1 and from 1 to infinity.
+This means that the sign of the second derivative of f
+is the same as the sign of the numerator.
+And the numerator is going to be 0 when x is equal to e cubed.
+So I'm going to go ahead and add e cubed to my graph.
+And I'm not going to worry too much about its value,
+only that it's going to be greater than the value
+at e squared, which is a local minimum.
+So now let's check the sign of the second derivative
+on the intervals from 0 to 1, from 1 to e cubed,
+and from e cubed to infinity, since these
+are the only intervals where the sign of the second derivative
+could change.
+On the interval from 0 to 1, log x is negative.
+So the numerator of f double prime
+is positive, which means that the second derivative itself is
+positive on that interval.
+On the interval from 1 to e cubed,
+2 log x is smaller than 6.
+So the numerator is going to be positive,
+which means that the second derivative is
+positive on that interval.
+Note that this verifies that e squared is
+in fact a local minimum.
+If we had found that the second derivative was negative,
+we would have known that we probably made
+an algebraic error when we computed
+one of the derivatives.
+All that's left to check is the sign
+of the second derivative on the interval from e
+cubed to infinity.
+On this interval, the numerator is negative.
+So in fact, the function is concave
+down on this interval, which means that e
+cubed is an inflection point.
+So now we have all the information,
+and we can go ahead and put it all together
+and finish our graph.
+
+Note that nothing here was to scale, and that's OK.
+When we ask you to sketch a graph by hand,
+we aren't interested in seeing that you can plot exact points.
+We want to see that you can draw the general shape of the curve
+and label the important features.
+As an example, I want to go ahead and show you
+how I would draw this function using the sketch response
+tool that we are going to be asking you to use
+to sketch these functions.
+Note that in this case, I don't have any labels on the x-axis.
+This is a cue that we're only interested in a qualitative
+drawing here and not an exact drawing.
+So I'm going to go ahead and start labeling
+this graph with information.
+Notice that there are a bunch of tools up at the top
+that I can choose from.
+There's a function tool, which I'm going
+to use to draw our function, f.
+There's a vertical asymptote tool, a horizontal asymptote
+tool, and some point tools.
+Here, there's a critical point, an inflection point,
+and an undefined point tool.
+There are also some editing tools up here on the right.
+There's a select tool, a delete tool, undo, and redo.
+So first, I'm going to go ahead and draw
+in the vertical asymptote.
+Next, I'm going to select the undefined point tool,
+and I'm going to drop an undefined point at x equals 0,
+y equals 0, because the function is not defined at x equals 0,
+but I do want to still capture the information
+that the limit is 0, and that's why I use the undefined point
+tool here.
+I'm going to go ahead and wait to put any of the other points
+in, because it's a little bit easier for me to label things
+after I've drawn the curve than to try to first drop the points
+and then make sure my curve goes through those points.
+So instead, I'm just going to start drawing my function.
+So select the function tool up at the top.
+On the interval from 0 to 1, my function
+is increasing and concave up.
+So it looks something like that.
+I'm actually not that happy with how that looked,
+so I'm going to hit undo and draw it again.
+OK, that's much prettier.
+So now I'm going to draw the function over here.
+I'm going to start at infinity at 1
+and drop down to a local minimum.
+Next, I will choose the critical point tool
+and label that local minimum by just
+dropping that point at the lowest point on this curve.
+Next, I choose the inflection point tool
+and I'll label this as the inflection point.
+Then I will reselect the function tool
+to draw the remainder of the curve.
+And I know that this function is increasing to infinity
+and concave down here.
+So this is what we get.
+And this is an example of a good qualitative sketch of what's
+happening to this function.
+If you decide later that you don't
+like part of your drawing, you can hit Select up in the menu,
+select the part of your graph that you don't like,
+and you can either drag it or delete and redraw it.
+So now it's your turn.
+In the next problem, you're going
+to use this sketch response tool to sketch a rational function.
+Good luck.

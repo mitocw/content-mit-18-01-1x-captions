@@ -1,0 +1,148 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S8V09 Method 2: Logarithmic Differentiation.txt
+#
+# Captions for MITx 18.01.1x module [YU5C-rDzIzA]
+#
+# This file has 139 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so I told you about this first method.
+Now I want to tell you about a second method here.
+
+So the second method is called logarithmic differentiation.
+
+Logarithmic differentiation.
+
+All right, so how does this work?
+Well sometimes you're having trouble
+differentiating a function, and it's easier
+to differentiate its logarithm.
+
+That may seem peculiar, but actually we'll
+give several examples where this is clearly the case,
+that the logarithm is easier to differentiate
+than the function.
+So it could be that this is an easier quantity to understand.
+So we want to relate it back to the function, u.
+So I'm going to write it a slightly different way.
+So let's write it in terms of primes, here.
+So the basic identity is the chain rule, again.
+And the derivative of the logarithm-- well,
+maybe I'll write it out this way first.
+So this would be d of log u du, times d by dx of u.
+OK, these are the two factors.
+
+And that's the same thing.
+So remember what the derivative of the logarithm is.
+This is-- what is it?
+1 over u.
+So here I have a 1 over u, and here I have a du over dx.
+So I'm going to encode this on the next board here,
+which is sort of the main formula
+that you always need to remember,
+which is that log u prime is equal to u prime over u.
+OK, that's the one to remember here.
+Couldn't you get d l and u over du times du, over dx?
+The question is, how did I get this step here, all right?
+So this is the chain rule.
+
+The rate of change of u, log u with respect to x
+is the rate of change of log u with respect to u,
+times the rate of change of u with respect to x.
+That's the chain rule.
+
+So now I've worked out this identity here.
+And now let's show how it handles
+this case, d by dx, a to the x.
+Let's do this one.
+So in order to get that one, I would
+take u is equal to a to the x.
+
+And now let's just take a look at what log u is.
+Log u is equal to x log a.
+
+Now I claim that this is pretty easy to differentiate.
+Again, it may seem hard, but it's actually quite easy.
+So maybe somebody can hazard a guess.
+What's the derivative of x log a?
+
+x log a?
+It's just log a, right.
+So this is that same thing that I
+was talking about before, which is if you've got 3x,
+and you're taking its derivative with respect to x here,
+that's just three.
+That's the kind of thing you have here.
+Again, don't be put off by this massive piece of junk here.
+It's a constant.
+So again, keep that in mind.
+It comes up regularly in this kind of question.
+All right, so there's our formula that
+is the derivative of the logarithmic derivative is this,
+but let's just rewrite that, right?
+That's the same thing as u prime over u,
+which is log u prime is equal to log a, right?
+So this is our differentiation formula.
+So here we have u prime. u prime is equal to u times log a.
+If I just multiply through by u, and that's what we wanted.
+That's d by dx of a to the x is equal to log a.
+I'll reverse the order of the two--
+which is customary-- times a to the x.
+
+All right?
+So this is the way that logarithmic differentiation
+works.
+It's the same arithmetic as the previous method,
+but we don't have to convert to base e.
+We're just keeping track of the exponents,
+and doing the differentiation on the exponents,
+and multiplying through at the end.
+
+OK, so so now I'm going to do two trickier examples which
+illustrate logarithmic differentiation.
+
+Again, these could be done equally well by using base e,
+but I won't do it.
+Method one and method two always both work.
+So here's a second example.
+Again, this is the problem when you have moving exponents,
+But this time we're going to complicate matters
+by having both a moving exponent, and a moving base.
+All right?
+So we have a function, u, which is-- well, maybe
+I'll call it v, since we already had a function u-- which
+is x to the x.
+A really complicated looking function, here.
+So again, you can handle this by converting
+to base e, method one.
+But we'll do the logarithmic differentiation version,
+all right?
+So I take the logs of both sides.
+
+And now I differentiate it.
+
+And now when I differentiate this,
+here I have to use the product rule.
+This time instead of having log a a constant,
+I have a variable here.
+So I have two factors.
+I have log x, when I differentiate
+with respect to x, and we differentiate with respect
+to this factor here.
+I get x times the derivative of that, which is 1 over x.
+
+So here's my formula, almost finished.
+So I have here v prime over v is equal to-- now
+I'm going to multiply these two things together.
+I'll put it on the other side, because I
+don't want to get it mixed up with log
+x plus 1, the quantity.
+
+And now I'm almost done.
+I have v prime is equal to v times 1 plus log x.
+And that's just d by dx, x to the x
+is equal to x to the x, times 1 plus log x.
+All right, That's it.

@@ -1,0 +1,74 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S7V08 .txt
+#
+# Captions for MITx 18.01.1x module [iVUxcdwAAHM]
+#
+# This file has 64 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I have to persuade you why e exists.
+
+Alright?
+So we have to have some explanation for why we know
+that there is such a number.
+OK?
+So first of all, let me start with the one
+that we supposedly know, which is the function 2 to the x.
+We'll call it f of x is 2 to the x.
+Alright?
+So that's the first thing.
+And remember that the property that it had with f prime of 0
+was m of 2.
+That was the derivative of this function,
+the slope at x equals 0 of the graph,
+of the tangent line that is.
+So now, what we're going to consider here
+is any kind of stretching.
+We're going to stretch this function
+by a factor k, any number k.
+So what we're going to consider is f of kx.
+
+Now if you do that, that's the same as 2 to the kx, right?
+But now if I use the second law of exponents
+that I have over there, that's the same thing as 2
+to the k to the power x, which is the same thing as some base
+b to the x where b is equal to-- so let's just write that down
+over here-- b is 2 to the k.
+
+Alright?
+So whatever it is, if I have a different base which
+is expressed in terms of 2 by being of the form 2 to the k,
+then that new function is described by this function
+f of kx, this stretch.
+So what happens when you stretch a function?
+That's the same thing as shrinking the x-axis.
+So when k gets larger, this corresponding point over here
+would be over here and so this corresponding point
+would be over here.
+So you shrink this picture.
+And this slope here tilts up.
+So as we increase k, the slope gets steeper and steeper.
+Let's see that explicitly numerically here.
+Explicitly numerically, if I take the derivative here,
+so the derivative with respect to x
+of b to the x, that's the same thing as well, that's the chain
+rule, right?
+That's the derivative with respect
+to x of f of kx, which is what?
+It's k times f prime of kx.
+And so if we do it at 0, we're just
+getting k times f prime of 0, which is k times this m of 2.
+So how is it exactly that we cook up the right base b?
+So b equals e when k is equal to the 1 over this number.
+In other words, we can pick all possible slopes that we want.
+This has the effect of multiplying a slope
+by a factor.
+And we can shift the slope at 0 however we want.
+And we're going to do it so that the slope exactly matches
+1, the one that we want.
+we still don't know what k is.
+We still know what e is.
+But at least we know that it's there somewhere.

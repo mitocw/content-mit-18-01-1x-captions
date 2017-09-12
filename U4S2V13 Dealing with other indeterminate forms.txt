@@ -1,0 +1,47 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V13 Dealing with other indeterminate forms.txt
+#
+# Captions for MITx 18.01.1x module [RyDR8me9LmU]
+#
+# This file has 38 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In the problems that you just did,
+you saw that forms 0 times infinity and infinity minus
+infinity are indeterminate forms.
+Why is that?
+In both of these cases, if you look just at one part,
+it's trying to make the result huge.
+But if you look at the other part,
+it's trying to make the result small.
+So we can't tell which part is going
+to win without digging in a little deeper.
+The general approach to solving limits
+of this type of indeterminate form
+is to convert it through algebraic manipulation
+into a quotient of the form 0 over 0
+or infinity over infinity, so that we
+can apply L'Hopital's rule.
+
+Let's look at an example.
+The example that I have here is x times log x.
+As x approaches 0 from the right.
+As x approaches zero from the right,
+this limit tends towards 0 times negative infinity.
+And I'm going to just point out that x times log
+x is equal to log x divided by 1 over x.
+And now, this looks like negative infinity
+over infinity.
+So I can apply L'Hopital's rule.
+The derivative of the top is 1 over x.
+The derivative of the bottom is negative 1 over x squared.
+Simplifying, this is negative x, which
+tends to 0 as x approaches 0 from the right.
+
+We're going to leave it to you to figure out
+how to manipulate a limit of the form infinity minus infinity
+to get something that you can apply L'Hopital's rule to.
+Good luck.

@@ -1,0 +1,106 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S4V06 Prison escape!.txt
+#
+# Captions for MITx 18.01.1x module [EdNDliFaBPc]
+#
+# This file has 97 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+We've got our prison yard, and here's our spotlight beam,
+and it's moving around like so.
+Obviously, it keeps going, but I'm
+going to stop it here so that we can draw a diagram.
+We've got this right triangle, and we called this x.
+This side here is y, and then z is along the beam.
+And then this angle is theta.
+
+What we were given-- we know that the spotlight is rotating
+at two revolutions per minute, and that's
+telling us about how fast the angle in the middle
+is changing.
+So that's d theta dt.
+But if you remember when we discussed derivatives
+of trig functions, those results only
+work when our angles are measured in radians.
+So what we're going to have to do
+is translate this revolutions per minute
+into radians per minute.
+And 2 revolutions is equivalent to 4 pi radians.
+So 4 pi radians per minute, that's
+what we'll be using for d theta dt.
+And now what do we want?
+We have a few choices here.
+There's x, there's y, and there's z.
+But x-- if you think about it, x never changes.
+It's always 1/2 of the side of the square, so it's 200.
+In fact, I'm just going to erase x and write 200 just
+so it doesn't bother us again.
+What about z?
+As the beam rotates, it is true that the length of the beam
+changes as well.
+But that's not really what we care about.
+We're interested in this spot where the beam hits the wall--
+and in particular, how fast the spot moves up along the wall.
+And that is going to be measured by dy dt.
+
+OK.
+Well, we've got our given rate-- d theta dt.
+We know what we wany-- dy dt.
+Now we need an equation that links the two.
+And we can get that just from our right triangle
+and trigonometry.
+We don't know anything about z, but just the y and the 200
+are enough.
+y is the opposite leg from theta.
+200 is the adjacent leg.
+So y over 200 equals tangent theta.
+And I'm actually going to rewrite
+that as y equals 200 tan theta, because now when we implicitly
+differentiate and take d by dt on both sides, on the left,
+we have dy dt, which is exactly what we want.
+On the right, the derivative of 200 tan theta
+would be 200 secant squared theta
+if we were taking the derivative with respect to theta.
+And that would be measured in meters per radian.
+But since we're actually taking a derivative with respect to t,
+we also need a factor of d theta dt.
+
+Plugging in now 4 pi radians per minute for d theta dt.
+If we multiply that by the 200 secant
+squared theta meters per radian, then
+we get 800 pi secant squared theta meters per minute
+as the velocity of the spot.
+
+OK.
+Now we have to figure out the maximum velocity that we
+might possibly get out of this.
+If we look at the picture, theta can
+be anywhere from down here in this corner to up here.
+So theta is between minus pi over 4 and pi over 4.
+Now, you could find the maximum by taking derivatives
+and checking critical points, et cetera, et cetera.
+But this is really a pretty simple function.
+The graph of secant is like this.
+It equals 1 at theta equals 0, and then it
+goes up to either side with asymptotes
+at plus or minus pi over 2.
+And the allowable interval is just here from minus pi over 4
+to pi over 4.
+So the maximum on that is at the endpoints.
+So that's at plus or minus pi over 4,
+and that's when the beam is hitting the corners.
+And the secant of plus or minus pi over 4
+is the square root of 2.
+So when theta is plus or minus pi over 4,
+this velocity is 800 pi, and the secant squared is then 2.
+So we get 1,600 pi meters per minute.
+If you want that in more familiar units,
+we can change this to meters per second just by dividing by 60.
+So this becomes 160 over 6 times pi meters per second.
+And that's over 80 meters per second.
+So I really don't think this escape plan is going to work.
+Have you thought about a helicopter instead?

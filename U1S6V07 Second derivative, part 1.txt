@@ -1,0 +1,48 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S6V07 Second derivative, part 1.txt
+#
+# Captions for MITx 18.01.1x module [errg_O38nCc]
+#
+# This file has 38 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+This is our function f, and f prime at this point
+is just the slope of this tangent line right here.
+However, in this section, we're interested in f double prime,
+which is the derivative of f prime,
+or the rate of change of f prime.
+So let's just move along the curve
+and see how f prime changes.
+What's going to happen to these tangent lines?
+How do they evolve?
+Right now, we have a tangent line whose slope
+is positive and fairly large.
+As we move along, we're getting a slope
+that's still positive, but not quite as large.
+And then when we get over here, we have a slope that's 0.
+So if we graph f prime, it would look something like this.
+We start off with a very positive value.
+And as we move along, we have still positive but not
+quite as large.
+And then we get here, and we get a value of 0.
+
+So that's the graph of f prime.
+What, then, can we say about f double prime?
+Well, that's the derivative of f prime.
+And as we can see, f prime is decreasing.
+And a decreasing function ought to have a negative derivative,
+so that's f double prime-- it's negative.
+And it's because of this evolution of the tangent lines
+up above.
+The tangent lines change-- they evolve,
+they turn as we go from here to here,
+and it's this turning that make f double prime negative.
+So you can think of the second derivative
+as in some way measuring the turning of the graph of f,
+and that's a really useful concept.
+So next up is this section of the function, and as usual,
+we have some questions for you to work through.
+We'll discuss when you're done.

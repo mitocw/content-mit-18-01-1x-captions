@@ -1,0 +1,113 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V10 Optional Alternative Justification of the special case of Version 1.txt
+#
+# Captions for MITx 18.01.1x module [NJe8jy9QVKg]
+#
+# This file has 103 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's just take an example that you
+could have done in the very first unit of this class,
+the limit as x goes to 1 of x to the 10th minus 1
+divided by x squared minus 1.
+So that's a limit that we could have handled.
+And the thing that's interesting-- I mean,
+if you like, this is in this category
+that we mentioned at the beginning of the course
+of interesting limits.
+What's interesting about it is that if you
+do the silly thing, which is just plug in x equals 1,
+at x equals 1, you're going to get 0 over 0.
+And that's what we call an indeterminate form.
+
+It's just unclear what it is from that plugging in.
+You just can't get it.
+Now, on the other hand, there's a trick for doing this.
+And this is the trick that we did
+at the beginning of the class.
+And the idea is I can divide in the numerator and denominator
+by x minus 1.
+So this limit is unchanged, if I try
+to cancel the hidden factor, x minus 1,
+in the numerator and denominator.
+Now, we can actually carry out these ratios of polynomials
+and calculate them by long division.
+In algebra, that's very, very long.
+We want to do this with calculus, and we already have.
+We already know that this ratio is what's
+called a difference quotient.
+And then in the limit, it tends to the derivative
+of this function.
+So the idea is that this is actually
+equal to, in the limit-- let's just study one piece of it.
+So if I have a function f of x, which is x to the 10th minus 1,
+and the value at 1 happens to be equal to 0, then
+this expression that we have, which is in disguise this--
+this is in disguise the difference quotient-- tends
+to as x goes to 1 the derivative, which
+is f prime of 1.
+That's what it is.
+So we know what the numerator goes to.
+And similarly, we'll know what the denominator goes to.
+
+But what is that?
+Well, f prime of x is equal to 10 x to the ninth power.
+So we know what the answer is.
+In the numerator, it's 10 x to the ninth.
+In the denominator, it's going to be
+2x-- that's the derivative of x squared minus 1.
+And then we're going to have to evaluate that at x equals 1.
+And so it's going to be 10/2, which is 5.
+So the answer is 5.
+And it's pretty easy to get from our techniques and knowledge
+of derivatives using this rather clever algebraic trick--
+this business of dividing by x minus 1.
+
+What I want to do now is just carry this method out
+systematically.
+And that's going to give us the approach
+to what's known as L'Hopital's rule,
+my main subject for today.
+So here's the idea.
+Suppose we're considering in general a limit
+as x goes to some number a of f of x divided by g of x.
+And suppose it's the bad case, where we can't decide.
+So it's indeterminate, f of a is equal to g of a is equal to 0.
+So it would be 0/0.
+Now, we're just going to do exactly the same thing
+we did over here.
+Namely, we're going to divide a numerator and denominator.
+And we're going to repeat that argument.
+So we have here f of x divided by x minus a and g of x divided
+by x minus a also.
+I haven't changed anything yet.
+And now, I'm going to write it in this suggestive form.
+Namely, I'm going to take separately the limit
+in the numerator and the denominator,
+and I'm going to make one more shift.
+So I'm going to take the limit as x
+goes to a in the numerator, but I'm
+going to write it as f of x minus f of a divided by x minus
+a.
+So that's the way I'm going to write the numerator.
+And then I've got to draw a much longer line here.
+So why am I allowed to do that?
+That's because f of a is 0.
+So I didn't change this numerator
+of the numerator any by subtracting that. f of a
+is equal to 0.
+
+And I'll do the same thing in the denominator.
+
+Again, g of a is 0, so this is OK.
+And lo and behold, I know what these limits are.
+This is f prime of a divided by g prime of a.
+
+So that's it.
+That's the technique.
+And this evaluates the limit, and it's not so difficult.
+The formula is pretty straightforward here.
+And it works provided that g prime of a is not 0.

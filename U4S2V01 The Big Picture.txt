@@ -1,0 +1,28 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V01 The Big Picture.txt
+#
+# Captions for MITx 18.01.1x module [VyCaQ5diC7g]
+#
+# This file has 18 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We can sketch graphs of functions f of t
+using derivatives.
+But this doesn't tell us what happens at infinity.
+Does the function settle along asymptotes?
+Or does it grow without bound?
+If so, how fast is it growing?
+The long-term behavior of functions
+is important in many fields.
+Chemists are interested in the steady states
+proportion of chemical species after a reaction.
+Computer scientists are interested in the run times
+amalgamated on large data sets.
+Economists try to predict the future behavior of the stock
+market.
+In this section, we'll see how once again the derivative
+is used to understand the behavior of functions
+at infinity.

@@ -1,0 +1,42 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4V09 Derivative of a Sum.txt
+#
+# Captions for MITx 18.01.1x module [1XC51Pl_yNw]
+#
+# This file has 33 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this video, we're going to talk about the derivative
+of a sum of functions.
+So suppose that h of x equals f of x plus g of x for all x.
+It turns out that the derivative, h prime of x,
+is going to equal f prime of x plus g prime of x, as long as f
+prime and g prime both exist.
+So it's very convenient.
+The derivative of the sum is the sum of the two derivatives.
+The same thing is true of differences.
+If h is the difference f of x minus g
+of x, then h prime of x is going to be f prime of x minus g
+prime of x.
+We're going to prove this in a separate video,
+but for now let's just do an example.
+Let's say that h of x equals 1 over x plus 3x minus 7.
+So here we have h of x being the sum of two functions.
+It's the reciprocal function 1 over x
+added to this linear function 3x minus 7.
+And so h prime of x is just going
+to be the sum of the derivatives of those two pieces.
+The derivative of 1 over x we've already done.
+That's minus 1 over x squared.
+And then we just add that to the derivative of this linear part,
+the 3x minus 7.
+And we know that the derivative of mx plus b is just m.
+It's just the slope of that line.
+So the derivative of 3x minus 7 is 3, and that's our h prime.
+We've just taken the derivative of this part
+and added it to the derivative of this part.
+Nice and simple.
+So why don't you try some on your own?

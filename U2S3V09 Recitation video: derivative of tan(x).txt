@@ -1,0 +1,98 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S3V09 Recitation video: derivative of tan(x).txt
+#
+# Captions for MITx 18.01.1x module [wq3jF3COTQU]
+#
+# This file has 89 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Welcome back to recitation.
+In this segment, I'm going to actually show--
+well, you're actually going to show the derivative of tangent
+x and quotient rule.
+So what I'd like you to do--
+I wanted to remind you of what the quotient is.
+So u and v are functions of x.
+We want to take the derivative of u divided
+by v. I've written the formula that you
+were given in class for this.
+And I'm asking for you to take d/dx of tangent x
+using the quotient rule.
+And the hint I will give you is the reason we can obviously
+use the quotient rule is because tangent x is
+equal to a quotient of two functions of x.
+It's sine x divided by cosine of x.
+So I'm going to give you a minute
+to work this out for yourself.
+And then when we come back, I will do it for you.
+
+OK, so we want to find the derivative of tangent x.
+So let me let me work on the side of the board.
+So I'm actually going to take d/dx of sine x divided
+by cosine of x.
+So in this case, sine x is u.
+Cosine x as v.
+So using my quotient rule, I know
+that first I have to take the derivative of sine x.
+That's cosine x, and then I multiply it
+by the denominator, the v, which is cosine x.
+So my first term in the numerator is cosine squared x.
+Again, one cosine x comes from the derivative of sine x;
+one cosine x is the v. It's the cosine x in the denominator.
+Then I have to subtract v prime u.
+The derivative of cosine x is negative sine x.
+I'll actually just write that one down.
+And then I bring the u along for the ride.
+So I multiply by sine x here.
+
+And then I take v squared and the denominator
+from the formula. v again is cosine x.
+So I take cosine squared x in the denominator.
+Now this, at this point, is a little bit messy,
+but the nice thing is that we can
+use some trigonometric identities to simplify this.
+So let me first write out what it is a little more clearly.
+Minus a negative gives you a positive.
+And then here I get sine x times sine x.
+So I get sine squared x, and then I
+keep dividing by cosine squared x.
+Now at this point some of you might
+have divided by cosine squared x here
+and gotten 1 and divided by cosine squared x here
+and gotten tangent squared x.
+And then from there, you could simplify
+to another trigonometric function.
+I'm going to go a different way to show you
+what that actually also equals.
+So at this point, I want to stress
+there are sort of two ways you can get to the same place.
+But I'm going to use the fact that the numerator is
+a very nice trigonometric identity that we know.
+We know cosine squared x plus sine squared x always equals 1.
+So this is quite lovely the numerator simplifies to 1.
+The denominator stays cosine squared x.
+What is this function?
+1 over cosine x is actually secant x.
+So if you need at this point to rewrite the whole thing
+like this, 1 squared is 1.
+And in the denominator, we still get cosine squared x.
+This tells you that 1 over cosine
+squared x is actually just equal to secant squared x.
+So again, what I want to point out
+is we've now taken the derivative of tangent x
+and we got that secant squared x.
+Now using this quotient rule, you
+can do the same kind of thing with cotangent x,
+with cosecant x, with secant x.
+You can find all these derivatives
+of these trigonometric functions using the quotient rule.
+So if you want to know what the derivative of secant x is,
+you should take d/dx of 1 divided by cosine x
+and use the quotient rule, or in fact the chain rule
+would work well there also to find that derivative.
+So we are building up the number of derivatives
+we can find using these different rules.
+So we'll stop there.

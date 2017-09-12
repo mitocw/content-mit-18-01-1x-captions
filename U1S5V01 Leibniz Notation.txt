@@ -1,0 +1,22 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S5V01 Leibniz Notation.txt
+#
+# Captions for MITx 18.01.1x module [3Vq6Li6oFm4]
+#
+# This file has 12 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Mathematics is a language.
+So the notations we use are very important.
+There are two standard notations used to describe derivatives.
+You've already been introduced to one, prime notation.
+Which was developed by Newton.
+The second one is called Liebniz Notation.
+Introduced by-- spoiler alert-- Leibniz.
+Mathematicians, scientists, and engineers
+find both notations very useful.
+So we will give you ample opportunity
+to get you comfortable with both.

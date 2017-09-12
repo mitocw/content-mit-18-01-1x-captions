@@ -1,0 +1,56 @@
+#
+# File:   content-mit-18-01-1x-captions/U0S3V11 Infinite Limits.txt
+#
+# Captions for MITx 18.01.1x module [z-4AtzDVlfE]
+#
+# This file has 47 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We know that limits might not exist,
+and they might not exist in a variety of ways.
+It could blow up to infinity or it could blow up
+to minus infinity.
+Or there could be some other reason, like the function just
+goes crazy.
+So far, we've lumped all of these scenarios
+under the label of DNE.
+But sometimes, like when you're graphing a function,
+you don't just want to know that a limit doesn't exist.
+You want to know in what way it doesn't exist.
+So that's what this short section is going to be about.
+Let's take the function 1 over x.
+And let's suppose we want its limit as x approaches 0
+from the right.
+
+Now, as x approaches 0, the denominator is approaching 0.
+And this numerator, well, that's 1.
+So it's not approaching 0.
+And that means the second part of the division limit law
+is going to tell us that this limit does not exist.
+But does not exist in what way?
+The limit law doesn't tell us that.
+So let's investigate.
+So our numerator is always 1.
+And as x approaches 0 from the right,
+the denominator is positive and getting really, really small.
+So we're going to get things like 1 over 0.01, 1 over 0.001,
+1 over 0.0001, et cetera.
+And these fractions are 100, 1,000, 10,000.
+So as x is going to 0 from the right, 1 over x is blowing up.
+And its graph is going to be looking
+like this, with this vertical asymptote at x equals 0.
+So that's what's going on.
+And when a function blows up like this,
+we'll write that the limit is plus infinity.
+And that just means that the limit does not
+exist because it blows up in the positive direction, hence
+the plus infinity.
+
+If a function's limit doesn't exist because the function
+blows up in the opposite direction,
+then we'll say that the limit is minus infinity.
+So we have some problems for you so
+that you can play around and get comfortable with this.

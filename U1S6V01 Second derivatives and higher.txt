@@ -1,0 +1,27 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S6V01 Second derivatives and higher.txt
+#
+# Captions for MITx 18.01.1x module [1PQ9sS6q6a0]
+#
+# This file has 18 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+I don't get it.
+This news article says that the rate of job growth slows.
+Can't they just say that the number of jobs has gone down?
+Well, no.
+That's not the same thing.
+It's not?
+Well, let me think about this.
+So the rate of job growth, that's like
+the rate of change of the number of jobs.
+It's a derivative?
+That's right.
+So the headline is talking about a change in a rate of change.
+So like a derivative of a derivative?
+Can you do that?
+Of course.
+It's a second derivative.
+Huh.

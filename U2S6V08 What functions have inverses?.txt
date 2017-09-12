@@ -1,0 +1,90 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6V08 What functions have inverses?.txt
+#
+# Captions for MITx 18.01.1x module [r0gXZVTh7So]
+#
+# This file has 81 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We have our function f of x equals x squared.
+Now we have a little bit of trouble
+thinking about a possible inverse for it
+for the following reason.
+f of minus 2 equals 4.
+And that's this point right here.
+But f of plus 2 also equals 4.
+But then, if there's an f inverse,
+what would f inverse of 4 be?
+f inverse of 4 is supposed to be the number x such that f of x
+equals 4.
+But here we have two such numbers.
+That's a big problem.
+Graphically, we see that the problem
+is that this horizontal line intersects the graph in more
+than one point.
+And remember that if f has an inverse,
+the graph of the inverse would be the reflection
+across this line.
+Well, this is what we get as the reflection of the parabola.
+And the horizontal line is now a vertical line.
+So this reflected graph fails the vertical line test.
+It's not a function.
+So we get what we can call a horizontal line
+test for determining whether a function has an inverse.
+If a horizontal line intersects the graph
+of a function in more than one place,
+then the function will not have a complete inverse.
+
+One way around this is to split up the function.
+If we look at just the right half of the parabola that does
+satisfy the horizontal line test.
+And that corresponds to this half of the reflection.
+And that's the positive square root.
+Whereas the left half of the original graph
+corresponds to the negative square root.
+But the positive and the negative square
+root, those are just partial inverses,
+because they only work for part of the original function.
+We'll talk more about partial inverses in the next video.
+For now, let's discuss functions that
+don't have this problem of two different inputs giving
+the same output.
+We'll start with the definition.
+We say that a function f is one-to-one
+if whenever you have two different inputs-- so
+a not equal b, then you get two different outputs.
+In other words, f of a is not equal to f of b.
+So if your function is one-to-one,
+it will have a complete inverse function.
+And if it's not, we'll have to be very careful.
+
+How can we tell if a function is one-to-one?
+One way is with algebra.
+Given an output value y, you can solve the equation f
+of x equals y for x and just show algebraically
+that there's only one solution.
+That will be one of the exercises.
+But a lot of times it's easier to use calculus.
+For instance, take g of x equals 2x cubed plus 3x minus 1.
+This is a cubic, so its graph might look like this.
+And that's not one-to-one.
+But some cubics look like this, and that is one-to-one.
+How do we tell which one this is?
+Well, I don't want to set 2x cubed plus 3x minus 1
+equal to y and solve for x.
+That's just really ugly.
+But let's look at g prime.
+g prime of x equals 6x squared plus 3.
+And note that this is always positive.
+So that means that g is always increasing.
+So its graph is definitely going to satisfy the horizontal line
+test.
+And that means that g is one-to-one.
+And one-to-one functions are those that have inverses.
+We have some problems to help you chew on this.
+And when you're done with those, we'll
+talk about what we can do with functions
+that aren't one to one.

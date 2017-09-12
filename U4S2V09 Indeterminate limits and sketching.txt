@@ -1,0 +1,87 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V09 Indeterminate limits and sketching.txt
+#
+# Captions for MITx 18.01.1x module [K_E-PgrRZZM]
+#
+# This file has 78 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We've told you what L'Hopital's rule is,
+but now it's time to see how to actually use it in practice.
+And the example that I want to give you
+is an example that we're looking at in this section.
+Which is that I want to sketch the function x minus 1 divided
+by log x.
+Our general approach suggests that I
+should look at points where the function might be discontinuous
+as well as at the endpoints.
+The far left endpoint is x equals 0.
+The far right endpoint is positive infinity.
+And there might be something interesting happening
+when x is equal to 1.
+Because when x is equal to 1, the denominator is 0.
+But the numerator is also 0.
+So this is an indeterminate form of type 0 over 0.
+So let's look and see what happens
+as x approaches 1 of our function, x minus 1 over log x.
+
+Applying L'Hopital's rule, we know
+that this limit is equal to the limit
+as x approaches 1 of the derivative of the top, which
+is equal to 1 divided by the derivative of the bottom, which
+is equal to 1 over x.
+
+Simplifying, this is the limit as x
+approaches 1 of x, which is of course equal to 1.
+So in fact, nothing crazy happens to our function at 1.
+And this is actually a removable discontinuity.
+Next, let's look at the endpoints.
+So we want to evaluate what happens
+as x tends towards infinity.
+At infinity this is an indeterminate form
+of type infinity over infinity.
+So this is the candidate to apply L'Hopital's rule version
+two.
+So this limit is going to be equal to the limit
+as x approaches infinity of the derivative of the numerator
+over the derivative of the denominator, which of course
+we just computed.
+And we saw that it simplifies to x.
+So it's just this limit, and the limit
+as x tends to infinity of x is infinity.
+So what this means is that in the race
+to infinity of x minus 1 over log x,
+the x minus 1-- well, really the dominant term-- the x
+is winning.
+We can interpret this as saying that the numerator x minus 1
+grows to infinity faster than the denominator log x grows
+to infinity as x becomes large.
+You'll do some problems later on that
+have to do with the growth rates of functions.
+But for now, let's continue and look
+at the behavior of our function at the left endpoint.
+That is, we need to compute the limit
+as x tends to 0 from the right of x minus 1 over log x.
+We get negative 1 over negative infinity, which tends to 0.
+
+Do not use L'Hopital's rule here.
+You must verify that a limit is of indeterminate form 0 over 0
+or infinity over infinity before you try to use the rule.
+
+Of course, remember that our goal in doing these examples
+was to sketch this function.
+So let's erase L'Hopital's rule to make room for a graph.
+I'm going to leave it to you to verify
+that this is the shape of the graph by looking
+at the first and second derivatives.
+So far, all we really know is that the function is 0 as 0,
+that there is a removable discontinuity at x
+equals 1 that is equal to 1, and that the function
+tends towards infinity as x gets large.
+
+It's now your turn to get some practice using
+L'Hopital's rule.
+Good luck.

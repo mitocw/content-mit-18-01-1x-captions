@@ -1,0 +1,88 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S7V05 Derivative of Sine.txt
+#
+# Captions for MITx 18.01.1x module [eqD9iHe3g34]
+#
+# This file has 79 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So here we go.
+Let's check what happens with the sine function.
+So I take sine x plus delta x.
+I subtract sine x.
+And I divide by-- sorry, let's leave a little space there.
+Sine x and divide by delta x.
+All right, so this is the difference quotient.
+And eventually, I'm going I have to take
+the limit as delta x goes to 0.
+And there's really only one thing
+we can do with this to simplify it or change it.
+And that is to use the sum formula for the sine function.
+So that's this.
+That's sine x cosine delta x plus-- Oh,
+that's not what it is, huh?
+OK.
+So what is it?
+Sine x sine delta x-- OK, good, you
+remember-- plus cosine-- no?
+Oh, OK.
+So which is it?
+
+OK.
+All right, let's take a vote.
+Is it sine sine, or is it sine cosine?
+
+OK, so is this going to be-- cosine.
+All right.
+You better remember these formulas, all right?
+OK, it turns out that it's sine cosine cosine sine.
+So here we go.
+No?
+You got to do x here sine delta x.
+All right?
+So now, there's lots of places to get confused here.
+And you're going to need to make sure that you get it right.
+All right?
+So we're going to put those in parentheses
+here sine a plus b is sine a cos b plus cos a sine b.
+All right, now, that's what I get over here,
+except it was the letter x was a,
+and the letter b was delta x.
+Now, that's just the first part.
+It's just this part of the expression.
+I still have to remember the minus sine x.
+That comes at the end, minus sine x.
+And then I have to remember the denominator, which is delta x.
+Okay?
+
+All right, so now, the next thing we're going to do
+is we're going to try to group the terms.
+And the difficulty with all such arguments is the following one.
+Any tricky limit is basically 0/0 when
+you set delta x equal to 0.
+If I set delta x equal to 0, this is sine x minus sine x.
+So it's a 0/0 term.
+Here, we have various things which
+are zero and various things which are non-zero.
+We must group the terms so that a 0 stays over a 0.
+Otherwise, we're going to have no hope.
+If we get some 1/0 term, we'll get something
+meaningless in the limit.
+So I claim that the right thing to do here is to notice--
+and I'll just point out this one thing-- is that the when delta
+x goes to 0, this cosine of 0 is 1.
+So it doesn't cancel unless we throw in this extra sine term
+here.
+So I'm going to use this common factor and combine those terms.
+So this is really the only thing that you're
+going to have to check in this particular calculation.
+So we have the common factor of sine x.
+And then that multiplies something that will cancel,
+which is cosine delta x minus 1 divided by delta x.
+That's the first term.
+And now, what's left?
+Well, there's a cosine x that factors out.
+And then the other factor is sine delta x over delta x.

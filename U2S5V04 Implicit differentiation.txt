@@ -1,0 +1,102 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S5V04 Implicit differentiation.txt
+#
+# Captions for MITx 18.01.1x module [2D_-MzoxfOk]
+#
+# This file has 93 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+You just found two formulas for slopes of tangent lines
+to the circle of radius 5.
+And the formulas were a bit messy
+because well, there were two of them
+and they involved a negative 1/2 power.
+So let's look at another way of solving
+this same problem by using implicit differentiation.
+What does this mean?
+So I'm going to think of y as being
+a function of x implicitly, but I'm not
+going to find an explicit formula.
+Instead, I'm going to think of the equation x squared
+plus y of x squared being equal to 25
+has an equation of functions; that is, I
+think of the left-hand side-- x squared
+plus y of x squared-- as being a function of x
+that is everywhere equal to 25, a constant function of x.
+And that's exactly what it means to be on this circle.
+If I have an x, then y of x is determined
+so that x squared plus y of x squared is equal to 25.
+So if the two sides of this equation
+are equal as functions of x, then I
+can differentiate both sides with respect to x,
+and they're still going to be equal.
+So let's go ahead and differentiate both sides
+with respect to x.
+And we get that the derivative of x squared is equal to 2x.
+And applying the chain rule, we get
+that the derivative of y of x squared is 2y times dydx.
+And because 25 is a constant function of x,
+the derivative is zero.
+So now we have an equation and let's
+go ahead and solve it for dydx.
+So I'm going to subtract 2x from both sides,
+and I get 2y dydx is equal to negative 2x.
+Dividing both sides by 2y, I get that dydx
+is equal to negative x over y.
+You've probably noticed that this formula for dydx
+involves both x and y, but I want to leave it in this form
+and here's why.
+The equation x squared plus y squared equals 25
+holds for all points on the circle,
+whether you're on the pink part or the green part
+of the circle.
+That means that this derivative formula is
+going to hold in both places.
+So what does this mean?
+It means that if I take any point, x, y, on my circle,
+then the slope of the tangent line through this point
+is equal to negative x over y.
+Let's check that this make sense.
+First of all, our equation for the slope of the tangent line
+is undefined when y is equal to zero.
+And if we look at our circle, there
+are exactly two places where y is equal to zero.
+And at both of these points, the circle
+has a vertical tangent line.
+And notice that slopes of vertical tangent lines
+are either infinite or we might say that they're undefined.
+So the slope is not well-defined there.
+The other thing we can notice right away
+is that if x is equal to zero, the slope is equal to zero.
+And we see that there are two points on our circle
+where x is equal to zero, and at both of these points
+the tangent line is horizontal of slope zero.
+So now let's just go ahead and do a couple
+more quick checks to make sure that this really
+does make sense.
+So if I'm on the circle in the first quadrant over here,
+then the slope of any tangent line to the circle
+is going to be negative.
+And since both x and y are positive,
+this formula-- negative x over y-- is going to be negative.
+So the sign agrees there.
+Let's just check one more quadrant.
+Let's look at the fourth quadrant down here;
+then the slope of any tangent line
+to the circle in the fourth quadrant
+is going to be positive.
+And then if we look at our formula,
+since x is going to be positive but y
+is going to be negative, negative something
+positive over something negative, that
+is going to be a positive.
+So the signs do actually seem to make sense.
+And this really is a formula for the slopes
+of the tangent lines.
+So I'm going to go ahead and let you get some practice using
+this formula to find slopes of tangent lines to the circle.
+And then we'll go ahead and get some more practice looking
+at examples using implicit differentiation.

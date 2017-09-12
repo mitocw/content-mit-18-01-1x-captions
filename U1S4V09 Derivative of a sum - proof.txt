@@ -1,0 +1,47 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4V09 Derivative of a sum - proof.txt
+#
+# Captions for MITx 18.01.1x module [Az5RfPN4Fro]
+#
+# This file has 38 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We said that if h of x equals f of x plus g of x for all x,
+then h prime of x is going to be f prime of x plus g prime of x.
+In other words, the derivative of the sum
+is the sum of derivatives.
+So let's prove this.
+We'll start just with the definition for h prime of x.
+And we'll use the delta x definition,
+so that's the limit as delta x goes
+to 0 of h of x plus delta x minus h of x all over delta x.
+And that's going to be the limit as delta x goes to 0.
+And now we just use what we know about h.
+So h of anything, that's just going
+to be the sum of the corresponding f
+and the corresponding g.
+So when we see h of x plus delta x,
+that's just f of x plus delta x plus g of x plus delta x.
+And then we're subtracting h of x, which is f of x plus g of x.
+And all of this is over delta x.
+So this is a little bit complicated,
+but let's just push all the f's to one side
+and then put all the g's on the other side.
+So we're going to have f of x plus delta x
+minus f of x plus g of x plus delta x minus g of x.
+And both of these are over delta x.
+I'm just going to make it two separate fractions here.
+And we're taking the limit as delta x goes to 0.
+So we have the limit of this sum.
+And now if you look at the two parts
+as we're taking the limit as delta x goes to 0,
+this first part is just f prime of x.
+That's the definition.
+And this second part, similarly, is g prime of x.
+So this limit of the sum ends up just being f prime of x plus g
+prime of x.
+And it works.
+Hurray.

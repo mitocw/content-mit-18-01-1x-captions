@@ -1,0 +1,191 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S3V15 Minimize the surface area of a cylinder.txt
+#
+# Captions for MITx 18.01.1x module [a6io4xsqz_0]
+#
+# This file has 182 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Welcome back to recitation.
+This will be the last video where
+we do an optimization problem.
+And this one's a little bit different than the other two,
+so I'm going to give you the problem now.
+The problem is the following, a cylinder has a fixed volume.
+What ratio between radius and height minimizes surface area?
+Before I give you time to think about that,
+I'm going to remind you of the two formulas for volume
+and surface area of a cylinder.
+So volume of a cylinder is pi r-squared h,
+and surface area is 2 pi r squared plus to 2 pi rh.
+So with that information, I'll give you
+some time to work on this problem and then I'll be back.
+
+Welcome back.
+OK, what we're doing, again, is we're
+trying to solve an optimization problem.
+And so we know now the constraint equation,
+it's a little different than the other situations
+because the constraint equation is
+just-- we're told that there's a fixed volume,
+but we're not told what it is.
+That actually will not change how we work on this problem,
+but it does change the kind of answer I can ask of you.
+And notice, the answer I ask is not
+about exact values for radius and height,
+but what ratio between them will minimize surface area.
+So this is-- you'll see at the end things that
+look a little different.
+But ultimately, we still have our optimizing equation,
+which is surface area, and we still
+have our constraint equation, which is volume.
+So again, we're going to do what we always do.
+We're going to take our optimization equation
+and use our constraint equation to get rid of a variable
+so that we can write the right hand side here
+in terms of one variable.
+Let me point out, V is not a variable here.
+V is a constant, because the volume is fixed.
+So when you see V, it's not a variable, it's a constant.
+So what do I do?
+Let me write first--
+
+let me write surface area in terms of just a function of r.
+And I'm going to do something a little tricky which maybe you
+didn't think of doing, but ultimately you
+should end up with the same answer once you've simplified.
+Notice that this term has a pi r h.
+This term also has a pi r h.
+In fact, I can rewrite the volume equation as V over r
+is equal to pi r h.
+So what I'm going to do is take that pi r h here and replace it
+by a V over r.
+Now again, you might not have done this.
+You should ultimately get the same answer
+that I do when we're finished, and even sooner probably
+some simplification would be the same.
+The only thing I've done here is I've simplified right away.
+So by looking at the problem and kind of pulling back
+from the problem, I see, oh, there's
+something here that looks exactly
+like something over here.
+So I just want to point that out,
+that it's not wrong to just substitute for h,
+but it's maybe a little faster.
+So now the new surface area equation
+becomes 2 pi r squared plus 2V over r.
+
+So now we have everything in terms of r, because again V
+is a constant.
+Now let me point out what happens,
+when r goes to infinity, this term goes to 0,
+but this term goes to infinity.
+So as r gets very large, surface area is getting very large.
+As r goes to 0, this term goes to 0,
+but this term goes to infinity.
+V is fixed, and when r goes to 0, this term blows up.
+So when r gets as small as we allow or as large as we allow,
+either way surface area is going to be getting big.
+So where surface area has a derivative with respect
+to radius, it's going to have to be a minimum.
+So we don't have to check anymore.
+Now we've checked sort of what's happening towards the boundary
+at the extreme values of r.
+So now we can actually solve the problem.
+Well what do we do?
+We're using our optimization equation,
+we want to take a derivative, and set it equal to 0,
+and find what value for r gives that.
+But again, let me point out one more time that in the end,
+I'm asking for a ratio between radius and height.
+So I'm not going to get all the way to where
+I have r equal something.
+You'll see I'm going to do another trick.
+But let me first take the derivative I need.
+Surface area prime-- this is derivative with respect to r--
+I have 2 pi r squared.
+That derivative with respect to r is 4 pi r.
+And this derivative with respect to r
+I'm going to keep the 2V and the denominator 1
+over r, its derivative is negative 1 over r squared.
+So I'm going to have 4 pi r for the first term,
+and then minus 2V over r squared.
+If I set this equal to 0, the derivative equal to 0,
+and solve, I get 2V over r squared
+is equal to 4 pi r, which is the same as--
+I'm going to put it on the side-- r
+cubed is equal to 2 pi over V. Let's just check.
+If I multiply both sides by r squared, divide by 4 pi--
+ooh, I did it backwards.
+I think it should actually be pi over 2V.
+Let me double check that all my signs are correct.
+That's r cubed.
+Divide by 4 pi, I should get pi over 2V.
+
+I should not--
+I've been told from the audience I made a mistake.
+Sometimes you'll see when you're at the board and on video,
+scary things can happen.
+2V-- oh, multiply it through by r, I get r cubed.
+Oh, I have 2V in the numerator.
+I apologize.
+The 2V's in the numerator, the 4 pi's in the denominator,
+so I get V over 2 pi.
+Does that look better, audience?
+The audience tells me that looks better.
+OK.
+So here I am.
+I have r cubed is equal to V over 2 pi.
+Now if I wanted to, I could take the cube root of both sides
+and get r explicitly in terms of V and 2 pi.
+V is a constant, pi is a constant, I would be done.
+But I didn't ask for what r actually is.
+I asked for a ratio, so let's make this problem simpler.
+All I need in the end is r divided by h.
+Let's go back to a formula we have
+and see if we can figure out a way to get r divided by h.
+Look at this formula for V. It has an r squared
+and it has an h.
+So if I divide by r squared h on this side,
+I'll end up with an r over h.
+Hopefully you buy that.
+I'm going to even write it out.
+I'm going to take r cubed and divide it by r squared h.
+That in the end is r over h.
+Let's go back here and look at what that equals.
+r squared h is equal to V over pi.
+r squared h is equal to V over pi.
+So I can divide this side by r squared h
+and divide this side by V over pi,
+and it's the same thing, which is, by the way,
+the same thing as multiplying by pi over V, right?
+So I can multiply this side by pi over V, and what do I get?
+I get the V's divide out, the pi's divide out, and I get 1/2.
+So the result is that the ratio between radius and height
+should be 1 to 2.
+Let me one more time explain what we were doing here.
+In the end, the question just asks,
+what is the ratio between radius and height
+that minimizes surface area.
+And I had an r cubed.
+I wanted to r divided by h.
+So I divided by two r's, I divided by r squared,
+and then h again.
+But r squared h is V over pi, so if I divide by r squared h,
+I'm dividing by V over pi.
+So I can do on the right hand side
+the same thing that I do on the left.
+I divided by V over pi, just multiplying by pi over V.
+The pi's divide out, the V's divide out,
+and I'm left with 1/2.
+And so this was an optimization problem where the constraint
+equation did not have a number in it,
+but it did have a fixed constant.
+So I couldn't ask you for an exact value for the radius
+and an exact value for the height,
+but I could ask you for how they relate.
+And that's ultimately what I did.
+And I think that's where we'll stop.

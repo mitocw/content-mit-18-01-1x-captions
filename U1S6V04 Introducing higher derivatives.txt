@@ -1,0 +1,70 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S6V04 Introducing higher derivatives.txt
+#
+# Captions for MITx 18.01.1x module [3pzq1Zl4XIU]
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We started with this function f and we asked you
+to take the derivative of f.
+And you should have gotten 3x squared minus 6.
+So that's f prime of x.
+And since it's a function itself, we called it g of x.
+But now we can find g prime of x.
+That's just 6x.
+So this g prime is the derivative
+of the derivative of f.
+And we call it the second derivative of f.
+The rest of this sequence is devoted
+to what this second derivative means, why it's important.
+But for now, we'll just focus on the notation.
+How do we even write this?
+
+Well, the derivative of f, which we
+can call the first derivative of f, if we need to be explicit,
+that's just f prime.
+And the second derivative of f is the derivative
+of f prime, so its f prime prime.
+And we generally write that as f double prime.
+Great.
+Now, let me clear some space here.
+We've got f prime of x as the first derivative
+and f double prime of x as the second derivative.
+That's prime notation, but what about Leibniz notation?
+In Leibniz notation, the first derivative of f is df/dx.
+
+And one way to interpret this is when we differentiate
+f with respect to x, we're doing or applying this operation
+of d/dx to the function f.
+That means that when we take a derivative of this,
+we apply d/dx again.
+So it's going to be d/dx of d/dx of f.
+And it's the derivative with respect
+to x of the derivative with respect to x of f.
+And we can write that more compactly
+as quantity d/dx squared of f.
+We're just doing this thing twice.
+
+And then most people expand this square out
+and they'll write d squared over dx squared f.
+So it takes a little bit of getting used to.
+
+Of course, if we wanted to, we could keep going
+and we could take the derivative of the second derivative
+to get the third derivative.
+And that would be written d cubed over dx
+cubed f in Leibniz notation.
+Or in prime notation, f prime prime prime of x.
+Sometimes, if there are too many primes, you might write f
+and then parentheses 3 in the superscript of x.
+But the most important are the first
+and the second derivatives, so that's
+what we're going to focus on most in this course.
+To start, we have a series of questions
+to help you figure out just why and how this second derivative
+is meaningful geometrically.
+So enjoy.

@@ -1,0 +1,124 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S1V07 Time dilation example.txt
+#
+# Captions for MITx 18.01.1x module [59kvBLzjru4]
+#
+# This file has 115 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So maybe we'll call this Example 4.
+
+This is supposedly a real-life example.
+I'll try to persuade you that it is.
+
+So I like this example because it's got a lot of math
+as well as physics in it.
+So here I am on the surface of the Earth.
+And here is a satellite going this way
+at some velocity v. OK?
+And the satellite has a clock on it,
+because this is a GPS satellite.
+And it has a time T, OK?
+But I have a watch.
+In fact, it's right here.
+And I have a time which I keep, which is T prime.
+And there's an interesting relationship
+between T and T prime, which is called time dilation.
+
+And this is from special relativity.
+
+And it's the following formula-- T prime is
+equal to T divided by the square root of 1
+minus v squared over c squared, where
+v is the velocity of the satellite
+and c is the speed of light.
+
+OK?
+So now, I'd like to get a rough idea of how different
+my watch is from the clock on the satellite.
+All right?
+So I'm going to use this same approximation.
+We've already used it once.
+I'm going to write T-- but now, let me just remind you.
+The situation here is we have something of the form 1 minus u
+to the minus 1/2.
+All right?
+That's what's happening when I multiply through here.
+So with u equal to v squared over c squared.
+All right?
+So in real life, of course, the expression
+we're going to use the linear approximation on
+isn't necessarily itself linear.
+It can be any physical quantity.
+So in this case, it's v squared over c squared.
+And now, the approximation formula
+says that this is approximately equal to-- well, again,
+it's the same rule.
+There's an r.
+And then x is minus u.
+So this is minus minus 1/2.
+So it's 1 plus 1/2 u.
+All right?
+
+So this is approximately, by the same rule,
+this is T. T prime is approximately T times 1
+plus 1/2 v squared over c squared.
+
+Now, I promised you that this would be a real-life problem.
+So the question is, when people were designing these GPS
+systems, they run clocks in the satellites.
+You're down there.
+You're making your measurements.
+You're talking to the satellite, or you're receiving its signals
+from its radio.
+The question is, is this going to cause problems
+in the transmission?
+
+And there are dozens of such problems you have to check for.
+So in this case, what actually happens
+is that v is about four kilometers per second.
+That's how fast the GPS satellites actually go.
+In fact, they had to decide to put them at a certain altitude.
+And they could have tweaked this if they'd
+put them at different places.
+Anyway, the speed of light is 3 times
+10 to the fifth kilometers per second.
+All right?
+So this number-- v squared over c squared-- is approximately 10
+to the minus 10.
+All right?
+Now, if you actually keep track of how much of an error
+that would make in a GPS location, what you would find
+is maybe it's a millimeter, or something like that.
+So, in fact, it doesn't matter.
+So that's nice.
+But in fact, the engineers who were
+designing these systems actually did use this very computation.
+Exactly this.
+And the way that they used it was they
+decided that because the clocks were different,
+when the satellite broadcast its radio frequency, that frequency
+would be shifted, would be offset.
+And they decided that the fidelity was so important
+that they would send the satellites off
+with exactly this offset to compensate
+for the way the signal is.
+So from the point of view of good reception
+on your little GPS device, they change the frequency
+at which the transmitter in the satellites
+according to exactly this rule.
+
+And incidentally, the reason why they
+ignored higher-order terms, the quadratic terms,
+is that if you take u squared, that's of size 10
+to the minus 20.
+And that really is totally negligible.
+That doesn't matter to any measurement at all.
+That's on the order of nanometers.
+And it's not important for any of the uses to which GPS
+is put.
+OK.
+So that's a real example of a use of linear approximations.

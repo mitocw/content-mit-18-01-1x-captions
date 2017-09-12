@@ -1,0 +1,84 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S3V04 Newton's Method.txt
+#
+# Captions for MITx 18.01.1x module [TsxxYmHq6Sc]
+#
+# This file has 75 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+You saw that by making a guess of x0 equals 1,
+we could approximate the root of the function, f
+of x equals 2 minus x squared, by using
+the x-intercept of the linear approximation
+to f, at x equals 1.
+Which gave us an approximation that we called x sub 1.
+And this approximation was slightly better.
+The key idea-- the insight-- is that we
+can repeat this process.
+So I'm going to take another linear approximation
+of the function f of x.
+But this time, I'm going to take it at the point x sub 1.
+And the next approximation of the root
+is going to be the x-intercept of this tangent line.
+Already you can see that this second approximation, x sub 2,
+is a lot closer.
+Close enough that geometrically, I can't really distinguish it
+from the actual root anymore.
+
+Let's go ahead and move to the mathematics.
+I'm going to erase this example for now,
+and keep the picture so we remember what is going on.
+And I'm going to outline the steps of the algorithm that
+is known as Newton's method, or the Newton-Raphson method.
+Step one, make a guess, x0.
+Step two, find the x-intercept, x sub one, of the tangent line
+to f at x0.
+The tangent line at x0 is given by this equation.
+f of x0, plus f prime of x not, times the quantity x minus x0.
+To find the x-intercept we're going
+to set this equation equal to 0, and solve for x sub 1.
+We're going to skip the algebra, but you can pause the video
+to work it out on your own.
+Solving for x1 we get this equation.
+x sub 1 is equal to x0 minus f of x0,
+divided by f prime of x0.
+
+Step three, repeat.
+We're going to promote 0 to 1, and promote 1 to 2,
+and find the x-intercept of the green line now.
+The key is that the algebra exactly
+repeats the same pattern by just replacing 0 with 1,
+and 1 with 2.
+So we get that the next approximation, x sub 2,
+is equal to x sub 1 minus f of x sub 1, divided by f prime of x
+sub 1.
+Now I'm going to erase the geometric pictures
+so that I have some space to write the general formula.
+In general, the n plus first approximation to the root
+is given by the nth approximation, x sub n,
+minus f of x sub n, divided by f prime of x of n.
+Let's go back to see how this plays out
+with the example, f of x is equal to 2 minus x squared.
+We're going to need the derivative, f prime
+of x, which is negative 2x.
+So we had that x sub naught was equal to 1.
+Then x sub 1 is going to be equal to x0, minus 2
+minus x0 squared, divided by negative 2x0.
+That's just f of x0, divided by f prime of x0.
+And that's equal to 1 minus, 2 minus 1 squared,
+all over negative 2, which gives us 1.5.
+Then x2 is equal to x sub 1, minus 2 minus x sub 1
+squared, divided by negative 2 x sub 1,
+and that gives us 1.416 repeating.
+x sub 3 is x sub 2 minus the quantity, 2 minus x sub
+2 squared, all over negative 2 x sub 2, which gives us 1.41425.
+x sub 4 is equal to this number, and we
+get the exact same number for x sub 5.
+So note that after only five steps,
+our approximation agrees with the actual numeric value
+of the square root of 2, up to 10 decimal places.
+That's pretty good so now it's your turn
+to get some practice using Newton's method.

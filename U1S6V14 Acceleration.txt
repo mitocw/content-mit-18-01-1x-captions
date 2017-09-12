@@ -1,0 +1,56 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S6V14 Acceleration.txt
+#
+# Captions for MITx 18.01.1x module [r6k1XwYy6nM]
+#
+# This file has 46 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+One of the most important applications
+of the second derivative is when we're dealing with motion.
+We know if f of t is position as a function of time,
+then the derivative f prime of t is velocity.
+And that's the rate of change of position.
+If we take the derivative of that,
+we're going to get f double prime.
+We'd be measuring how fast the velocity is changing,
+and this rate of change of velocity
+is called acceleration.
+Let's examine this with our old friend, the pumpkin.
+Here f of t is measuring height, and the graph
+of f of t well it goes up and then down as we throw,
+the pumpkin.
+What happens with the graph of velocity?
+Well, we start with an initial upward or positive velocity
+at time zero.
+And then as the pumpkin goes up, the velocity gets slower.
+And then the velocity is 0 when the pumpkin reaches the top.
+And then the velocity is negative, and then more
+negative.
+
+Now acceleration is the derivative of this function.
+And we see that the velocity is just
+decreasing the entire time.
+It goes from positive, to 0, to negative.
+So its derivative will always be negative, that's acceleration.
+And the minus sign means that the acceleration
+is in the downward direction.
+
+What does that mean practically?
+Well, in the first part of the trajectory
+the velocity, which we'll denote with v, that's upwards.
+And we said that the acceleration a is downward.
+So that's the opposite direction from the velocity.
+And the opposite direction means that the pumpkin
+is decelerating, it's slowing down.
+In the second part of the trajectory,
+the velocity is downward and the acceleration is still downward.
+So they're together.
+They're pointed in the same direction,
+and that means that the pumpkin is gaining more
+and more downward velocity.
+It's accelerating downward.
+And that is our second derivative.

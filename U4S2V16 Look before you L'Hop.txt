@@ -1,0 +1,70 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2V16 Look before you L'Hop.txt
+#
+# Captions for MITx 18.01.1x module [DK_1rcJfzFc]
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now, let me give you one more example.
+
+Suppose you're trying to understand the limit of sin x
+over x squared.
+
+If you apply L'Hopital's rule, as x goes to 0,
+you're going to get cosine x over 2x.
+And if you apply L'Hopital's rule again, as x goes to 0,
+you're going to get minus sin x over 2.
+And this-- as x goes to zero-- goes to zero.
+
+Right?
+
+On the other hand, if you look at the linear approximation
+method, the linear approximation says that sin x
+is approximately x near zero.
+
+So that should be x over x squared,
+which is 1 over x, which goes to infinity
+as x goes to 0, at least from one side,
+minus infinity to the other side.
+
+So there's something fishy going on here.
+This is fishy.
+Or maybe this is fishy.
+I don't know.
+So tell me what's wrong here.
+Yeah?
+Your second L'Hopital wasn't applied correctly
+because cosine x over 2x isn't indeterminate as x approaches 0
+because cosine x is just one.
+OK.
+All right.
+So the claim is that the second application of L'Hopital's
+rule-- this one-- is wrong.
+
+OK?
+And that's correct.
+And this is where you have to watch out
+with L'Hopital's rule.
+This is exactly where you have to watch out.
+You have to apply the test.
+Here, it's an indeterminate form.
+It's 0/0 before I applied the rule.
+But in order to apply the rule the second time,
+it still has to be 0/0, but this one isn't.
+This one is 1/0.
+
+All right?
+It's no longer an indeterminate form.
+It's actually infinite-- either plus or minus,
+depending on the sign of the denominator, which
+is just what this answer is.
+So the linear approximation is safe.
+And we just applied L'Hopital's rule wrong.
+All right?
+So the moral of the story here is look before you L'Hop.
+
+[LAUGHTER]

@@ -1,0 +1,49 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S1V11 Negative derivative.txt
+#
+# Captions for MITx 18.01.1x module [qdvlaefmi7I]
+#
+# This file has 40 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In our last video, we threw a pumpkin off a building.
+And its height was given by this function of time.
+We calculated these derivatives, f prime of 1
+was 10 meters per second and f prime of 3
+was minus 10 meters per second.
+So what does that mean?
+Let's think about where this pumpkin has been,
+where its position has been.
+So at time t equals 0, we have that f of 0 is 100 meters.
+So that's the height of the building.
+That's where the pumpkin starts.
+And we also calculated in the last video that f of 1
+was 115 meters and f of 3 was also equal to 115 meters.
+So if we think about it, we can figure out what's going on.
+If 115 meters is here, then at t equals 1 second,
+the pumpkin is at that height on its way up.
+And at t equals 3 seconds, the pumpkin
+is, again, at that height, but this time it's on the way down.
+And eventually it goes splat.
+So f prime of 1 is positive because it's
+measuring the instantaneous velocity when
+the pumpkin is moving upwards.
+Or other words, the height f is increasing.
+Whereas f prime of 3 is negative because it's
+measuring an instantaneous velocity
+at a time when f is decreasing, the height is going down.
+So the sign of a derivative tells us
+the direction in which the function is changing.
+If f prime of a is positive, then f
+is increasing at that point.
+And if f prime of a is negative, then f
+is decreasing at that point.
+
+We have one other thing to talk about.
+But first, we want you to get some practice calculating
+derivatives.
+So why don't you calculate f prime of 2?
+And then we'll come back and discuss.

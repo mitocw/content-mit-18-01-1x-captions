@@ -1,0 +1,85 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6V16 Derivative of the Inverse Sine.txt
+#
+# Captions for MITx 18.01.1x module [Rur3PXhcfHo]
+#
+# This file has 76 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In our last video, we derived this formula
+for the derivative of an inverse function.
+If g is f inverse, then g prime of x
+equals 1 over f prime of g of x.
+Now let's use that to calculate the derivative
+of the arcsine function.
+This, of course, is the inverse of the sine function.
+So in the formula we have, f is the sine function,
+and g is the arcsine function.
+So for the derivative, we're supposed
+to have 1 over f prime of g of x.
+So instead of f prime, we'll write sine prime.
+And then of g of x means of arcsine x.
+
+The derivative of sine is cosine.
+So this ends up as 1 over cosine of arcsine x.
+It's a trig function of an inverse trig function.
+I told you that would be useful.
+
+Now arcsine x is an angle theta.
+And we know it's an angle whose sine is x.
+And we can draw that using a right triangle.
+Let me get rid of this.
+And then here's our right triangle.
+If this leg is x, and the hypotenuse is 1,
+then this angle has its sine equal to x.
+So that's our theta.
+Right now we're dealing with x positive.
+We'll talk about x negative a little bit later.
+But in any case, we want the cosine of theta.
+So we need this leg, which by the Pythagorean theorem,
+will be the square root of 1 minus x squared.
+So cosine theta will be the square root of 1
+minus x squared over the hypotenuse, which is just 1.
+So for our derivative down below,
+we're going to end up with 1 over.
+And then cosine theta is just square root of 1
+minus x squared.
+And that's our answer.
+If x is negative, then arcsine x will
+fall in the negative part of its range.
+So theta will be between 0 and minus pi over 2.
+And that means that if we draw the unit circle,
+theta is going to be this way, and we
+get a triangle like this.
+And this is our x.
+And it's negative, because this leg is downward.
+But in this quadrant, cosine theta is still positive.
+And we're still going to get the square root of 1
+minus x squared as its value.
+So our answer down below of 1 over the square root
+of 1 minus x squared that works for positive or negative x.
+
+However, we do need x to be between 1 and minus 1.
+If x is outside that range, then we
+would be taking the square root of a negative number
+and that's not so good.
+But the arcsine function has a domain
+that only goes from minus 1 to 1 anyway, so that works out OK.
+One small issue is that 1 and minus 1
+are in the domain of the arcsine function,
+but if we plug them into this formula for the derivative,
+we get a 0 denominator.
+The reason for that can be seen in the graph
+of the arcsine function.
+This is the reflection of the graph of the sine function--
+or part of it anyway-- and we can
+see that the tangent lines go vertical at the endpoints.
+
+So we now have the derivative of the arcsine function.
+The derivative of the arccosine function is extremely similar.
+So we're not going to do that.
+And the arctangent function we're going to leave to you.
+So enjoy.

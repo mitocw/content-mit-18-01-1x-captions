@@ -1,0 +1,73 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S3V11 Finishing the Box.txt
+#
+# Captions for MITx 18.01.1x module [OkMM0qxeD64]
+#
+# This file has 64 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+Here is our set up.
+We had x representing the size of the squares
+that we're cutting out of the quarters here.
+And if we do that, then the length of the resulting box
+is this quantity.
+It's 12 minus 2x.
+And the width of the resulting box is 8 minus 2x.
+The height is just x.
+And so the volume written as a function
+of x is 12 minus 2x times 8 minus 2x times x.
+
+We also asked you to figure out the allowable interval for x.
+And hopefully you figured out that x can't be below 0,
+and it has to be less than or equal to 4.
+Otherwise you get negative width,
+and I don't think that really works for a box.
+
+All right.
+Well once you've done that, then we can
+solve for the critical points.
+And you should have found two critical points.
+10 plus or minus 2 square root 7 over 3 but only one of those
+is in the allowable interval.
+So that's x equals 10 minus 2 root 7
+over 3, which is approximately 1.57 feet.
+And the other critical point gives you a nonsensical box.
+
+All right.
+And we also need to check the endpoints as usual.
+So if you plug either at the endpoints in,
+then you're going to get v equals 0.
+That's something you may have anticipated
+if you remember why the endpoints are what they are.
+X equals 0 gives us a box with no height.
+X equals 4 gives us a box that's infinitely skinny, no width.
+But sometimes it's not so clear that the endpoints
+are not what's going to be optimal, in which case
+you definitely want to make sure to check them numerically.
+
+Anyhow, this just leaves us with the one critical point
+at 1.57 feet for x.
+And if you plug that into v, and you probably want a calculator
+here, you get 67.6 cubic feet.
+So to summarize the strategy for optimization problems
+that we just followed, we started by drawing a picture.
+Next, we gave a name to the independent variable.
+So in our case, we used x to represent the size of the cut
+out squares because that was the quantity that we had control
+over.
+And then we wrote the quantity that we
+wanted to optimize solely in terms of that variable.
+So we wrote v as a function of x.
+
+Then we determined the allowable interval
+for the independent variable.
+And last, is the calculus.
+We want to check the critical points and the endpoints
+either by plugging them in or by taking limits, depending.
+And that's all there is to it.
+We have some problems.
+So you can try it on your own.

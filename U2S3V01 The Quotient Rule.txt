@@ -1,0 +1,20 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S3V01 The Quotient Rule.txt
+#
+# Captions for MITx 18.01.1x module [n70KPd7LjUU]
+#
+# This file has 10 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+At this point, we know how to take
+derivatives of a lot of functions-- x
+to the fourth, sine x.
+We can take derivative of sums-- x to the fourth plus sine x.
+We can even take derivative of product-- x
+to the fourth times sine x.
+But so far, we cannot take the derivative of tangent x,
+which is the quotient function, sine x over cosine x.
+So let's figure out how to differentiate quotients.

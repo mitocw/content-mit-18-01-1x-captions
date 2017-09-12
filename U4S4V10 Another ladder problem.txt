@@ -1,0 +1,319 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S4V10 Another ladder problem.txt
+#
+# Captions for MITx 18.01.1x module [WVo1bekBx_o]
+#
+# This file has 309 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Hi, Welcome back to recitation.
+In lecture, you've been doing related rates problems.
+I've got another example for you here.
+So this one's a really tricky so I'm
+going to give you some time to work on it.
+But I really think you should really try and work
+through this one yourself.
+It'll be well worth your effort.
+So we've got here, OK so this is a mouthful.
+We've got a 20 foot long ladder.
+And it's leaning against a 12 foot wall.
+But it's leaning over the wall so five feet of the ladder
+project over the top of the wall.
+And then the bottom of the ladder
+is being pulled away from the wall at 5 feet per second.
+So the question is, while this is going on,
+how quickly is the top of the ladder going downwards?
+How quickly is it approaching the ground?
+So why don't you take a few minutes, maybe more than a few
+for this one, took me a while to work it out the first time.
+Take a few minutes, work this one out, come back
+and we'll see how it went.
+
+All right so hopefully you've had some luck working out
+this problem on your own now.
+Let's work it out together.
+So this is a sort of classic, really tricky related rates
+problem in that there's a lot of geometric work
+that you have to do at the beginning
+in order to get this right.
+And then once you get the geometry down,
+the calculus is basically totally
+straightforward, you know you need a couple of derivatives,
+you use the chain rule once, whatever.
+OK so let's start off by trying and drawing a careful picture,
+and then we'll have to figure out what
+the quantities that we're interested in are,
+and the relationships between them.
+So we have here, here's the ground,
+and we have a 12 foot wall.
+
+And we have a 20 foot ladder leaning against the wall
+and extending over it.
+So a ladder.
+
+Here's my ladder.
+
+Here's my wall.
+All right.
+And this, the bottom of the ladder here,
+is what's getting pulled away from the wall at 5 units
+per second, 5 feet per second.
+So 5 feet per second is how fast that's going.
+And we're interested, while you do that, the ladder is
+changing positions.
+So the question is how fast is the top
+of the ladder descending.
+So you know it might also be moving in some other direction,
+but we're just interested in how quickly it's going straight
+down.
+So first, let's talk about the things that don't change.
+The height of this wall is not changing,
+the wall is staying put the whole time,
+and the length of the ladder is not changing.
+That's staying put as well.
+So those are the fixed quantities in this problem.
+Basically everything else is changing.
+So for example, this distance between the base of the wall
+and the base of the ladder, that's
+changing because the ladder's being pulled away
+from the wall.
+So we can give that a name.
+Let's call that, that's a horizontal distance.
+So we can call it x say.
+And the height of the top of the ladder is changing.
+So let's draw that in.
+And that's what we're interested in,
+is the height, so we can call it y.
+And let's see what else.
+Well OK, so the whole ladder isn't changing in length,
+but as this gets pulled, this top point
+is sort of sliding down toward the wall,
+the amount of the ladder that extends over the wall
+is changing.
+So I guess we could choose.
+We could give this a variable name,
+or we could give this part a variable name.
+I think I'm going to give the little one a variable name,
+call it d for distance I guess.
+And OK, so if this is d because the whole ladder has length 20,
+we have that this part, this segment, has length 20 minus d.
+OK so I think that those quantities describe
+all the possible lengths of interest in this picture.
+So now, OK so that's just the first,
+the set up, right so that's the first thing that has to happen.
+Now after we set up, we need to figure out
+what the relationships between these different variables are.
+So, well let's see, what have we got?
+Well one thing we've got is that we've
+got a right triangle here.
+So the wall, and the ground, and the ladder, those three
+segments form a right triangle.
+So we can apply the Pythagorean theorem here.
+So that's one relationship we have,
+and that's going to give us a relationship between x
+and 20 minus d.
+So that'll give us a relationship between x and d.
+So this Pythagorean theorem, OK so
+what does the Pythagorean theorem say?
+So by the Pythagorean theorem, we
+have x squared plus that's a 1, 12 squared, is equal
+to the quantity 20 minus d squared.
+So that's one identity that we have, identity we have,
+that relates these three quantities.
+So that's good, because we know how fast x is changing,
+and so with this identity, that means
+we can use related rates to figure out
+how fast d is changing as well.
+So that's good, that will be a step in the right direction.
+But what we actually need to know is how fast y is changing.
+So, right, because that's what the question is asking for,
+how quickly is the top of the ladder approaching the So how
+what's the rate of change in y with respect to time?
+So I need another identity here in order
+to figure out what the relationship with y is
+and these other variables, and there
+are a couple of different ways to go about this.
+I think the one that I'm going to do,
+so there is another right triangle here.
+So you could, if you wanted to name this segment as well,
+then you could do another right triangle.
+But then you'd need a third relationship
+relating this segment to d or something like that.
+So I'm not going to go that route.
+But I'm going to go do something related
+to that, which is that this bigger right triangle, which
+has this the height of the top of the ladder from the ground,
+and the whole length of the ladder is two of its sides
+and a piece of the ground.
+So that bigger right triangle is similar to this smaller right
+triangle.
+Right, I mean they have right triangles
+and they have the same base angle there.
+So they're similar triangles.
+So by similar triangles, now I have
+to remember all my geometry right,
+so the ratio of corresponding sides are equal.
+So in this case, the ratio of the hypotenuses
+is equal to the ratio of these legs.
+And that'll relate so the hypotenuse is involved
+d, and the vertical legs, well one of them is just constant,
+and one of them involves y.
+So that'll set up a relationship between d and y.
+And so then I have x linked to d, and I'll have d linked to y,
+and so then we can use related rates
+to figure out what the relationship between y and x
+is, and figure out the thing we're after,
+which is the rate of change in y.
+So I haven't actually written anything down yet.
+So what is the similar triangle.
+So here, let's look at the hypotenuses,
+so the big hypotenuse has length 20,
+and a small hypotenuse has length 20 minus d, good.
+So that's the ratio of the hypotenuses,
+and so that has to be equal to the ratio
+of the corresponding legs, and so the big leg is y,
+and the small leg is 12.
+OK.
+So there is Pythagorean theorem, there's similar triangles.
+So we now have the relationships that we're
+after relating x and y and d all to each other.
+Great, so now we can do the calculus part of this problem .
+So now we know--
+I guess we actually we need a few more things, take it back.
+So now we need the condition, we're after this at a moment,
+at a particular moment in time.
+And at our particular moment in time,
+so I haven't used this one given yet, that 5 feet of the wall,
+sorry, 5 feet of the ladder projects over the wall.
+So OK so at our moment.
+So at the key moment, we have the d is equal to 5.
+OK so that means 20 minus d is equal to 15.
+
+What does that mean?
+So that means that at that moment,
+x in this right triangle is the third leg in a right triangle
+with hypotenuse 15 and one leg 12,
+so that's one of your three, four, five triangles but blown
+up a little bit.
+So we have at that moment that x is equal to 9.
+And OK so at that moment to figure out
+why, we can use this other relationship that we have,
+so 20 over 15 is equal to y over 12.
+So y is equal to well 20 over 15 times 12, so that's 4 over 3,
+so that's 16.
+So at our key moment in time, these are the values
+that we're going to end up plugging in,
+and also dx dt is equal to 5.
+X is being increased.
+Increased?
+Yeah, x is right.
+So as the foot gets pulled away, x is getting bigger.
+So x is being increased at 5 units per second.
+So these are all the things we're going to plug in.
+All right, good.
+So now, we are after dy dt at this moment.
+So we know dx dt, we don't have a direct relationship
+between y and x.
+We do have a direct relationship between y and d.
+So if we got dd dt, sorry, dd dt, then we could get dy dt.
+And because of this relationship, we can get dd dt.
+All right so let's start off by doing that.
+So OK, so this is an identity.
+It holds all ways so we can differentiate it.
+And we're going to differentiate it with respect to t, x and d
+are functions of t.
+So OK, so differentiating this identity,
+I get 2x times dx dt plus well OK derivative 144 with respect
+to t is 0, is equal to, I guess I could expand this out
+but it's easier just use the chain rule right away,
+so this is equal to 2 times 20 minus d
+times the derivative of 20 minus d with respect
+to t, which is minus dd dt.
+All right I beg the gods of math notation
+to forgive me for dd dt but OK.
+So, all right, so now so this is always true, and what we want
+is the value of dd dt at our particular moment in time.
+So at our particular moment in time,
+we have, well let's, we have x, we have dx dt, and we have d.
+So we can just plug all those things in.
+So at our moment, let me see how I'm going to do this.
+I'll do it over here.
+At our moment, so 2x is 18 times dx dt
+is 5 equals 2 times 20 minus d is 15 times minus dd dt.
+And dd dt is what we're after, OK so we just divide through.
+OK so divide 2 into this is 945 divided by 15 is 3.
+So dd dt is equal to minus 3 at the moment
+that we're interested in.
+All right, great, great.
+So now we have dd dt, and so now we
+can go back to the second relationship
+we have, the one that relates d and y,
+and we can do the same thing here.
+We can take a derivative, use the chain rule,
+and get a relationship between dy dt and d and dd dt.
+And then we'll be able to plug in all these values we
+have for our particular moment.
+So I think I'm just going to differentiate this straight.
+There are some simplifications I could do first,
+but it'll work fine if we just do it straight.
+So OK so I need to compute the derivatives,
+as an identity I can take its derivative.
+So I differentiate the left hand side with respect to t,
+so I get 20 over, so this is a minus first power,
+so I get minus 20 over 20 minus d quantity squared times,
+I need the derivative of the bottom, is minus dd dt.
+And on the right hand side, I get dy dt over 12.
+So I have this relationship between d and y,
+I take its derivative, now I have
+a relationship that involves dy dt, which is the thing
+that I'm after.
+
+So now, I'm back at this plugging in stage.
+So at our moment in time, I know what d is,
+and I just figured out what dd dt
+is, so I can just plug those values in
+to figure out what dy dt is.
+OK so let's do that.
+So at this moment in time, so let me just
+multiply through by the 12 and that will let us solve.
+So we have dy dt is equal to 12 times,
+well so it's minus 20 over 15 squared times minus minus 3
+times 3.
+So this is-- all right arithmetic, not
+my favorite thing in the world.
+So we got two 3s here, we're going
+to end up with a 5 and a denominator,
+and then we've got 4 times minus 4.
+So that's minus 16 over 5.
+So all right.
+So that's the answer.
+Let's remember what we've done.
+So minus 16 over 5, that's a negative number.
+Why is it a negative number?
+Well, as we pull this, the bottom of this ladder
+here away from the wall, the top of the ladder
+is going to fall downwards.
+It's going to get closer to the ground.
+And y is the vertical distance between the ground
+and the top of the ladder, so that's shrinking.
+Y is shrinking, it should have a negative derivative.
+OK, negative derivative minus 16 over 5 feet per second.
+So it would take, if this instantaneous rate held up,
+which it won't in this situation, if it held up,
+it would take 5 seconds to get down.
+So it's not falling very quickly.
+OK that seems about right.
+Anything else?
+I guess we computed that dd dt was also negative.
+Same thing here, when you pull this way,
+this length is going to shrink.
+So d is getting smaller.
+So it has negative derivative.
+
+OK, so at this moment in time, the top of the ladder
+is falling, the thing we're interested in at exactly
+16 over 5 feet per second.
+And we're all set.

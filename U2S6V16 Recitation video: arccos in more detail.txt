@@ -1,0 +1,195 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6V16 Recitation video: arccos in more detail.txt
+#
+# Captions for MITx 18.01.1x module [WH7fOPoxIwU]
+#
+# This file has 185 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Hi.
+Welcome back to recitation.
+In lecture, you discussed some of the inverse trigonometric
+functions as part of your discussion
+of inverse functions, in general, and implicit
+differentiation.
+And I just wanted to talk about one
+briefly that you didn't mention in lecture, as far as I recall,
+which is the inverse cosine--
+so what I'm going to call the arccosine function.
+So I just wanted to go briefly through its graph
+and its derivative.
+So here I have the graph of the curve y equals cosine x.
+So this is a---
+you should have seen this before I hope.
+So it has, at x equals 0, it has its maximum value 1.
+And then to the right, it goes down.
+Its first 0 is at pi over 2, and then it
+has its trough at x equals pi.
+And then it goes back up again.
+And OK.
+And it's an even function that looks the same to the right
+and the left of the y-axis.
+And it's periodic, with period 2 pi.
+And it's also what you get by shifting the sine function
+to the left, the graph of the sine function, to the left,
+by pi over 2.
+So OK.
+So this is y equals cosine x.
+So in order to come to graph y equals arccosine of x,
+we do what we do for every inverse function, which
+is we just take the graph, and we reflect it across the line y
+equals x.
+So I've done that over here.
+So this is what we get when we reflect this curve,
+the y equals cosine x curve, when
+we reflect it through that diagonal line y equals x.
+So one thing you'll notice about this
+is that it's not a function, all right?
+This curve is not the graph of a function.
+Because all these humps on cosine x--
+there are more humps out here--
+those horizontal lines cut the humps in many points.
+And when you reflect, you get vertical lines that
+cut this curve in many points.
+So it doesn't pass the vertical line test.
+So in order to get a function out of this, what we have to do
+is we just have to take a chunk of this curve that does
+pass the vertical line test.
+And so there are many, many ways we could do this.
+And we choose one, basically, arbitrarily,
+meaning we could make a different choice,
+and we could do all of our trigonometry
+around some other choice, but it's
+convenient to just choose one.
+And if everyone agrees that that's what that one is,
+then we can use it, and it's nice.
+We have a function, and the other ones
+are all closely related to this one choice that we can make.
+So in particular here, I think there's
+an easiest choice, which is we take
+the curve y equals arccosine x to be just this one
+piece of the arc here.
+So this has maximum.
+So it goes from x equals minus 1 to x equals 1.
+And when x is minus 1, we have y is pi.
+And then when x equals 1, y is 0.
+So this curve is the graph of the function y
+equals arccosine of x.
+And if you want--
+so there's a notation that mathematicians use sometimes
+to show that we're talking about,
+oh, the particular arccosine function
+that has this as its domain and this as its range.
+So we sometimes write arccosine.
+And it takes its domain, the values between 1 and 1,
+and it spits out values between 0 and pi.
+So this is a sort of fancy notation
+that mathematicians use to say the arccosine function takes
+values in the interval minus 1, 1.
+So it takes values between negative 1 and 1.
+And it spits out values in the interval 0, pi.
+So every value that it spits out is between 0 and pi.
+OK.
+So if you graph the function--
+so now this is a proper function, right?
+It's single-valued.
+It passes the vertical line test.
+So OK.
+And so that's the graph of y equals arccosine of x.
+So the other thing that we did in lecture,
+I think we talked about arc sine, and we graphed it.
+And we talked about arctan, and we graphed it.
+And we also computed their derivatives.
+So let's do that for the arccosine as well.
+So what have we got?
+Well, so in order to compute the derivative,
+this function is defined as an inverse function.
+So we do the same thing that we did
+in lecture, which is we use this trick
+from implicit differentiation.
+So in particular, we have that, if y
+is equal to arccosine of x, then we
+can take the cosine of both sides.
+And cosine of arccosine, since we've
+chosen it as an inverse function, that just gives us
+back x.
+So we get cosine of y is equal to x.
+And now we can differentiate.
+So what we're after is the derivative of arccosine of x.
+So we're after dy dx.
+So we differentiate this through with respect to x.
+So on the right-hand side, we just get 1.
+And on the left-hand side, well, we
+have a chain rule here, right?
+Because we have cosine of y, and y is a function of x.
+So the derivative of cosine is minus sine y.
+And then we have to multiply by the derivative
+of y, which is dy / dx.
+Now dy dx is the thing we're after,
+so we solve this equation for dy / dx.
+And we get dy / dx is equal to minus 1
+divided by sine y, which is fine.
+This is a nice formula.
+But what we'd really like ideally
+is to express this back in terms of x.
+And so we can, well, we can substitute, right?
+We have an expression for y in terms
+of x, so that's y is equal to arccosine of x.
+So this is equal to minus 1 divided
+by sine of arccosine of x.
+Now this looks really ugly.
+And here, this is another place where we could stop.
+But actually it turns out that, because trigonometric functions
+are nicely behaved, we can make this nicer.
+So I'm going to appeal here to the case
+where x is between 0 and 1.
+So then we have a right triangle that we can draw.
+And the other case, you can do a similar argument
+with the unit circle.
+But I'll just do this one case.
+So OK, arccosine of x, what does that mean?
+That is the angle whose cosine is x, right?
+So if you draw a right triangle, and you make this angle arc--
+two C's-- arccosine of x, well, that angle has cosine equal
+to x.
+And this is a right triangle.
+So it's adjacent side over the hypotenuse is equal to x.
+And one easy way to get that arrangement of things is say
+is this side is x and this side is 1.
+So OK.
+So what?
+Well, why do I care?
+Because I need sine of that angle.
+So this is the angle arccosine of x.
+So sine of that angle is the opposite side
+over the hypotenuse.
+And what's the opposite side?
+Well, I can use the Pythagorean Theorem here.
+And the opposite side is square root of 1 minus x squared.
+That's the length of the opposite side.
+So the sine of arccosine of x is square root of 1
+minus x squared divided by 1.
+So sine of arccosine of x is just square root of 1
+minus x squared.
+So we can write this in the somewhat nicer form, minus 1
+over the square root of 1 minus x squared.
+
+So if you remember what the derivative of arc sine of x
+was, you'll notice that this is a very
+similar looking function.
+And this is just because cosine and sine are
+very similar looking functions.
+So in fact, the graph of arccosine
+is just a reflection of the graph of arc sine.
+And that's why the derivatives are so closely related
+to each other.
+So OK.
+So there you go.
+You've got the graph of arccosine up there.
+And you've got the formula for its derivative.
+So that completes the tour of the most important
+inverse trigonometric functions.
+So I think I'll end there.

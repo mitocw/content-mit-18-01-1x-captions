@@ -1,0 +1,82 @@
+#
+# File:   content-mit-18-01-1x-captions/U0S2V06 Overall continuity.txt
+#
+# Captions for MITx 18.01.1x module [V4JrMW8yxjs]
+#
+# This file has 73 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In our last video, we talked about what
+it meant for a function to be continuous at a point.
+Now, we know that a function can be
+continuous at some points but not others.
+For instance, if we take this function,
+then it's continuous at this point
+and it's continuous at this point,
+but it's not continuous here.
+There's a jump.
+And it's not continuous here, either.
+There's a hole.
+Now if a function happens to be continuous not just at a point,
+but at every point, then we'll say
+that the function is continuous on the real line,
+or continuous everywhere.
+And most of the time, if we just say
+continuous without specifying a point, this is what we'll mean.
+
+This means that there are no discontinuities anywhere.
+If we draw the graph from left to right,
+we never have to lift our pen for a jump or a hole
+or anything like that.
+It's just nice and connected.
+
+Continuous functions are great, especially from the point
+of view of limits, because the limit of a continuous function
+will always equal the value of the function at that point.
+Let's look at a couple of basic functions.
+First the constant function f of x equals 3.
+So here it is.
+And we asked you to think about this one.
+And hopefully you realize that this function, and indeed
+any constant function, will be continuous at any point.
+So that's our first example of a function
+that's continuous everywhere, the constant functions.
+Let me give you a few other basic functions that
+are continuous everywhere.
+We're not going to prove that they are,
+but you should feel free to use the fact
+that these are continuous.
+We can take g of x equals x.
+And this, too, is continuous overall.
+Here's its graph.
+
+How about the absolute value function?
+That's continuous on the entire real line.
+Its graph looks like this.
+No holes, no jumps.
+It's perfectly continuous.
+Another function that's continuous everywhere
+is sine x.
+And its graph looks like this.
+Nice and lovely.
+No discontinuities there either.
+There's also cosine x.
+I'm not going to draw that one.
+However, the tangent function is not continuous everywhere.
+Remember that tangent x is sine x over cosine x.
+And so the tangent function is not
+defined at places where cosine x is 0.
+And if it's not defined at those points,
+then it certainly cannot be continuous there.
+Now, it does turn out that the tangent function is continuous
+everywhere else.
+But it's not continuous everywhere.
+So many of our basic functions are continuous everywhere,
+but you do have to be careful because not all of them are.
+We have a few quick questions for you,
+and then we'll use the limit laws
+to see how combining these basic functions affects continuity.
+So stick around.

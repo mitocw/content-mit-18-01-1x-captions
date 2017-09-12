@@ -1,0 +1,72 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S5V05 Power Rule for rational exponents.txt
+#
+# Captions for MITx 18.01.1x module [6KlapFluyb0]
+#
+# This file has 63 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Recall the Power Rule, which says
+that the derivative of x to the power r
+is equal to r times x to the r minus 1.
+What we want eventually is to be able to prove this in the case
+that r is any real number.
+And this is how we've been using the Power Rule.
+But so far, we have only proven that this
+is true for r any integer.
+What we will prove now is the Power Rule in the case
+that r is a rational number.
+That is, when r is equal to m over n
+where both m and n are any non-zero integer.
+And the reason I'm going to go ahead and do this proof
+is that I think it's a pretty cute use
+of implicit differentiation going
+in sort of a different direction than we often see it.
+So let's get started.
+We're going to start and say that y
+is equal to x to the m over n.
+Now, if we're giving a proof, that
+means I can only use things that I've already proven,
+which means I can only use the Power Rule on a variable raised
+to an integer power.
+So I'm going to rearrange this formula so that it only
+involves integer powers.
+And the easiest way to do this is
+to raise both sides to the n-th power.
+So this is going to give me that y to the n
+is equal to x to the m over n to the n, which
+is, of course, x to the m.
+So now I have y as a function of x.
+And I have a formula that I can implicitly
+differentiate using the Power Rule,
+because both n and m are integers.
+So differentiating both sides with respect to x,
+I get that n times y to the n minus 1 times dy/dx
+is equal to m times x to the m minus 1.
+Now I'm going to solve for dy/dx,
+which is, of course, what we're looking for.
+And I get that dy/dx is equal to m over
+n times x to the m minus 1 over y to the n minus 1.
+So now I'm going to go ahead and go back to the original formula
+that I had where I said that y was equal to x to the m over n,
+and I'm going to substitute that in for y
+here so that I can get a formula involving only x.
+So that gives me x to the m over n
+raised to the n minus 1 power.
+Of course, I can rewrite this as m over n times x to the m
+minus 1 minus m over n times the quantity n minus 1.
+Doing a little bit of algebra and rearranging this,
+I get that m minus 1 minus m minus minus m
+over n, that is x to the m over n minus 1.
+And this is exactly the formula we were looking for.
+So we're done.
+We used implicit differentiation to prove the Power Rule
+in the case where r is a rational number.
+Of course, we still need to prove this in the case
+that a is any real number, and we'll actually
+be able to do that at the very end of this unit.
+Now it's time for you to get some practice
+using implicit differentiation yourself.

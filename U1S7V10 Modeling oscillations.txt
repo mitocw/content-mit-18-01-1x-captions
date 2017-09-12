@@ -1,0 +1,99 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S7V10 Modeling oscillations.txt
+#
+# Captions for MITx 18.01.1x module [4AdlIzzAlf0]
+#
+# This file has 90 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We told you that sine and cosine are
+used in modeling oscillations.
+And you may have noticed this pumpkin oscillating
+on the end of a slinky.
+In this video, we're going to see
+how the sine and cosine arise in modeling
+the motion of this pumpkin.
+Let's get started.
+Physics or, rather, classical mechanics
+tells us that the motion is governed
+by Newton's second law, which says ma is equal to F.
+That is the mass of the pumpkin--
+we're going to assume the slinky is essentially massless-- times
+the acceleration at any time, t, is
+equal to the restoring forces that are acting
+on the pumpkin at that time.
+The next step is that I'm going to choose a frame of reference
+for this problem.
+So I'm going to let y be the position
+along this vertical axis.
+And I want to choose where the zero lies on this access.
+To do this, I'll use the quick experiment.
+There is a position where if I let
+the pumpkin go with a zero velocity,
+it doesn't really move at all.
+This means that the sum of the forces must be zero.
+I'm going to go ahead and let this horizontal position be
+the zero on my y-axis.
+Now, because all motion happens in this vertical direction,
+the acceleration is the second derivative of our variable y.
+It's the second derivative of position.
+So we can write this as ma is equal to m
+times y double prime.
+Finally, we need to model the restoring forces acting
+on this pumpkin.
+The simplest possible model that we can assume,
+which is actually a pretty good first model,
+is that f is proportional to the displacement of the pumpkin
+away from the equilibrium.
+That's saying that f is equal to negative k times y.
+This says that when y is greater than zero--
+when we've compressed the spring--
+the net force is negative, pointing down.
+And when y is less than zero-- when
+the spring is expanded-- the net force is positive, pointing up.
+Simplifying this, I see that I get
+an equation in terms of only y which says that m y double
+prime is equal to negative k y.
+An equation that involves a variable and its derivatives
+is called a differential equation.
+So because this involves y and its second derivative,
+this is a differential equation.
+And differential equations, like any equation, must be balanced,
+so the units of every term must be equal.
+It's a really good habit to check units as you model.
+We're not going to do that.
+I'll leave that as an exercise for you.
+To simplify this differential equation,
+I'm going to divide through by m.
+Now, this equation looks very similar
+to the second derivatives of sine and cosine.
+Remember that if f of t is equal to sine t,
+then f double prime is equal to negative f.
+And similarly, if g of t is equal to cosine t,
+then g prime prime is equal to negative g.
+The only difference between these equations
+and what we have found is this constant term.
+Well, it turns out that a solution to this differential
+equation is given by y of t is equal to A,
+some constant, times sine of the square root of k over m times t
+plus B, another constant, times cosine of the square root of k
+over m times t.
+To see that this is a solution, all we need to do
+is differentiate it twice and see that the second derivative
+satisfies the relationship with this equation
+by plugging it into our differential equation.
+Of course, we do have a tiny little problem.
+Even though the square root of k over m is a constant,
+at this point you don't have the tools to actually differentiate
+this function.
+But fortunately, this marks the end
+of the first unit about what the derivative is.
+And in the next unit, we're going
+to develop a toolbox for differentiating
+any kind of function that you could ever encounter,
+including this one.
+So good luck on the homework.
+And we look forward to seeing you in the next unit.

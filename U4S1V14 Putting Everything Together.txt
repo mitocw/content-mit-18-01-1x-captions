@@ -1,0 +1,86 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S1V14 Putting Everything Together.txt
+#
+# Captions for MITx 18.01.1x module [P774S6K6MKI]
+#
+# This file has 77 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+All right, in the last video, we had this function,
+f of x equals x to the fifth over 20 plus x to the fourth
+over 4.
+And we analyzed its second derivative.
+And we found that the one and only inflection
+point was at x equals minus 3.
+In this video, we're going to put all of the pieces
+together and get a really good graph for this function.
+We're not just going to need to analyze the second derivative,
+though.
+We also want the first derivative.
+So let's look at that real quickly.
+f prime is going to factor as one fourth x cubed
+times x plus 4.
+So the only critical points are at x equals minus 4
+and at x equals 0.
+Now I'm going to skip the calculations,
+but if you do the interval sampling for f prime,
+you're going to get that f prime is positive,
+then f prime is negative, and then f prime is positive again,
+on these three intervals.
+So f is increasing, and then decreasing,
+and then increasing.
+
+Let's begin drawing.
+We've got these three points, minus 4, minus 3, zero,
+where we know the function is going
+to be doing interesting things.
+So let's get those down first.
+f of minus 4, if you calculate it, is 12.8.
+So we get a point with those coordinates up here.
+If you plug minus 3 in, you're going to get 8.1.
+So that point is also on the graph.
+And finally f of 0 equals 0, so the graph is
+going to go through the origin.
+
+There's another point where the graph also hits the x-axis.
+If we just factor f, then we'll see that x equals minus 5
+is the other root.
+
+Now that we have these points to guide us,
+we can start filling in the curve.
+We'll start on the left from minus infinity to minus 4.
+f is increasing and concave down.
+So it's going to look like this.
+
+After that, between minus 4 and minus 3,
+f prime is changing to negative.
+So f is going to start decreasing,
+but it's still concave down.
+So there's a local max at x equals minus 4.
+And that's from either the first or the second derivative test.
+And then the curve is going to bend down like this.
+
+At s equals minus 3, we've reached our inflection point.
+If we move past minus 3, the graph is still decreasing,
+but the concavity has changed.
+So we'll stay decreasing and concave up all the way
+to x equals 0.
+Now that's not an inflection point.
+The graph is still going to be concave up over here.
+But it is a local min since the graph starts to increase again.
+And the graph will stay like that, increasing
+and concave up, forever, all the way to plus infinity.
+
+So that's our graph.
+It's kind of like a puzzle, trying
+to put all these curved shapes through the points
+that we calculated, and then fitting them together.
+If you find that you can't fit them together,
+then you've probably made a calculation mistake
+somewhere along the way.
+But in any case, this is pretty much
+everything we would want in a good graph.
+Why don't you try one.

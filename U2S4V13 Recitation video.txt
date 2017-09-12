@@ -1,0 +1,167 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S4V13 Recitation video.txt
+#
+# Captions for MITx 18.01.1x module [D-PIwPu15tU]
+#
+# This file has 158 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Welcome back to recitation.
+In this video segment, we're going
+to look at the chain rule, and specifically, we're
+going to answer a question that I've placed on the board.
+I want you to find two values for theta
+so that d d theta of the function cosine
+squared theta to the fourth equals 0.
+At this point, I should also point out a few things.
+One, theta is a variable in this case,
+and if you haven't seen it before,
+frequently we use it when we're dealing
+with trigonometric functions.
+Theta often represents the variable that measures angle.
+So if you haven't seen theta before,
+this is what it looks like.
+That's how you say it and I'm actually
+doing the same things we've done before.
+I'm taking the derivative with respect
+to the variable theta of a function of theta.
+The other thing I want to point out,
+which I think we know already, but just to be sure,
+is that this squared here, cosine squared theta
+to the fourth, means I'm taking cosine of theta to the fourth,
+and I'm actually squaring it.
+So with that knowledge, I would like
+us to use the chain rule to find two values for theta
+where this derivative is equal to 0.
+So I'll give you a moment to take a stab
+at finding the derivative, setting it equal to zero,
+and finding some values for theta that
+make the derivative equal zero.
+And we'll come back and then I'll work it out as well.
+OK, so the first thing we obviously need to do
+is be able to take the derivative of this function
+on the left-hand side.
+And I should say it's a little more complicated
+than an example you saw in the lecture because in the lecture
+you were given example with just two functions.
+So I want to write it a little differently just
+to show very obviously what the three functions are
+we're composing.
+So this function, I can rewrite it as cosine of theta
+to the fourth.
+
+Does that look like a 4?
+There we go.
+And then I square that whole thing.
+That's really what the function is.
+OK, so we can see what is the outermost function here?
+The outermost function is actually the quantity
+of something squared.
+So the outermost function is x squared.
+What's the next function in in this composition?
+The next function in is the cosine function.
+And then the last function in is the function taking something
+raising it to the fourth.
+So it's very important that you understand the composition,
+which is the outermost function, which is the innermost function
+in order to do this chain rule.
+Now, as you saw in recitation, you were given the example dy--
+you had y as a function of t--
+sorry, not in recitation.
+In the lecture you were given y as a function of t
+or a function of x, and then you had
+to put one other variable in the middle.
+Here we're going to have a composition of three functions.
+So we need to have two other things in the middle.
+So let's write this out.
+First, the outermost function.
+We'll call the whole thing y.
+So y is equal to x squared is the outermost function.
+So then this whole thing is x, now.
+So then we'll write x is equal to cosine of w.
+OK, and then w is equal to theta to the fourth.
+OK, again, this is what you saw before in the lecture.
+So you write the outermost function and then
+that function is a function of cosine of another one--
+cosine of w, and w is a function of theta to the fourth.
+So if I put all these back together,
+I have theta to the fourth in here, and then I square that,
+and I come back to the function I wanted.
+Now, we know from the lecture what
+we need to do to find, essentially, dy d theta.
+That's what we're looking for.
+
+OK, so dy d theta, you remember from the lecture, should be dy
+dx times dx dw times dw d theta.
+OK, so it's slightly more complicated
+than we saw before because there's one more term.
+OK, so now let's work out what these are.
+Well, dy dx is fairly straightforward.
+dy dx is just 2x.
+
+And then dx dw--
+well, what's the derivative of the cosine function?
+The derivative of cosine is negative sine.
+So this is times negative sine of w times--
+and what's dw d theta?
+So w is the function theta to the fourth, so dw d theta
+is 4 theta to the third.
+Now, when you look at this, you should
+remember x we sort of inserted into the problem
+to make the problem easier, and w we inserted into the problem
+to make the problem easier for us to follow.
+So we don't want all these x's and w's.
+We want everything in terms of theta, right?
+But what is w?
+Well, w is theta to the fourth.
+So I can replace that by theta to the fourth.
+And what is x?
+x is cosine w, but w is theta to the fourth.
+So x is actually cosine of theta to the fourth.
+OK.
+So I get 2 cosine of theta to the fourth times
+negative sine--
+w, again, is theta to the fourth--
+of theta to the fourth times 4 theta to the third, and let's
+make this nicer.
+I'll bring the coefficient and the theta
+to the third in front, and this minus sign in front.
+I get negative 8 theta to the third cosine of theta
+to the fourth sine of theta to the fourth.
+OK, and then the problem asked to find where
+the derivative is equal to 0.
+Find two values.
+Now, why did I ask you to find two values?
+Because one is very easy.
+If this thing is set equal to 0, one value
+should stand out right away for theta that makes this product
+0, and that is theta equals 0.
+So theta equals 0 is our easiest answer.
+
+OK, so if you didn't do that, then you
+want to the more challenging stuff.
+You could have done the other things also.
+So what about cosine theta to the fourth?
+If we want a product of three things to be 0,
+then at least one of them has to be 0.
+So I could have set cosine theta to the fourth equal to 0,
+and for what values of an angle--
+I should just say.
+For what values of theta to the fourth is this going to be 0?
+Well, this means that theta to the fourth
+is equal to either maybe pi/2 or you could add another pi.
+OK, so we could say pi-- well, let's
+just say that's one example.
+Theta to the fourth equals pi/2 would work because cosine
+of pi//2 is equal to 0.
+OK.
+And so then we could have said theta
+is equal to pi/2 to the 1/4.
+OK, that's another example there.
+We could have also done--
+we could have added pi to this, and gotten another answer,
+but I only asked for two.
+So I guess that I'm allowed to stop there.
