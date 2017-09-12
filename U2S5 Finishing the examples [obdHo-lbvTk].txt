@@ -1,0 +1,117 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S5 Finishing the examples [obdHo-lbvTk].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 108 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So we have this crazy looking curve.
+And it's implicitly defined by this function.
+And we asked two questions.
+One was, what is the slope of the tangent line at the point
+x, y equals 1 over root 2 1 over root 2?
+And the other is, at what points does this function
+have a horizontal tangent line?
+Answering both of these questions
+involves understanding dydx.
+And so to find dydx, you guessed it,
+we are going to implicitly differentiate.
+You've actually already gotten a start on this problem.
+And since we're fortunate enough for differentiation
+to be linear, we can break this problem up into pieces.
+This is the part that you've actually already computed,
+which you should have found to be equal to this.
+And we know that the derivative of the constant term
+is going to be 0.
+So all that's left to compute is the derivative
+of this 2x squared y squared term.
+So applying the product rule, we get
+that this is equal to 4x times y squared
+plus 2x squared times the quantity-- now, here's
+where we apply the chain rule-- 2y dydx.
+
+So now I'm just going to collect the like terms.
+So I collect all the terms that involve
+a dydx and all the terms that do not involve dydx.
+And I get 4x cubed minus 6x plus 4xy squared
+plus 4y cubed plus 2y plus 4x squared y, all times dydx.
+This is equal to 0.
+
+Now, I just need to do some more algebra to solve for dydx.
+So I subtract off this term here.
+And then divide by the multiplier of dydx.
+And I get this.
+Now, I want to do just a tiny bit of algebra
+so that this term is easier for me to understand.
+First thing I'm going to do is I'm going to pull out a 2
+from the top and the bottom.
+And those are going to cancel.
+The next thing I'm going to do is
+I'm actually going to notice that the numerator has
+a common factor of x and the denominator
+has a common factor of y.
+So I'm going to pull out an x over y term.
+And now, this is just a little bit easier for me
+to think about so I can go about answering the questions
+that we asked at the beginning.
+First, let's go ahead and find the slope of the tangent line
+to the point x, y equals 1 over root 2, 1 over root 2.
+Plugging this in for x and y, we do some simple arithmetic
+to find that the slope of the tangent line is equal to 1/3.
+
+OK.
+So now let's try to figure out where this curve has
+horizontal tangent lines.
+So if the tangent line is horizontal,
+then dydx is going to be equal to 0.
+So this equation is equal to 0 if either x is equal to 0
+or this term in parentheses is equal to 0.
+And notice that if x is equal to 0,
+then, necessarily, y is also equal to 0.
+That's the only point on our curve where x is equal to 0.
+Just by looking at the curve, I can
+see that this curve does have two tangent lines,
+neither of which will be horizontal.
+So we can actually rule out this point
+where x and y are equal to 0, because there's
+no horizontal tangent line there.
+That means that the only possibility
+for dydx to be equal to 0 is when 2x squared minus 3
+plus 2 y squared is equal to 0.
+This is exactly describing a circle of radius
+the square root of 3/2.
+If I draw this circle on top of my curve,
+then these points where the circle
+and the lemniscate intersect are exactly
+the points I'm trying to identify.
+To do that, I'm simply going to say, OK, well,
+x squared is equal to 3/2 minus y squared.
+Then I'm going to plug that into the equation defining
+this curve, and solve for y.
+That's exactly going to find where
+these two curves intersect.
+So doing that, I do some messy algebra.
+
+And I get that y squared is equal to 9/16.
+That tells me that y can be equal to plus or minus 3/4.
+Plugging this into the formula for the circle of radius
+square root 3/2, I get that x is equal to plus or minus
+the square root of 15 over 4.
+So we've found those points.
+
+We just solved two problems involving
+tangent lines of this curve.
+However, I hope you noticed that the vast majority
+of the problem-solving was not actually doing calculus.
+We computed dydx, and then most of the problem-solving
+was doing some algebra and using some geometric reasoning.
+This is very common in problem-solving.
+And I want you to keep this in mind.
+We need to identify some small piece of the problem that
+involves calculus.
+And the rest will involve some other problem-solving
+techniques.

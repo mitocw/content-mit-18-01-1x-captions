@@ -1,0 +1,60 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4 Delta notation for the derivative [sthOiDRu6cY].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 51 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So here we have our original formula for the derivative.
+But it's sometimes going to be useful to have
+a different notation for it.
+And that's what we're going to develop in this video.
+So let's remember what all of these parts of this definition
+meant.
+So we have our function f and x and b
+are representing different input values for our function.
+So here they are.
+And they correspond to these points on the graph.
+Now the b minus x in the denominator
+is referring to this horizontal distance.
+And the f of b minus f of x in the numerator, that's
+this vertical distance.
+So the quotient is a vertical distance over a horizontal one,
+and so it's the slope of this secant line.
+And then we take the limit as this point moves towards x,
+and that's our derivative.
+OK.
+So that's our original formula.
+For our new notation, we're going
+to focus not on this point b but on this gap.
+So this b minus x, it's the difference in x values.
+So we can denote it by delta x, the change
+in x or the difference in x.
+So remember that this delta x is a single number.
+It's not delta times x or anything like that.
+It's a single number.
+It represents this difference between the two x values.
+So this delta x is the new way that we're
+going to write our denominator.
+For the numerator, well, this numerator
+is the difference in f values.
+So one way to represent it would be with delta f.
+We could also write it in terms of delta x.
+So we know from down here that b is the same thing
+as x plus delta x.
+So instead of f of b minus f of x,
+we can put f of x plus delta x minus f of x.
+So our last question is what do we do with this limit?
+So we're going to have the limit as something goes to something.
+But what is it?
+So what we want you to do is to take a moment
+and to think about what that's going
+to be using this new notation.
+And when you're done, we'll come back
+and we'll do an example of calculating the derivative
+using this new notation.
+All right?

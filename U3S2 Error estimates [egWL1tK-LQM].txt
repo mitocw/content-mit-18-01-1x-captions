@@ -1,0 +1,107 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S2 Error estimates [egWL1tK-LQM].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 98 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I'm sure you've noticed that we keep
+using this squiggly equal sign to indicate
+an approximate equality.
+And what I want to answer now is, what does approximately
+equal to really mean?
+Here I have an example function, 1 plus x to the fifth,
+that I'm considering for values of x near 0.
+This function is approximately equal to 1 plus 5x.
+That's the linear approximation.
+It is also approximately equal to 1 plus 5x plus 10x squared.
+That's the quadratic approximation.
+So what does approximately equal mean?
+What this really means is that this function
+is exactly equal to 1 plus 5x plus some error function.
+Similarly, in the quadratic case,
+this function is exactly equal to 1 plus 5x plus 10x squared
+plus some other error function.
+These two error functions are not the same.
+What I want to do is get a handle
+on the order of magnitude of this error function.
+The size of this error term quantifies how accurate
+these approximations are.
+Typically, the quadratic approximation
+is more accurate than the linear approximation,
+but we need a way to quantify exactly what that means.
+So for now we're going to restrict our attention
+to the linear approximation and its error time.
+What we're going to see is that the absolute value
+of this error function is actually
+less than or equal to 12x squared for x near 0.
+Let's explore this.
+I chose this example to be completely transparent,
+because I can expand this polynomial by hand
+and I know exactly what this function is equal to.
+1 plus x to the fifth is equal to 1
+plus 5x plus 10x squared plus 10x cubed plus 5x
+to the fourth plus x to the fifth.
+In the linear approximation, the error function
+is just what we get when we subtract off
+the linear approximation from our function.
+So the error function is this piece.
+It's 10x squared plus 10x cubed plus 5x to the fourth plus
+x to the fifth.
+What we need to keep in mind is that when x is very close to 0,
+even though these terms x to the fourth and x to the fifth
+might seem big, because we're looking
+at very small values of x, these higher powers
+mean smaller not bigger.
+For example, if we consider 1.1 to the fifth, here x is 1/10,
+x squared is 1/100 x cubed is 1/1000,
+x to the fourth is 1/10,000, and x to the fifth is 1/100,000.
+If I'm looking at 1.01 to the fifth, then x is one 1/100,
+x squared is already 1/10,000, and an x cubed is
+1/100,000,000.
+So these higher powers are more negligible,
+the closer we are to 0.
+And the only term that has much of an effect
+is this leading term, this is the dominant term
+of the error function.
+So let's take a closer look at the size of our error function
+when the absolute value of x is less than 1/10.
+So here we know that the dominant term is 10x squared
+and the next term is 10 times x cubed,
+which is going to be bounded by 10 times 1/1,000,
+which is just 1/100.
+So these two terms together are bounded by 11x squared
+and these higher order terms are very small.
+So to be safe we'll bound them by x squared
+and we get the entire function is bounded by 12x squared.
+So now we have to introduce notation, big O notation.
+And when I say is that this error function is big O of x
+squared near x equals o.
+The big O stands for order of magnitude.
+And what we mean is that the dominant term is x squared
+and all the higher order terms are negligible in comparison.
+So let's give a formal definition.
+We say that a function f of x is big O of x squared
+near x equals 0 if the absolute value of f of x
+is less than k times x squared for some constant k
+when x is near 0.
+The value of k is determined by the actual function.
+What's the big deal?
+Well, it turns out that for any function
+that error the linear approximation
+is big 0 of x squared.
+So we write that like this.
+We say f of x is f of 0 plus f prime of 0 times x
+plus big 0 of x squared.
+And it turns out that the error term
+of the quadratic approximation is big O of x cubed.
+As we mentioned before, this means that there's
+some constant k, such that the error is bounded by k times
+x squared or k times x cubed.
+So you're going to get an opportunity
+to explore this and get used to thinking
+about the order of magnitude of these error functions.

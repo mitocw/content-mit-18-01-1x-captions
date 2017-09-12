@@ -1,0 +1,94 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6 Derivatives of Inverse Functions [aFQLU0ImT6k].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 85 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Ok.
+Let's put all of the pieces together.
+We've got our function f.
+And we know that when we reflect its graph,
+we'll get the graph of f inverse.
+Complete inverse, partial inverse, still a reflection.
+And for notation purposes, I'll denote f inverse by g, OK?
+
+Now we know that if we've got a point x, y on the graph of g,
+then it came via the reflection of the point y,x on the graph
+of f.
+But the same thing would go for the tangent lines
+at those points.
+So here they are.
+And the slope of this tangent line is g prime of x.
+And the slope of this one is f prime of y,
+because it's at the point y, x.
+
+This is what we were trying to get at in the previous problem.
+f prime of y and g prime of x are related,
+because they're the slopes of these two lines, which
+are reflections of one another.
+
+The slope is the rise-- the vertical distance--
+over the run-- the horizontal distance.
+But up on the other line, those values get swapped.
+The horizontal distance here is equal to the vertical
+from before whereas the vertical here is equal to the horizontal
+from before and that tells us that the two
+slopes are reciprocals.
+For instance, this might be 5 and this 2.
+And that would tell us that the slope would be 5/2 down here.
+But then up above would have 2 and 5.
+And the slope of this line would then be 2/5.
+
+To summarize, we've got our g which is equal to f inverse.
+And the derivative of g at x is equal to the reciprocal
+of the derivative of f at y.
+Or if you want to put everything in terms of x,
+we can replace y with g of x.
+And we'll get 1 over f prime of g of x.
+This will work as long as f actually does have
+a tangent line here to reflect.
+In other words, f prime of g of x has to exist.
+And it can't be 0.
+If f prime of g of x was equal to 0,
+then this tangent line would be horizontal.
+So its reflection would be vertical.
+And vertical lines don't have slope.
+That's what the formula would be trying to tell us.
+We'd be getting 1 over 0.
+
+So that's the geometric approach to the derivative
+of an inverse function.
+We can give an argument using formulas as well.
+We can start with this equation, f of g of x equals x for all x.
+And we know that that's true by the definition
+of inverse functions.
+So we can differentiate both sides with respect to x.
+On the right, we're getting d/dx of x, which is just 1.
+And on the left, well, that's a composition,
+so we can use the chain rule.
+Now we're presuming that f and g are differentiable here.
+But assuming that, we get the derivative
+of the outer function applied to the inner.
+And that is f prime of g of x times the derivative
+of the inner function, g prime of x.
+And then if you solve for g prime of x,
+you get 1 over f prime of g of x, exactly what we got before.
+Hooray.
+
+This was a bit shorter than the geometric argument,
+but the geometric picture has a lot of really good intuition.
+And we hope you're able to get comfortable
+with both arguments.
+In any case, we now have our formula
+for the derivative of an inverse function.
+And it works whether g is a complete inverse
+of a one-to-one function or just a partial inverse.
+We have a few questions for you.
+And then when you come back, we'll
+cap everything off and calculate the derivatives
+of the inverse trig functions.

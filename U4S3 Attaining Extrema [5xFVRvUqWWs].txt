@@ -1,0 +1,91 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S3 Attaining Extrema [5xFVRvUqWWs].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 82 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this section, we're going to discuss
+finding a function's maximum and minimum values on an interval.
+You might be wondering, wait a minute,
+I thought we already learned about local maxima and minima.
+And that's true, but I said maximum and minimum
+on an interval.
+Not local maximum or local minimum.
+What's the difference?
+
+Well, let's look at this function.
+Here I've drawn it on the interval I, which is the closed
+interval from 1 to 4.
+We're going to be focusing on closed
+intervals for the first few parts of this section.
+And you can see that there are two local maxima,
+here and here.
+But only one of them is the maximum
+of f over the entire interval I from 1 to 4,
+and that's this one.
+
+Formally, we're going to say that f attains its maximum
+on the interval I at a point x equals c If f of c
+is greater than or equal to f of x for all x in I.
+There's a similar definition for attaining
+a minimum on an interval, but I'm not
+going to write that down.
+The difference between this and the notion of a local maximum,
+is that here the interval is predetermined.
+f of c has to be the biggest value
+of f on the entire interval I. Whereas to have a local maximum
+at c merely requires f of c to be
+the largest on some interval around c, possibly really
+small.
+
+So here we can say that f attains its maximum value on I
+at x equals 2.
+And since f of 2 equals 3, we'll also
+say that the maximum value that f attains on I is 3.
+
+What about our minimum?
+And there is a local minimum here,
+but it's not the minimum value of f over the entire interval,
+since f gets smaller over here.
+In fact, the minimum value is attained here
+at x equals 4, the endpoint.
+And the minimum value attained by f on I
+is f of 4, which equals 1.
+
+Interestingly, if f continues past x equals 4 like this,
+then x equals 4 would not be a local minimum for f.
+But it is where f attains its minimum on the closed
+interval from 1 to 4.
+
+I'll erase this.
+And let's look at another function.
+Here you might be tempted to say that f attains its maximum on I
+right here at x equals 2.
+But that can't be correct.
+f of 2 is down here at the solid circle.
+And there are lots of other values of f that are bigger.
+So where does f attain its maximum?
+x equals 1.9?
+Well, no.
+Because if you move just a little bit to the right,
+say to x equals 1.95, then f gets a little bit bigger.
+But f doesn't attain its maximum at x equals 1.95 either.
+We can find values of f that get arbitrarily close to 3,
+but f never attains that value.
+And so the answer is that f does not attain its maximum
+on this interval at any point.
+
+How about its minimum?
+Well, f of 3 equals 1 and f of 4 also equals 1.
+And there's no smaller value of f on this interval.
+So we say that f attains its minimum value of 1
+on this interval at x equals 3 and at x equals 4.
+It's OK if they're tied.
+So functions might attain their maximum or minimum
+on an interval at multiple points, or at no points.
+We'll let you play around with a few more examples.

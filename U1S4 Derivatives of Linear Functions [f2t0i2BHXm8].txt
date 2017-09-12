@@ -1,0 +1,70 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4 Derivatives of Linear Functions [f2t0i2BHXm8].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 60 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We gave you this function, g(x) equals one half x minus 1.
+So this is a line with slope 1/2.
+Here's its graph.
+And we're thinking about the derivative.
+So if we take the derivative, g prime,
+just at some random point x, what can we say about that?
+Well, if random point x corresponds
+to some random point on this graph,
+and if we take the tangent line at this place,
+then, well, it's pretty much going
+to have to run right along this line that we've already drawn.
+And we know the slope of this line-- it's one half.
+So g prime of any x is going to be one half.
+This is telling us that the graph of the derivative,
+g prime, is going to be a horizontal line at height one
+half, because it takes the value one half at every place.
+
+In general, if g(x) is some random linear function
+mx plus b, the same thing is going to hold.
+Except instead of one half, we're
+going to have that the derivative of g
+is always equal to m-- the slope of g.
+We can do this algebraically.
+We know that g prime of x is defined as a limit.
+It's the limit as c approaches x.
+So I'm using c here, not b, because I already
+have b written in the function.
+So limit as c approach as x of g(c) minus g(x) over c minus x.
+And if we just plug this into the definition of g,
+we get the limit as c approaches x of mc
+plus b minus quantity mx plus b over c minus x.
+And that's going to be the limit as c approaches x.
+And the b's are going to cancel up on top.
+And we're left with mc minus mx, which I'm going
+to write as m times c minus x.
+And our denominator is still c minus x.
+And we get more cancellation, and so we just get the limit
+as c approaches x of m.
+And m is just a constant.
+It's our slope of the original line.
+So when we take the limit of the constant,
+we're just going to get that constant.
+So we always get m as the result. So g prime of x
+equals m, no matter what the x is.
+Now one special case of this that we should point out
+is that if g(x) happens to be zero x plus b--
+or in other words, just equals b, a constant function-- then
+what we just did is telling us that g prime of x equals zero.
+So the derivative of a constant function is always zero.
+And hopefully that makes sense to you,
+because after all, the derivative
+is supposed to measure an instantaneous rate of change.
+But if a function is constant, then the function
+isn't changing at all.
+So the derivative of that constant function
+should be just zero.
+
+We have some questions for you, and then we'll come back
+and we'll look at some slightly more complicated functions.

@@ -1,0 +1,97 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S1 Local Extrema and Critical Points [YEb_F2K2yMc].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 88 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We want to start giving names to some of the features
+that we might see on a graph.
+For instance, let's look at this point right
+here, where the function takes this little dip.
+Now, it's not the absolute lowest point on the graph
+because the function, you get smaller over here.
+But if we just look near this point,
+say in this little region, then this point is the lowest.
+So what we would say, then, is that our function f has
+a local minimum at this point.
+The word local reminds us that we don't have to go very far.
+Just as long as the point is the minimum value
+of f in this tiny neighborhood, then it's a local minimum.
+Similarly over here, this point is also a local minimum,
+since it's the lowest in this small part.
+Now, this point might also be where
+f takes its overall or global minimum,
+or it might not if f does something like this over here.
+But, it's definitely at least a local minimum.
+
+Formally, we say that f has a local minimum
+at a point x equals a if f of a is less than or equal to f of x
+for any other x that is near a.
+And what we mean by near a is just
+within some small distance from a.
+And we have a corresponding definition for local maximum.
+You just reverse the inequality.
+For instance, there's a local max right here.
+It's not the global max since over to the left,
+f gets a little bit larger, but that's fine.
+If we just look at points that are near this point,
+say from here to here, then this point is the maximum.
+So we've got a local max at this point.
+
+OK.
+So we've defined local minimum and local maximum.
+Just a quick grammar note.
+The plural of minimum is minima.
+It's Latin.
+So here we have two local minima.
+The plural of maximum is maxima.
+And if you want to refer to local minima and maxima
+together, you can call them local extrema.
+And extrema is the plural of extremum.
+
+How do we go about finding local extrema?
+Well, we can use the derivative.
+Let me erase some of this and note
+that if we have a point where the tangent line to the graph
+has a positive slope, then f is going
+to be bigger to the right of the point
+and smaller to the left of the point.
+So the point can't be a local extremum of either kind.
+Similarly, if the tangent line has a negative slope,
+then f will be smaller to the right and bigger to the left.
+So what does that leave?
+Well, we could have a point where the tangent line is
+horizontal, that is f prime of a equals 0, something like this,
+or this perhaps.
+Or there's another possibility.
+We could have a point where there is no tangent line.
+That is, f is not differentiable at a.
+That could be a corner point like so,
+and that's a local maximum, what I just drew.
+
+We're going to give these a name.
+We say that if f prime of a equals 0 or f
+is not differentiable at a, then a is a critical point of f.
+And what we just proved is that every local extremum
+must be a critical point.
+
+You might be wondering, why bother
+with two different terms--
+local extremum, critical point?
+The reason is the following.
+Every local extremum must be a critical point,
+but not every critical point is a local extremum.
+To give an example, if the graph is like this,
+then the tangent line here is horizontal f prime equals 0.
+So that's a critical point, but it's not a local min or a max.
+So we're going to need to develop analytical methods
+for determining whether a critical point is
+a local max, or a local min, or neither.
+But first, we want you to get some practice using
+these terms.
+So see you in a little bit.

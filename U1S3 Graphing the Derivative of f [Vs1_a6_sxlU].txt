@@ -1,0 +1,83 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S3 Graphing the Derivative of f [Vs1_a6_sxlU].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 74 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK, so here we are.
+We've got our original function f on the top.
+Here it is.
+And we've put the entire derivative, f prime,
+on the bottom.
+We had to squeeze them a little bit to fit them on the screen.
+Hopefully that's OK.
+But we're just going to walk through from left to right
+and see how all of this fits together.
+So we're starting with the tangent line
+here at x equals 0.
+And that's given by this dotted blue line.
+And the slope of this line is 3.
+So that's telling us that f prime of 0 equals 3.
+And that's why down below on this graph
+we have a point at 0, 3.
+It's at height 3.
+That's really the thing to keep in mind,
+is every tangent line up above corresponds to a single point
+down below.
+And for the derivative, the thing that matters
+is the slope of that tangent line.
+That slope is the y-coordinate of the corresponding point
+on the bottom graph.
+
+So if we start moving, we're going
+to start getting different tangent lines.
+So over here we've got a different tangent line
+and it's not quite as steep as what we had before.
+And that tells us that f prime is not
+going to be quite as big as it was before.
+So that's why down below we have a point that is lower
+than what came previously.
+So we've gone down on the graph of f prime.
+So even though the point of tangency is moving this way--
+it's moving upwards-- the slopes of the tangent lines
+are doing something else.
+The slope of this one is not as big as the slope of this one.
+
+Ultimately, we're going to get to this point at x equals 3.
+And here, even though we're pretty high
+up on the graph of f, the tangent line is horizontal.
+And that's a slope of 0.
+So down below, that's why we have the graph
+of f prime hitting the y-axis.
+It's because f prime of 3 equals 0.
+What happens after this?
+Well, we start going downhill on the graph of f.
+f is starting to decrease here, and that
+means our tangent lines will have negative slope.
+And f prime is now in negative territory.
+We hit the tangent line with the most negative slope right
+around here.
+So you can see down below this is
+where f prime is bottoming out.
+If we go a little bit beyond, then the point
+is a little bit lower on the graph of f
+but the slope of the tangent line
+is not as negative as it once was.
+So f prime is going from most negative here to less
+negative to here at x equals 6.
+Well, we have a horizontal tangent line again.
+And that means that f prime is back to 0.
+
+And then after this, well, now we have positive slopes again.
+So f prime is back in positive territory.
+
+So that's the story of our derivative.
+We've graphed f prime.
+We have another somewhat harder example for you,
+so why don't you look at those problems
+and I'll talk to you later.

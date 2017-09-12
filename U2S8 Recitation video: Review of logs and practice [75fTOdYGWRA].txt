@@ -1,0 +1,203 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S8 Recitation video: Review of logs and practice [75fTOdYGWRA].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 194 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Welcome back to recitation.
+Today we're going to talk about some rules of logarithms
+that you're going to need to remember.
+We're going to prove why one of them is true.
+And then I'm going to ask you to use these rules to take
+a derivative of a function.
+So let's just look at these rules first.
+So I want to point out, as I'm talking about these rules,
+the first three are written with natural log,
+but one can also write them in any base
+as long as the base is the same all the way across.
+So in any legitimate base that one's
+allowed to use-- so with a positive base,
+one can use it all the way across instead
+of the natural log.
+So the first one says that the natural log of a product
+is equal to the sum of the natural logs.
+So natural log of M times N is equal to the natural log
+of M plus natural log of N. The second one
+says that the natural log of a quotient
+is equal to the difference of the natural logs.
+So natural log of M divided by N is
+equal to natural log of M minus natural log of N.
+This third one says that the natural log of something raised
+to a power is that power as a coefficient
+times the natural log of the something.
+So natural log of M to the K is equal to K
+times natural log of M. And what I want to point out
+is that there's a distinct difference where the power is.
+So if the power is inside the argument, then this rule holds.
+But if the power is outside the argument--
+so if it's natural log of M, the whole thing raised to a power,
+this does not work.
+This is not equal to what's written above.
+And then the third-- the fourth one, sorry.
+The fourth one is a change of base formula.
+So if I have log base something, b, that maybe I
+want to change the base of M, I can rewrite that in the base e.
+I can write that as natural log of M,
+divided by natural log of b.
+And I want to point out-- a common mistake people
+make is sometimes they confuse the second and the fourth
+because they both have quotients.
+But notice that the second one is
+the natural log of a quotient, and the fourth one
+is about the quotient of natural logs.
+So that's a distinct difference.
+And hopefully then you see that they are not--
+these two statements are not, in fact, the same statement.
+So now what I'd like to do is, using
+what we know about exponential and log functions,
+I want to prove number one.
+So let's set out to do that.
+Well, in order to make this top line make sense,
+we know that M and N have to be positive.
+And so I can find--
+actually, let me write first what we're doing.
+We're going to prove 1.
+So with M and N both positive, I can find values
+a and b such that e to the a equals M,
+and e to the b is equal to N. And let me just write out also
+what that means because exponential and log functions
+are inverses of one another.
+This means that a is equal to natural log of M,
+and b is equal to natural log of N.
+So these are equivalent statements.
+This statement and this statement are equivalent,
+this statement and this statement are equivalent.
+So now let's use that information to try and solve
+the problem, or try and prove number 1.
+So the natural log of M times N, well, what is that?
+M is e to the a, N is e to b.
+So I can write this as natural log of e to the a times e
+to the b.
+What's e to the a times e to the b?
+This is where we use our rules of exponents.
+e to the a times e to the b is e to the a plus b.
+This is natural log of e to the a plus b.
+And now what's the point?
+The point is that natural log and exponential
+functions are inverses of one another,
+or natural log of e to the x is x.
+So natural log of e to the a plus b is just a plus b.
+And I've already recorded for you what those are.
+It's natural log of M plus natural log of N.
+So notice we've done what we set out to do.
+Natural log of the quantity M times N
+is equal to natural log of M, plus natural log of N.
+And in a similar flavor, one could immediately do number 2.
+And number 3 follows quite similarly as well.
+It uses-- obviously these are going
+to use different rules for exponents
+besides the product of two exponentials
+functions is equal to the sum of the powers.
+It's going to use some of those other rules.
+And I believe that some of these other things
+might actually also be proven in a later lecture
+in the actual course.
+So you'll see these, but I would say
+you might want to try and prove 2 and 3 at least on your own.
+Might be helpful to look at how those work using
+the same kind of rules here.
+So now what I'd like us to do is, using these rules,
+I'd like us to take a derivative.
+So what I want us to look at is--
+y equals square root of x times x plus 4.
+And we'll just assume that x is bigger than zero.
+And I want you to find y prime.
+Now you could do this, just brute force cranking it out.
+But I'd like you to try and use the log differentiation
+technique in order to find this derivative.
+I'll give you a moment to do it, and then I'll come back,
+and I'll show you how I do it.
+
+OK, welcome back.
+So I'm going to use the log differentiation and the rules I
+have on the side of the board there to take a derivative,
+to find y prime.
+So first, what we do is, we take the log of both sides.
+And then we use some of the rules of logarithms
+to simplify the expression on the right hand side.
+So I will take natural log of y is
+equal to natural log of the square root of x
+times x plus 4.
+Now square root-- wow, sorry.
+[LAUGHS] Square root is the power of something
+raised to the 1/2, right?
+That's what it means to take a square root.
+You can take this whole product, and raise it to the 1/2.
+So I'm going to use rule number 3,
+and I'm going to bring that 1/2 that is a power out in front
+of the log.
+So I can rewrite this expression as 1/2 log of this product.
+That's one too many parentheses, but that's OK.
+
+So I have one half the natural log of the product x and x
+plus 4.
+So now I'm going to use rule number
+1, which changes the natural log of a product
+into the sum of the natural logs.
+And I can rewrite this as 1/2 natural log
+x plus 1/2 natural log the quantity x plus 4.
+Essentially what I'm doing here is,
+I have to distribute this 1/2 because I had one term,
+and then I'm going to have two terms that are added together.
+But the 1/2 applies to both of them.
+So now I have this nice setup.
+I have natural log of y is equal to something in terms of x.
+And now I can take the derivative of both sides.
+Now remember, I want to find y prime.
+So there's some implicit differentiation going on.
+So let's just be careful when we do that.
+If I take the derivative of this side,
+I don't just get y prime, I get y prime over y.
+Where does that come from?
+Well, ddx of this expression is the derivative
+of the natural log evaluated at y,
+then times the derivative of y.
+You've seen this, I think, a lot by now,
+but just to make sure you understand where both of those
+come from.
+So when I take the derivative here, I get y prime over y.
+When I take the derivative here with respect to x, well,
+derivative of natural log of x is just 1 over x.
+So I get 1 over 2x.
+And then the derivative of natural log of x plus 4,
+if I use the chain rule, I get 1 over x plus four,
+times the derivative of x plus 4, which is still just 1.
+So I get 1 over 2 times x plus 4.
+So now, I wanted us to find y prime.
+So to find y prime, I'm going to move over a little bit more.
+And just notice that y prime is going to equal y times
+all of that.
+Well, I know y, so I'm going to write what y is.
+y is the square root of x times x plus 4, times this quantity--
+1 over 2x plus 1 over 2 times x plus 4.
+
+So that's actually one way to write
+the derivative of y prime--
+or sorry, the derivative of y.
+Now I could combine these two fractions
+into a single fraction, and try and make
+it look a little bit nicer.
+Or I could just leave it this way.
+This is technically a derivative.
+So if I just started trying to combine things,
+I might find out that I could have just taken
+the derivative the long way.
+So this is a nice, short way to just get to a place
+where I can start to find out something
+about the derivative of y.
+So I guess I'll stop there.

@@ -1,0 +1,62 @@
+#
+# File:   content-mit-18-01-1x-captions/U0S2 IVT [abIXpbii0ao].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 53 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Here's our set up.
+We have two points on the graph of some function f.
+And we have a horizontal line y equals
+M, such that the two points are on opposite sides of the line.
+So I've drawn it here where the first point is below the line
+and the second point is above the line,
+but it could be the other way around, doesn't matter.
+So the question that we want to answer in this video is,
+as the graph of f travels from here to here,
+does it have to intersect this line?
+The answer is yes if we know that the function is
+continuous.
+So if f is continuous then it has no holes and no jumps.
+So as we go from this point to this point,
+there's got to be at least one place where the graph of f
+crosses this line.
+Now it could be that there's more than one point.
+The graph of f could do something like this,
+but we know for certain that there's
+got to be at least one point.
+This is called the Intermediate Value Theorem.
+And it states that if f is continuous
+and we have some value M that's between the values of f
+of a and f of b, in other words, M
+is an intermediate value then, well, then what?
+Well, what we're saying is that there's
+at least one point, which I'm going to call c in the middle
+here, where this graph hits the line y equals m.
+So in other words, f of c equals M. So that's
+what we're going to write above.
+That there is at least one point c between a and b such
+that f of c equals M, but we need these conditions.
+In order to use the Intermediate Value Theorem
+M should be in between f of a and f of b and very important
+f needs to be continuous.
+
+Well, I should say that we don't actually need
+f to be continuous everywhere.
+It doesn't matter if f has a discontinuity way out
+here to the left, for instance.
+We only need f to be continuous on this stretch from a to b.
+So we'll say if f is continuous on the open interval a comma b,
+and then, we also need it to connect to this point.
+So it should be right continuous at a
+and then similarly, we need it to connect to this point.
+So we need that it's left continuous at b.
+
+So that's the complete Intermediate Value Theorem.
+If f is continuous in the right ways at the relevant places
+and M lies in between these two values of f,
+then f is going to equal M at at least one place.

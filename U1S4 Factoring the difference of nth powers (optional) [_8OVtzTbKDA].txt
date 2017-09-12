@@ -1,0 +1,58 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4 Factoring the difference of nth powers (optional) [_8OVtzTbKDA].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 49 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this video, we're going to talk
+about how to factor a difference of nth powers.
+It's pretty neat.
+You've probably learned how to factor a difference of squares.
+So you get b minus x times b plus x.
+And some of you may even have seen
+how to factor a difference of cubes.
+You're going to get this b minus x factor again,
+and then you get b squared plus bx plus x squared
+as the second factor.
+
+For the difference of nth, powers
+we're just going to continue this pattern.
+So I claim that b to the n minus x to the n
+will factor as we're going to have this b minus x term.
+And then as the second factor, we'll have b to the n minus 1
+plus b to the n minus 2 times x plus b to the n minus 3 times
+x squared plus et cetera, et cetera, plus b times x
+to the n minus 2.
+And then finally, x to the n minus 1.
+
+So let's just multiply this out and see that we do,
+in fact, get b to the n minus x to the n.
+So I'll do the terms involving this b first.
+When we multiply all of this stuff by b,
+we're going to get b to the n plus b to the n minus 1 times
+x plus b to the n minus 2 times x
+squared plus et cetera, et cetera, plus b squared times x
+to the n minus 2.
+And then finally, b times x to the n minus 1.
+So that's everything here multiplied by the b,
+and then we have this minus x that we still
+need to multiply by everything.
+And we're going to get minus b to the n minus 1 times x
+minus b to the n minus 2 times x squared, et cetera, et cetera,
+et cetera.
+The next-to-last term is minus b times x to the n minus 1.
+And then finally, minus x to the n.
+So we've multiplied everything out, and look what happens.
+All of this stuff cancels.
+So this cancels this.
+This cancels this.
+These cancel over here.
+The only things that don't cancel
+are this b to the n and this minus x to the n.
+So this whole thing just equals b to the n minus x to the n,
+as I promised.

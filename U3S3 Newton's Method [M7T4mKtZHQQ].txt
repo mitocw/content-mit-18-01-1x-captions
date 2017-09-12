@@ -1,0 +1,29 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S3 Newton's Method [M7T4mKtZHQQ].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 19 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We've looked at linear approximation,
+and we've also seen that quadratic approximation can
+get even closer estimates.
+Both linear and quadratic approximations
+are very important to calculus and all its applications.
+But neither of them is useful if the point where we calculate
+the approximation is not close enough to the point we
+want to estimate.
+In this section, we're going to look
+and an extraordinarily powerful algorithm for solving equations
+known as Newton's Method.
+Newton's Method amplifies the effectiveness
+of the linear approximation by using it
+at many points which get successively closer and closer
+to the desired solution.
+We'll see, for example, that's Newton's method
+to solves the equation x squared equals 5 accurately two one
+billionth in only five steps.

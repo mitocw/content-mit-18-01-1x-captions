@@ -1,0 +1,165 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S5 Recitation video [MeVXXJv4IWQ].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 156 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Hi, welcome back to recitation.
+Last time in lecture, you started learning
+about implicit differentiation.
+And you saw some examples of how implicit differentiation can
+be used to compute derivatives of functions
+defined implicitly.
+So let's do another example today.
+So here I have a curve that's defined
+by the implicit equation y cubed plus x cubed equals 3xy.
+And I'd like to know what the slope
+of the tangent line to that curve
+is at the point (4/3, 2/3).
+So before we start doing anything,
+let me just make a couple of observations.
+If you don't believe me that the point (4/3, 2/3)
+is on this curve, you can always check by plugging the values in
+and confirm that really, yes, 4/3 cubed plus 2/3 cubed is
+equal to 3 times 2/3 times 4/3.
+So it's how I found this point is maybe a little magical
+because, as you can see, this equation is really a tough one
+to solve for y.
+A natural thing to want to do when
+asked this question is to solve for y and get an equation for y
+in terms of x, and then take the derivative using
+the various differentiation rules that you've learned.
+But here, this is--
+I mean it's--
+I'll let you in on a secret.
+There is a way to do this, but it's really hard.
+It's really ugly, and it's beyond the scope
+of this course.
+So really we're much better off treating
+this as an implicit differentiation problem
+than as an explicit differentiation problem.
+So having said that, why don't you take a minute or two,
+try and have a go at this yourself,
+and then we'll come back and work through it together.
+
+All right, so welcome back.
+We were in the middle-- we were just about to start, actually,
+solving this problem computing the slope of the tangent line
+to the curve y cubed plus x cubed equals 3xy,
+at this point (4/3, 2/3).
+So the slope of the tangent line is the value y prime
+of x at that point.
+So we need to answer this question.
+What we need to do is we need to find the derivative of y.
+But as I said earlier, this is tough to do explicitly
+to find y in terms of x, so we're going to use
+implicit differentiation.
+So we start with this equation y cubed plus x cubed equals 3xy,
+and we can take a derivative with respect to x.
+So some parts-- so let's start with it
+in the order it's given.
+So you have y cubed.
+If you take a derivative of y cubed with respect to x, what
+you need to use is the chain rule, because y is implicitly
+a function of x.
+And so y cubed is the chain rule.
+It's the cubed function applied to the y function.
+And this is true of implicit differentiation in general.
+That the reason that we can do this, the really fundamental
+reason that this works is that we have the chain rule,
+and that it lets us evaluate derivatives of compositions.
+So in our case, we have--
+so we take a derivative of the whole thing.
+I'm going to write-- this is a little sloppy notation,
+but I hope you know what I mean.
+We have this identity, and so we're
+going to take a derivative of the whole thing.
+And so the first part on the left, we
+get the derivative of y cubed.
+So by the chain rule, we first take
+the derivative of the cube function at y,
+and then multiply by the derivative of y.
+So this is the derivative of y cubed,
+it just gives us 3y squared.
+So that's what happens when you just deal with the cubed part.
+But then we need to multiply by-- in the chain rule--
+by the derivative of the inside, which in this context
+is dy by dx.
+Plus the derivative x cubed, that's more straightforward,
+nothing really complicated going on here.
+We've seen this for a little while now.
+It's just 3x squared equal.
+So on the right now, what we have--
+we don't actually have a chain rule,
+we have we have a product rule situation here.
+We have 3 times x times y.
+So 3 is just a constant, so we could just pull it out
+in front.
+And so we take the derivative of xy.
+So we take the derivative of the first times the second,
+plus the derivative of the second times the first.
+So the derivative of the first is just--
+sorry, x is the first, so its derivative is 1.
+So we get 3 times the second is y, plus--
+so when we take the first times the derivative of the second,
+which is dy by dx.
+So because this is an identity, it
+holds for all values of x and y, this equality
+follows just by taking the derivative of both sides.
+Good.
+So now the thing we want is that we
+want the slope of the tangent line at a particular point.
+So we want to isolate dy/dx.
+That's the thing we're trying to find.
+So if you were only interested in dy/dx,
+this is actually a linear equation in some sense.
+We have dy-- a constant-- something, or--
+not a constant-- something times dy/dx plus something
+equals something plus something times dy/dx.
+There are no squares of dy/dx is what I really mean.
+So that's nice.
+It makes it relatively easier to solve so we can just combine
+all the terms with dy/dx.
+And then let's say, we'll combine maybe then put them
+over here and put everything else over there.
+So over here we get dy/dx.
+So we have a 3y squared minus a 3x.
+And on the other side, we have a 3y minus a 3x squared.
+And so-- this is times, multiplication there.
+And so we want dy by dx just by itself,
+so we can just divide through by 3y squared minus 3x.
+So then we have dy/dx is equal to--
+well, so there are a lot of 3s here.
+There's a constant multiple of 3 on this side, constant multiple
+of 3 on the side.
+Those are going to cancel.
+So this is y minus x squared over y squared minus x.
+So at any point xy on this curve,
+the slope of the tangent line is given by this expression here.
+And we're interested in a particular point
+in this problem.
+We're interested in the point (4/3 comma 2/3).
+So let me take that back up here.
+So, at the point (4/3 comma 2/3), we have dy by dx.
+So we just plug that value of y and that value
+of x into this formula that we've got.
+So that's 2/3 minus 4/3 squared is 16/9 over--
+well, let's see.
+2/3 squared is 4/9 minus 4/3.
+So we have a little bit of a rational number
+arithmetic here.
+Maybe I'll multiply top and bottom through by 9
+to get 6 minus 16 over 4 minus 12.
+So this is negative 10 over negative 8, which is 5 over 4.
+
+And if we go back to the picture that I drew,
+actually looks pretty reasonable over here, right?
+This slope with this tangent line
+is actually a little bit bigger than 1 there.
+Great.
+So that's that.

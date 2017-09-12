@@ -1,0 +1,55 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S3 How can Newton's method fail? [cRpWdQTbkMo].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 46 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Now I want to answer the question, what can go wrong?
+How can Newton's method fail to converge
+to the root we're looking for?
+What can go wrong is that the error term starts increasing.
+And instead of getting small very quickly,
+it gets large very quickly.
+One of the ways this can happen, which
+you saw in the last example, is that the initial guess
+wasn't good enough.
+The error, epsilon 0, was too big.
+And the error increased in the next approximation.
+And kept increasing in size during successive steps.
+It may not converge at all, or it might actually
+settle down and converge to some other root.
+Something really interesting can happen sometimes
+where the method can get stuck in a cycle,
+bouncing between points forever, never converging to one point
+and never diverging off to infinity either.
+You'll get a chance to explore things like this later on.
+What's the other way that the error can get big?
+Well, remember that we said that epsilon sub
+1 was on the order of epsilon 0 squared.
+But what we really saw in our derivation
+was that it was on the order of epsilon 0 squared, and divided
+by f prime of x0.
+So the other way that this method can fail
+is that maybe we make a good guess for x0,
+making the error epsilon 0 small.
+But the slope of the tangent line to the function at x0
+is very, very small.
+We're never allowed to divide by zero.
+And dividing by a very, very small number can be bad.
+And so that's going to make this error get really big.
+So what happens is that the x-intercept of this guess
+could end up very, very far away from the point of interest
+because the slope is so shallow.
+In this case, the method may fail
+to converge the correct root or fail to converge at all.
+We have some more problems for you to practice thinking about.
+Which guesses you should make, and how Newton's method
+is going to behave after that.
+And then this will conclude the section on Newton's method.
+And after the problem sets, this actually
+concludes the whole unit on approximations.

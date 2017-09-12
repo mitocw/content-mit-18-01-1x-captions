@@ -1,0 +1,56 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S4 Derivatives of constant multiples [Uk1i_GhPgFc].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 47 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+All right.
+We want to think about what happens
+when we take a function f of x and we multiply it by 2
+to get a new function, which we're calling g of x.
+So let's say this is the graph of f of x.
+And I've drawn the tangent line here at a point x equals a.
+And then to get the graph of g, well,
+when we transform f into g all of the y values
+are getting doubled.
+So we're going to have to stretch the graph of f.
+It's going to be stretched vertically by a factor of two.
+And when we do that, then the tangent line at this point
+is just going to go right along with the stretching.
+So it too is going to be stretched vertically.
+And when it gets stretched vertically,
+that means that the new tangent line to the graph of g
+is twice as steep as the tangent line to the graph of f.
+So that's telling us that the slope is twice as much.
+So g prime of a is twice f prime of a.
+
+This sort of thing is going to hold in general.
+So not just if g of x equals twice
+f of x, but if it equals any constant times f of x.
+So if g of x equals k times f of x for all x,
+then the derivative of g is going
+to equal k times the derivative of f.
+So let's do an example.
+We've got g of x equals minus 5 times x squared.
+So here we have a constant, minus 5,
+being multiplied by a function, x squared.
+And we know the derivative of x squared.
+So this is good.
+We can take the derivative of g just by using this rule.
+So g prime of x is going to be-- and then
+what we do with the minus 5, since it's multiplying
+x squared that's our k.
+So the minus 5 is just going to stay in front.
+We're going to have minus 5 times the derivative of x
+squared.
+And I'm going to write that as x squared prime.
+And we know the derivative of x squared.
+This equals minus 5 times 2x.
+And that's just minus 10x.
+And that's our answer.
+So why don't you try one?

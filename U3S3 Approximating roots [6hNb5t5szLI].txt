@@ -1,0 +1,50 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S3 Approximating roots [6hNb5t5szLI].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 41 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+In this section, we're going to introduce a powerful method
+for finding roots of functions.
+You might be asking, why do I even want to do this.
+Well, consider the function f of x
+is equal to 2 minus x squared.
+The roots of this function are the irrational numbers,
+x equal to plus or minus the square root of 2.
+But what's the numeric value of the square root of 2?
+And how does your calculator find this number?
+Certainly, it's not storing the values
+of all the irrational numbers, but it can find this number
+really quickly.
+The key is an algorithm that involves nothing
+more than a clever application of linear approximations.
+What's the idea?
+You start by making a good guess.
+You just saw that the best integer
+guess for the value of the square root of 2
+would be x naught equal to 1.
+Notice that I just called this x sub 0 x naught.
+Naught is a British term for nothing, so it just means 0.
+And when we have an initial condition,
+we typically start from 0, rather than 1.
+And I'll often refer to x sub 0 as x naught,
+but it means the same thing.
+So I just want you to be aware of it.
+Let's get back to talking about this guess.
+So this isn't a great guess.
+But I can approximate the function,
+f of x, by its tangent line at x equals 1.
+Then I can approximate the root of f
+of x by using the x-intercept of the tangent line.
+We'll call this next guess x sub 1.
+Finding the x-intercept of a line
+is something that you already know how to do.
+So I'm going to go ahead and let you
+find this x-intercept, which we're calling x sub 1,
+and then we'll be back to explain how we iterate
+this process to get the general method for approximating roots.

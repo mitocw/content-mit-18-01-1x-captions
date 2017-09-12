@@ -1,0 +1,22 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S5 Implicit Differentiation [fI3HQwj3G3A].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 12 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We can use the derivative to find
+the slope of the tangent line to a graph of a function.
+But what happens when we have a curve that
+is not the graph of a function?
+We can still ask for the slope of the tangent line.
+So how do we find the formula?
+In the case of a circle radius 5,
+we can describe the curve with the implicit function x squared
+plus y squared equals 25.
+In this section, we learn how to differentiate
+implicit functions by applying the chain rule.

@@ -1,0 +1,97 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6 Partial Inverses and Trig Inverses [lp9TeHSm5Ms].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 88 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Functions that aren't one-to-one don't have full inverses.
+But we can still get what we call a partial inverse.
+We mentioned this briefly in the last video
+in regards to the function f of x equals x squared.
+This isn't one-to-one.
+It doesn't satisfy the horizontal line test.
+But if we ignore the left hand side-- let's just erase it--
+and we only pay attention to the right half of the graph,
+then it does satisfy the horizontal line test.
+What we're doing here is only allowing
+values of x that are greater than or equal to 0.
+We've restricted our domain.
+So now when we reflect across that y equals x line,
+we get this.
+It's not a full inverse-- just a partial inverse--
+but it does satisfy the vertical line test.
+
+For the original function, we restricted its inputs
+to numbers which are greater than or equal to 0.
+So for the partial inverse, its outputs
+are restricted to numbers which are greater than or equal to 0.
+So that's why when we write the square root of 4,
+we don't just mean the number x whose square is 4.
+That's not quite right, since there's
+more than one such number.
+Rather, we need to remember our restriction.
+The square root of 4 is the number x
+which is greater than or equal to 0 whose square is 4.
+That's the difference between a full complete inverse
+and a partial one.
+A partial inverse has this additional condition,
+and that's what ensures that we get a unique answer.
+
+We'll use partial inverses most often for the trig functions.
+Here's the graph of the cosine function.
+And it's very much not one-to-one.
+However, if we restrict our attention just
+to this part of the curve where the angle, which
+I'm going to call theta, is between 0 and pi,
+then it does satisfy the horizontal line test.
+Now it's true that we could have chosen a different interval
+to restrict the domain to, but this is the standard choice
+since it includes all the usual angles like pi over 6,
+pi over 4, zero, et cetera.
+And notice, even though we are ignoring all of the stuff
+to the right and left-- let me just erase it--
+we still have the entire range of the cosine function
+from minus 1 to 1.
+Ok?
+
+So given this choice of restricted domain,
+we get a partial inverse for the cosine function.
+We're still going to denote it by cosine minus 1
+x like this-- cosine inverse.
+And remember that's not an exponent right there.
+Or sometimes people use arccosine x instead.
+But in any case, the inverse cosine
+of x is the angle theta in the allowable interval-- so
+in this case, in 0 to pi whose cosine is
+x or such that cosine theta equals x.
+And it's this restriction to the interval from 0 to pi
+that let's us say the angle.
+
+We'll leave the inverse sine function for an exercise,
+but I do want to discuss the inverse tangent for a bit.
+Here's the graph of the tangent function.
+And again, to get a partial inverse,
+we'll have to pick just one part of the function.
+So if we take just this part, that'll work.
+And we haven't given up any part of the range
+of the tangent function, so that's good.
+So this restricted domain is theta, our angle between pi
+over 2 and minus pi over 2.
+This is a strict inequality here,
+since the tangent function is undefined at plus or minus pi
+over 2.
+And so tangent inverse of x or arctan
+of x, that'll be the angle theta in the interval from minus
+pi over 2 to pi over 2.
+And here it's an open interval because we
+don't need the endpoints such that tangent theta equals x.
+
+So those are the inverse trig functions.
+They actually pop up quite a bit in calculus,
+even in places where you don't expect any trigonometry.
+So it's good to get used to them now.

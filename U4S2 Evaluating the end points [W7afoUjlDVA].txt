@@ -1,0 +1,94 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2 Evaluating the end points [W7afoUjlDVA].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 85 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We want to graph the function f of x
+equals x divided by the quantity log of x squared.
+You've already gotten started assembling the information
+we need to graph this function.
+And what you've done is you've identified the end points, 0
+and infinity, as well as the discontinuity at x equals 1.
+And you've also found that the right and left hand limits
+as x tends towards 1 are both infinity.
+
+To finish step one of the general strategy
+we've developed for graphing functions, all we need to do
+is look at what happens at the endpoints.
+So let's start with 0.
+We want to find the limit of f as x approaches 0
+from the right.
+This is 0 plus, which is our shorthand
+notation for something a little bit bigger than 0,
+divided by negative infinity squared.
+And this is definitely going to tend towards 0.
+So even though our function is undefined at x equals 0,
+the limit from the right is well defined.
+It's 0.
+Next, let's look at what happens at the other endpoint-- that
+is, as x tends towards infinity.
+If we do the naive thing and plug infinity into f,
+we get infinity over infinity.
+And infinity over infinity is something
+that we call an indeterminant form.
+That means we don't immediately know how to evaluate something
+that looks like this.
+This is very similar to the case 0
+over 0, which we've already talked about a lot before.
+In this section, we're going to introduce L'Hospital's rule,
+which will allow us to systematically evaluate limits
+of indeterminate type 0 over 0, or infinity over infinity.
+But for now, I'm just going to plug a large number
+into this function, and we'll see that the output is also
+a large number.
+And this is going to suggest that this function is
+going to tend towards infinity, as x tends towards infinity.
+You'll be able to verify what we find with L'Hospital's rule
+later, if you want to.
+OK, so let's plug-in a big number.
+Let's look at f of 10 to the 10, which
+is 10 to the 10 over log of 10 to the 10 quantity squared.
+And this is 10 to the 10 over 10 log 10 quantity squared, which
+is approximately equal to 10 to 10
+over 23 squared, which is something greater than 10
+to the 7.
+And since 10 to the 7 is quite large,
+hopefully this convinces you that f really
+is tending towards infinity.
+
+So I'm going to go ahead and erase this computation now,
+so we have more room to draw our graph.
+Let's go ahead and put all the information
+that we've gathered from the first step of our method
+for drawing graphs into a picture.
+So here's a set of axes, and I'll
+draw a dotted vertical line to denote the vertical asymptote
+at x equals 1.
+Then I know that the function tends towards 0 as x
+approaches 0 from the right.
+Of course, the function isn't defined there,
+so I'll denote this by drawing an open circle at the point x
+equals 0, y equals 0.
+The function f will be positive to the right of 0.
+And then we know that the function
+tends towards infinity from both the right and the left
+as x approaches 1.
+
+We've also just seen that our function approaches infinity
+again as x tends towards infinity.
+Note that at this point, we almost have enough information
+to guess that we're going to find a critical point somewhere
+in this region between 1 and infinity,
+which is a local minimum.
+But we're going to go ahead and let you carry out
+the next step, which is finding the critical points
+and evaluating the sign of the first derivative
+in the next problems.
+Then we'll be back to finish the remaining steps
+and graph the full function after that.

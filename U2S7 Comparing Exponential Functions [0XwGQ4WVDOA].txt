@@ -1,0 +1,80 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S7 Comparing Exponential Functions [0XwGQ4WVDOA].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 71 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Here's the graph of the function y equals 2 to the x.
+And you've use this Mathlet before to approximate the value
+of the derivative at x equals 0, which you found
+to be something close to 0.695.
+This, of course, is just an approximation.
+Then we want to compare this value
+to the value of the derivative of another exponential
+function.
+The exponential function we are looking at is 4 to the x.
+So what's the graph of 4 to the x going to look like?
+Well, it's going to go through the point 0, 1.
+And it's going to be a bit steeper, because at 1, it's
+going to be equal to 4, and at negative 1,
+it's going to be equal to 1/4.
+So the graph is going to look something like this.
+So we definitely expect that the derivative at x equals 0
+is going to be larger.
+So let's go ahead and change this function to the function 4
+to the x and find its derivative.
+So we see here that it's definitely steeper,
+and we get a value to be somewhere around 1.39.
+Of course, again, this is just an approximation.
+So let's get rid of the Mathlet and write some of this down.
+So this is what we just saw.
+We saw that the derivative of 2 to the x at x equals 0
+was approximately equal to 0.695,
+and the derivative of 4 to the x at x equals 0
+was approximately equal to 1.39.
+Remember that this is this mystery number M of 2,
+and this is the mystery number M of 4.
+And recall that the definition of the derivative
+of an exponential function, a to the x,
+is given by M of a times a to x.
+So we're really interested in what this mystery number M of a
+is.
+Of course, we aren't really able to compute these,
+and what we have are just sort of numerical approximations.
+They're definitely not exact, so what we're going to do
+is that we are going to make a definition.
+We are going to define the base e,
+to be the unique real number so that M of e is equal to 1.
+Notice that we're not seeing what the number e is,
+but from the numeric computations we've done,
+it's very suggestive that e is greater than 2 and less than 4.
+So I'm not going to tell you what e is right now,
+but I am saying that it exists.
+So why am I defining this number e?
+What does this buy us?
+Well, let's think about the function e to the x.
+What is the derivative of this function?
+Well, our formula from before tells us
+that this is equal to M of e times e to the x.
+But wait a second.
+M of e is equal to 1, so the derivative of e to the x
+is e to the x.
+I'm going to put a big box around this,
+because this is a big important formula in this class.
+It seems really easy, but this is really powerful.
+And it's going to get us pretty far.
+So you notice that we still haven't really
+answered the question what is M of a,
+and we're not going to do that yet.
+But I'm going to let you practice using
+the derivative of e to the x.
+And then we'll go ahead and give a deeper argument
+to explain why it is that we know
+this number, e, has to exist.
+And after that, when we introduce the logarithm,
+we'll finally answer this question and find M of a.

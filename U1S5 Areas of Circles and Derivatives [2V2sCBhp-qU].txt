@@ -1,0 +1,70 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S5 Areas of Circles and Derivatives [2V2sCBhp-qU].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 61 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+So you just did some problems where
+you computed the derivative of the area of a circle
+with respect to different variables.
+In the first problem, we found a formula
+for the area of a circle in terms
+of the radius of a circle, and we computed the derivative
+with respect to the radius, dA/dr. In the second problem,
+we were interested in how the area changed with respect
+to the circumference of the circle
+because we were building a hot tub,
+so we found a formula for the area
+in terms of c, the circumference.
+And the derivative we were looking at was dA/dc.
+Of course, these two derivatives are both functions
+and they're not equal because they're
+describing different rates with respect to different variables.
+In the real world, what variable we want to differentiate
+with respect to is determined by the problem
+we're trying to solve.
+For example, suppose we have a leaky pipe
+and it is dripping, causing a circular puddle
+to grow beneath it.
+Then we're interested in how the area of this puddle
+is changing in time, so we're looking at dA/dt.
+So in each of these examples, it's
+really clear what the quantity is that we're looking at.
+We're looking at the area and we're
+differentiating with respect to radius, circumference,
+and time.
+Now if we want to look at these very same examples but using
+prime notation, well, first we have to define three entirely
+new functions.
+We could say that A is equal to f of r,
+and then the derivative would be f prime of r.
+In this case, we'd have to define some function g
+of c that's equal to the area.
+Then the derivative we'd be looking at is g prime of c.
+In the last example, we could define
+a function h of t and the derivative
+we're looking at is h prime of t.
+So to use prime notation, we had to introduce
+three new functions.
+And now it's not even clear from the names of these functions
+what the units are, and we can't even
+tell that these derivatives are rates
+of change of areas of circles.
+So the derivatives are slightly easier to write,
+but we no longer know what they mean.
+And if we evaluate it at a point,
+then it's even less clear what the units are.
+So when you're modeling a problem,
+it's really great to use Leibniz's notation.
+It really helps you keep track of what the physical quantities
+are that you're really interested in and making sure
+that you're differentiating them with respect
+to the variables of interest.
+So why don't you do a couple more problems
+to get used to using Leibniz's notation
+before we continue learning more about the derivative.

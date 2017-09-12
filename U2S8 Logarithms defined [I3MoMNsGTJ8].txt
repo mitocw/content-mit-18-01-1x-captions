@@ -1,0 +1,88 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S8 Logarithms defined [I3MoMNsGTJ8].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 79 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+I want to remind you about the logarithm functions.
+Recall that log base a of y is defined to be the number
+x, such that a to the x is equal to y.
+In other words, log base a of y is
+the inverse of the exponential function a to the x.
+And recall that we called a the base
+of the exponential function a to the x.
+So similarly, we call this function log base a.
+In particular, there are some common bases
+that we are used to thinking about.
+Log base 2 of x is the inverse of 2 to the x.
+Log base 10 of x is the inverse of 10 to the x.
+And in fact, we are so used to thinking about numbers
+in base 10, that oftentimes you might
+see log base 10 of x written as just log x with no base.
+But be careful because there are certain programming languages
+where this is not true.
+But on most calculators this is the notation.
+And it means base 10.
+The other base that is going to be extremely important to us--
+and it's actually the one that we are interested in right
+now-- is log base e.
+And this is so important, we are actually
+going to give it another name and another notation.
+So let's go ahead and make a definition.
+The natural logarithm, which we denote by ln of x,
+is the inverse of the exponential function
+e to the x.
+And this function, log x, is actually
+going to play a pretty major role
+in helping us finish computing the rest of the derivatives
+of functions we haven't been able to compute yet.
+Let's go ahead and graph the natural logarithm.
+To do this, we're going to use the fact
+that we know the graph of the exponential function
+e to the x.
+Remember that the graph of e to the x looks like this.
+It is concave up and goes through the point 0,1.
+To find the graph of log x, we're
+simply going to reflect this graph across the line y
+equals x.
+And we get that the graph of log x goes through the point 1,0
+and looks like so.
+Notice that both log x and e to the x are growing to infinity.
+But log x grows much more slowly than e to the x
+because this graph is actually going to be concave down.
+But it's still approaching infinity.
+And the other thing that I want to point out
+is that the slope of the tangent line
+to e to the x through the point 0,1 this has slope equal to 1.
+That's actually how we define the number e.
+And this tells us that the tangent line
+to log x through the point 1,0 is also going to have slope 1.
+
+Before we get any further into finding
+the derivative of this function, I
+want to remind you of some of the properties
+of the natural logarithm.
+And these properties actually hold for all logarithms
+with any base.
+And all of these properties follow
+from the inverse relationship with the exponential functions.
+These properties are that log a1 times
+a2 is equal to log of a1 plus log of a2.
+And this follows from the property
+that e to the b1 times e to the b2
+is equal to e to the b1 plus b2.
+The other important property is that log of a to the n
+is equal to n times log a.
+And this follows from the property
+that e to the b all to the power n
+is equal to e to the b times n.
+I'm going to leave it to you to verify
+why these properties hold.
+Before we do calculus with the natural logarithm,
+I want you to do some exercises to re-familiarize yourself
+with the log and its behavior.

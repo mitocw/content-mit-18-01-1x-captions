@@ -1,0 +1,106 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S4 Fire! [14PjpWzpGZk].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 97 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+All right, well, here's our building.
+And it's on fire.
+And maybe there's a guy hanging out the window screaming.
+But never fear, the fire truck is here.
+And here's its ladder leaning against the building.
+And we told you that this height here is 6.
+And then we can label this right triangle with xy here,
+and then z for the length of the ladder.
+And we're given that this ladder is increasing in length.
+So that's dz dt.
+And that's the 0.2 feet per second.
+And we're also told that the fire truck is backing up.
+So that's telling us about dx dt.
+But if the truck is backing up, then dx dt is negative.
+This distance is shrinking.
+So dx dt is minus 0.5 feet per second.
+
+And we want to know how fast the top of the ladder
+is moving up the building.
+So what we want is dy dt.
+And we want it when the ladder hits the gargoyle.
+And we said that the gargoyle was 3 feet above the ground.
+So that means y is 24, because we've got
+the 6 that we have to subtract.
+And we also want it when x is equal to 7.
+
+OK, now there's a lot of moving parts here.
+Both x and z are changing.
+And y is dependent on both of them.
+Thankfully, the equation that links the three variables
+is not so bad.
+We have a right triangle, so y squared plus x squared
+equals z squared, just by the Pythagorean theorem.
+And that's an equation that holds for all times.
+So we can differentiate implicitly
+if we take d by dt on both sides.
+On the left, the derivative of y squared is 2y.
+But since it's with respect to t,
+we need this factor of dy dt.
+Similarly, differentiating x squared gives 2x dx dt.
+And then on the right-- same thing.
+We'll have 2z dz dt.
+And we can cancel these 2's by dividing.
+And then keeping the y's on the left,
+we get y dy dt equals z dz dt minus x dx dt.
+
+Now, here I want to take a moment
+to point out something about the science on the right.
+We have two terms-- one involving z, one involving x.
+They both contribute to dy dt.
+The dz dt term has a plus sign.
+And dz dt itself is positive.
+It's positive 0.2 feet per second.
+So together that's making a positive contribution
+towards dy dt, towards the ladder moving up the building.
+And that makes perfect sense because dz dt
+is referring to the lengthening of the ladder.
+The x dx dt term, that has a minus sign.
+But dx dt is negative 0.5 feet per second.
+So the combination of those two facts
+tells us that this term is also going
+to contribute positively to the ladder moving up the building.
+And that also makes intuitive sense,
+because the change in x-- that's the truck backing up
+towards the building-- and, of course,
+that would push the top of the ladder up.
+My point here is that if you understand what's
+going on in your scenario, you can really
+see that in all of the terms that you're going
+to get from your calculus.
+So making sure that they all contribute in the proper way
+is something that you can use to check yourself.
+So for instance, if we had forgotten
+that dx dt is supposed to be negative,
+this would be a place that we could have realized our error.
+
+All right, now all that's left to do is to plug in and solve.
+We want dy dt, so I need to divide--
+I'm going to put 1 over y on the right.
+But y, we're saying, is 24, so we've got 1 over 24.
+And then we're multiplying by what's remaining on the right.
+So z-- we don't have z written down yet,
+but we do know that at this moment
+that we care about y is 24 and x is 7.
+So we can just use the Pythagorean theorem.
+And if you do that, you'll get that z equals 25.
+So I'll put that down here.
+And then dz dt, we know, is 0.2.
+And then we're subtracting x, which is 7.
+And then dx dt is negative, so I'll
+put a plus here and then 0.5.
+And then if you do all the arithmetic,
+you'll just get 17 over 48.
+And this is all measured in feet per second.
+So that's our answer.

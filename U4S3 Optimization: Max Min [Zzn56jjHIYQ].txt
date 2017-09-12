@@ -1,0 +1,33 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S3 Optimization: Max Min [Zzn56jjHIYQ].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 23 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We're going to use the geometry and physics of zip lines,
+like this one, to illustrate some basic calculus methods.
+It turns out that predicting how a zip line will behave
+is complicated by many factors, like wind and friction.
+But with the tools we have now, we can get started.
+We'll get deeper into designing a good zip
+line in later courses.
+The first important issue in figuring out
+what happens during a zip line ride
+is to figure out the total vertical drop of the rider--
+what is it and how can we find it?
+If we assume the cable is massless,
+then the cable does not sag, and the path traversed by the rider
+is the arc of an ellipse.
+
+The vertical drop traversed by the rider
+is this distance here.
+Finding this distance is equivalent to finding
+the minimum y-coordinate along the path.
+We're going to use calculus to find maxima and minima,
+and solve optimization problems.
+And then we'll solve this problem.

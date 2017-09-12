@@ -1,0 +1,22 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S8 Logarithms and their derivatives [0Naoi57_mfw].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 12 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Logarithms are useful in modeling and measuring
+real world phenomena, such as: sound, measured in decibels;
+the intensity of earthquakes, measured using the Richter
+scale; and the acidity of aqueous solutions,
+measured in pH.
+Not only that, but a lot of economic data,
+such as currency fluctuations and stock prices,
+are best measured using logarithms.
+Since the logarithm is such an important function,
+we are going to review its properties
+and then compute its derivative.

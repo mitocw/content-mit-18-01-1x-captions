@@ -1,0 +1,48 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S6 The Graph of the Inverse [_l_Xrm2_jPg].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 39 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's suppose that this is the graph for our function f.
+We said that 2, 5 is on the graph.
+And so that means that when you input 2 into f,
+you're going to get 5.
+Now if f has an inverse function that would mean that f
+inverse of 5 equals 2.
+So for f inverse, 5 is the input and 2 is the output.
+And so the point that has 5 as its first coordinate and 2
+as its second coordinate, that's going to be
+on the graph of f inverse.
+Similarly if this is the point 0, 2, then we know that f of 0
+equals 2.
+So f inverse of 2 will equal zero.
+And that means that 2, 0 will be another point
+on the graph of f inverse.
+
+So we see that the first and second coordinates
+of these points are getting switched
+when we go to the inverse.
+So geometrically, this means that the horizontal axis
+and the vertical axis are getting swapped.
+So we're reflecting across this 45 degree line.
+And that's the line y equals x.
+So this point will go across to this point.
+This point reflects to this one.
+And this will happen for every single point on the graph of f.
+So if f has an inverse function, then the full graph
+of f inverse will be what we get if we reflect the entire curve.
+And it'll look something like this.
+
+I really love this picture, because from this principle
+that the graph of f inverse is just
+a reflection of the graph of f, you
+can figure out pretty much anything
+you need to know about inverse functions
+that you'll need for this course.
+So hopefully you'll like it too.

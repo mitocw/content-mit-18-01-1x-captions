@@ -1,0 +1,58 @@
+#
+# File:   content-mit-18-01-1x-captions/U1S6 Headline news [GqMvzs22ZUo].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 49 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Let's take a really close look at this headline--
+"Rate of Job Growth Slows."
+We'll start with the word slows.
+You hear that and you think, this
+isn't so good for the economy.
+So something has gone down.
+But what exactly?
+
+This is where we need to be very precise with our language.
+So let me introduce a function f.
+And that's going to give us the number
+of jobs as a function of time.
+But it's not f that's gone down.
+The headline says that the rate of job growth
+is the thing that's slowed.
+f is the number of jobs, it's not a rate.
+So instead, the headline is referring to f prime.
+f prime is the rate of change of the number of jobs.
+And it's that rate which has gone down.
+
+How exactly has it gone down?
+Well, the key is this word growth.
+That implies that the number of jobs has been growing.
+So the rate of change in the number of jobs, f prime,
+has been positive.
+It may have been something like plus 200,000 jobs per month
+in the first quarter.
+And then in quarter two, the headline
+is saying that there's still job growth.
+f prime is still positive.
+It's just slower than the previous rate of job growth.
+So it might be something like plus 100,000 jobs per month.
+If we graph f, then over the course of the first quarter,
+we know that it increased at a certain rate.
+And then over the second quarter,
+it again grew, but at a slower rate.
+So if we draw just a curve connecting these three points,
+then we see that the graph of f is concave down.
+And this should make some sense, because f
+prime is the thing that's decreased.
+And if f prime has decreased, then f prime's
+derivative, f double prime, should be negative.
+So f is concave down.
+So that's a little lesson in why we
+need to be careful with our language
+when we're describing rates and derivatives in the real world.
+We've got some other questions to help you practice that.

@@ -1,0 +1,25 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S1 Measurement error [zDHyK_e-RBY].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 15 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Engineers are interested in understanding
+how small changes in a system affect its performance.
+For example, zip lines have become popular
+all over the world, and it's imperative
+that operators control the speed of the rider.
+Not only do they want to make sure
+that riders don't go too fast, they also
+want to prevent them from getting stuck in the middle.
+To adjust the speed, operators will raise or lower
+the starting point of the zip line
+by a matter of centimeters.
+How do we estimate the effect of small changes like this?
+The key tool is linear approximation, which we'll
+learn about in this sequence.

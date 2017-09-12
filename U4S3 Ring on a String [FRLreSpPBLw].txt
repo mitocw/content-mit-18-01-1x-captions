@@ -1,0 +1,342 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S3 Ring on a String [FRLreSpPBLw].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 332 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+OK.
+So here's the situation.
+We have a problem.
+And we've hung a string, right?
+And it went down like this.
+And then it went like that.
+All right?
+And we discovered where it settled physically.
+So we want to explain this mathematically, and see what's
+going on with this problem.
+So this is a real-life problem.
+It honestly is a problem you have
+to solve if you want to build a bridge, like a suspension
+bridge.
+This, among many problems.
+It's a very serious and important problem.
+And this is the simplest one of this type.
+All right?
+So we've got our shape here.
+This should be a straight line, maybe not quite as angled
+as that.
+So now, we've already drawn the diagram,
+and we've more or less visualized
+what's going on here.
+But the first step after the diagram is to give letters,
+is to label things appropriately.
+And I do not expect you to be able to do this at this stage,
+because it requires a lot of experience.
+But I'm going to do it for you.
+All right?
+We're going to just do that.
+So the simplest thing to do is to use
+the coordinates of the plane.
+And if you do that, it's also easiest to use the origin.
+My favorite number is 0, and it should be yours, too.
+So we're going to make this point be 0, 0.
+Now, there's another fixed point in this problem.
+And it's this point over here.
+And we don't know what its coordinates are,
+so we're just going to give them letters, A and B.
+But those letters are going to be
+fixed numbers in this problem.
+And we want to solve it for all possible A's and B's.
+Now, the interesting thing, remember,
+is what happens when B is not 0?
+If B is equal to 0, we already have
+a clue that the point should be the center point.
+It should be exactly that x, the middle point,
+which I'm going to label in a second, is halfway in between.
+So now, the variable point that I'm going to use is down here.
+I'm going to call this point x, y.
+So here's my setup.
+I've now given labels to all the things on the diagram so far--
+most of the things on the diagram.
+
+All right.
+So now, what else do I have to do?
+Well, I have to explain to you that this is a minimization
+problem.
+What happens, actually, physically,
+is that the weight settles to the lowest point.
+That's the thing that has the lowest potential energy.
+So we're minimizing a function.
+And it's this curve here.
+The constraint is that we are restricted to this curve.
+So this is a constraint curve.
+And we want the lowest point of this curve.
+
+So now, we need a little bit more language in order
+to describe what it is that we've got.
+And the constraint curve, we got it in a particular way--
+namely, we strung some string from here to there.
+And what happens at all of these points
+is that the total length of the string is the same.
+So one way of expressing the constraint
+is that the length of the string is constant.
+And so in order to figure out what the constraint is,
+what this curve is, I have to describe that analytically.
+And I'm going to do that by drawing in some helping lines--
+namely, some right triangles-- to figure out
+what this length is and what the other length is.
+So this length is pretty easy if I draw a right triangle here,
+because we go over x and we go down y.
+So this length is the square root
+of x squared plus y squared.
+Right?
+That's the Pythagorean theorem.
+Similarly, over here, I'm going to get another length, which
+is a little bit of a mess.
+It's the vertical-- I'm just going to label one half of it
+so that you see.
+So this horizontal distance is x.
+And this horizontal distance from this top point
+with this right angle over there, it starts at x and ends
+at A. The rightmost point is A in the x-coordinate.
+So the whole distance is A minus x.
+All right?
+So that's this leg of this right triangle.
+And similarly, the vertical distance will be B minus y.
+And so the formula here-- which is a little complicated--
+for this length, is the square root
+of A minus x squared plus B minus y squared.
+So here are the two formulas that
+are going to allow me to set up my problem now.
+So my goal is to set it up the way I did here, just
+with formulas, and not with diagrams, and not with names.
+
+OK.
+So here's what I'd like to do.
+I claim that what's constrained, if I'm along that curve,
+is that the total length is constant.
+So that's this statement here.
+The square root of x squared plus y squared
+plus this other square root-- these are the two
+lengths of string-- is equal to some number
+L, which is constant.
+
+And this, as I said, is what I'm calling my constraint.
+
+Yeah?
+[INAUDIBLE]
+
+So the question is, shouldn't it be B plus y?
+No.
+And the reason is that y is a negative number.
+It's below 0.
+So it's actually the sum.
+Minus y is a positive number.
+
+All right.
+So here's the formula.
+And then, we want to find the minimum of something.
+So what is that we're finding the minimum of?
+This is actually the hardest part of the problem,
+conceptually.
+I've tried to repair it, but it's very hard
+to figure this out.
+We're finding the least what?
+It's y.
+
+Just got a name for that.
+So we want to find the lowest y.
+
+Now, the reason why it seems a little weird
+is you might think of y as just being a variable.
+But really y is a function.
+It's really y equals y of x is defined implicitly
+by the constraint equation.
+That's what that curve is.
+And notice the bottom point is exactly
+the place where the tangent line will be horizontal,
+which is just what we want.
+So from the diagram, bottom point
+is where y prime is equal to 0.
+So this is the critical point.
+
+Yeah?
+[INAUDIBLE] if you had the environment
+that the slope is [INAUDIBLE], you
+could still have [INAUDIBLE] that [INAUDIBLE]
+taking y prime equal to 0, right?
+Exactly.
+So I'm deriving for you-- so the question
+is, could I have just tried to find
+y prime equals 0 to begin with?
+The answer is yes, absolutely.
+And, in fact, I'm leading in that direction.
+I'm just showing you.
+So I'm trying to make the following very subtle point,
+which is in maximum minimum problems,
+we always have to keep track of two things.
+Often, the interesting point is the critical point.
+And that, indeed, turns out to be the case here.
+But we always have to check the ends.
+And so there are several ways of checking the ends.
+One is we did this physical problem.
+We can see that's coming up here.
+We can see that's coming up here.
+Therefore, the bottom must be at this critical point.
+So that's OK.
+So that's one way of checking it.
+Another way of checking it is the reasoning that I just gave.
+But it's really the same reasoning.
+I'm pointing to this thing, and I'm showing you
+that the bottom is somewhere in the middle,
+so, therefore, it is a place of horizontal tangency.
+That's the reasoning that I'm using.
+So again, this is to avoid having
+to evaluate a limit of an and, or to use
+the second derivative test, which
+is a total catastrophe in this case.
+All right?
+
+OK.
+Now, there's one other thing that you might know about
+if you've seen this geometric construction
+before with a string and chalk, which
+is this curve is an ellipse.
+It turns out this is a piece of an ellipse.
+It's a huge ellipse.
+These two points turn out to be the so-called foci
+of the ellipse.
+However, that geometric fact is totally useless for solving
+this problem.
+Completely useless.
+If you actually write out the formulas for the ellipse,
+you'll discover that you have a much harder problem
+on your hands, and it will take you twice or 10 times as long.
+So it's true that it's an ellipse.
+But it doesn't help.
+OK?
+So what we're going to do instead is much simpler.
+We're going to leave this expression alone.
+And we're just going to differentiate implicitly.
+So again, we use implicit differentiation
+on the constraint equation.
+So that's the equation which is directly above me there,
+at the top.
+And I have to differentiate it with respect to x.
+So that's a little ugly.
+But we've done this a few times before.
+When you differentiate a square root,
+the square root goes into the denominator.
+
+And there's a factor of 1/2, so there's a 2x which cancels.
+So I claim it's this.
+Now, because y depends on x, there's also a y y prime here.
+So technically speaking, it's twice this with 1/2.
+2 over 2 times that.
+So that's the differentiation of the first piece of this guy.
+
+Now, I'm going to do the second one.
+And it's also the chain rule.
+But you're just going to have to let me do it for you,
+because it's just a little bit too long for you
+to pay attention to.
+It turns out there's a minus sign that
+comes out, because there's a minus x and a minus y there.
+And then the numerator, the denominator
+is the same massive square root.
+So it's A minus x squared B minus y squared.
+And the numerator is A minus x, which
+is what replaces the x over here,
+and then another term, which is B minus y times y prime.
+I claim that that's analogous to what I did in the first term.
+And you'll just have to check this on your own.
+All right?
+Because I did it too fast for you to be able check yourself.
+Now, that's going to be equal to what on the right-hand side?
+What's the derivative of L with respect so x.
+0.
+It's 0.
+It's not changing in the problem.
+Although my parachute stuff stretches,
+we tried to stretch it to its fullest extent
+so that we kept it fixed.
+That was the goal here.
+So now, this looks like a total mess.
+But it's not.
+And let me show you why.
+It simplifies a great deal.
+And let me show you exactly how.
+So first of all, the whole point is we're looking for the place
+where y prime is 0.
+So that means that these terms go away.
+Y prime is equal to 0.
+
+So they're gone.
+And now, what we have is the following equation.
+It's x divided by square root of x squared plus y squared is
+equal to-- if I put it on the other side,
+the minus sign is changed to a plus sign.
+A minus x divided by this other massive object.
+A minus x squared plus b minus y squared.
+
+So this is what it simplifies to.
+Now, again, that also might look complicated to you.
+But I claim that this is something.
+This is a kind of equilibrium equation
+that can be interpreted geometrically
+in a way that is very meaningful and important.
+So first of all, let me observe for you that this x is
+something on our picture.
+And the square root of x squared plus y squared
+is something on our picture.
+Namely, if I go over to the picture, here was x.
+And this was a right triangle.
+And this hypotenuse was square root
+of x squared plus y squared.
+So if I call this angle alpha, then this is the sine of alpha.
+It's a right triangle.
+That's the opposite leg.
+So this guy is the sine of alpha.
+
+Similarly, the other side has an interpretation
+for the other right triangle.
+If this angle is beta, then the opposite side is A minus x.
+And the hypotenuse is what was in the denominator over there.
+So this side is sine of beta.
+
+And so what this condition is telling us
+is that alpha is equal to beta, which is the hidden
+symmetry in the problem.
+I don't know if you can actually see it
+when I show you this thing.
+But no matter how I tilt it, actually,
+the two angles from the horizontal are the same.
+
+In the middle it's kind of obvious
+that that should be the case.
+But on the sides, it's not obvious
+that that's what's happening.
+So that's a symmetry, if you like, of the situation.
+These two angles are equal.
+But there's something more to be said.
+If you do a force diagram for this, what you'll discover
+is that the tension on the two lines
+is the same, which means when you build something
+which is hanging like this, it will involve the least stress.
+If you hang something very heavy,
+and one side carries twice as much load is the other,
+then you have twice as much chance of its falling
+and breaking.
+If they each hold the same strength,
+then you've distributed the load in a much more balanced way.
+So this is a balance condition.
+And it's very typical of minimization problems.
+And fortunately, there are nice solutions
+which distribute the weight reasonably well.
+And that's certainly the principle
+of suspension bridges.

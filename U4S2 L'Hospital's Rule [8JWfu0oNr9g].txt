@@ -1,0 +1,84 @@
+#
+# File:   content-mit-18-01-1x-captions/U4S2 L'Hospital's Rule [8JWfu0oNr9g].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 75 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+Here we're going to introduce L'Hopital's Rule, also known
+as Hospital's Rule.
+This is the English spelling and pronunciation,
+so you'll see it written in textbooks this way as well.
+Why should you care?
+L'Hopital's Rule is a systematic method
+that uses derivatives to evaluate limits
+of indeterminate forms of type 0/0 and infinity over infinity.
+
+We're going to give you two versions of this rule.
+
+Version 1 is for limits of indeterminate form 0/0.
+It says that if f and g are functions
+that tend to 0 as x approaches some number a,
+and f and g are differentiable near the point
+x equals a, then the limit as x approaches a of the quotient
+f of x over g of x is equal to the limit
+as x approaches a of f prime of x over g prime of x provided
+that the right hand side exists or is plus or minus infinity.
+It may seem odd that we are allowing this limit
+to be plus or minus infinity.
+But keep in mind that this is exactly the type of information
+that can be very useful to us, especially when
+we are sketching a function.
+
+Next, we'll introduce version 2 .
+Version 2 is for limits of indeterminate form
+infinity over infinity.
+The only difference between version 1 and version 2
+is that we allow f and g to tend to plus or minus infinity
+as x approaches some number a.
+Notice that version 1 and version 2
+have very opposite hypotheses, but the exact same formula
+is true in both cases.
+This is rather surprising.
+And it's worth mentioning the fact
+that the proofs of version 1 and version 2 are very different.
+In this course, we will only be showing
+you a proof of a special case of version 1
+where we know that the derivative of f and g
+exist at the point a, not just near the point x equals a.
+
+There are a couple more things that I just
+wanted to point out.
+One is that everywhere in this rule,
+we have limits as x approaches some number a.
+And these are all two-sided limits.
+But we can replace this two-sided limit
+with a right-sided limit or a left-sided limit
+everywhere in the rule-- that is,
+we could replace x goes to a by x goes to a plus
+or x goes to a minus everywhere that you
+see this limit and the rule.
+And the result of the rule still holds in both version 1
+and version 2.
+The other thing that is important to note
+is that here we have been implicitly assuming
+that a is a finite number.
+But in fact, we can let x tend to plus or minus infinity,
+and both version 1 and version 2 of this rule still hold.
+Part of what makes this rule so incredibly powerful
+is the fact that it holds for two very different cases-- 0/0
+and infinity over infinity.
+And it works in every possible iteration
+that you can imagine-- one-sided limits, two-sided limits,
+limits as x tends to infinity.
+You can always apply this rule when
+you have a limit of indeterminate type
+0/0 or infinity over infinity.
+And that is what makes it so convenient.
+I'm going to go ahead and let you take a moment
+to let this rule sink in before I come back
+and show you how to apply L'Hopital's Rule in practice.

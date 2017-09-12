@@ -1,0 +1,84 @@
+#
+# File:   content-mit-18-01-1x-captions/U3S1 Zipline design problem setup [WyqzB2MiLCk].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 75 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+You already know how to find linear approximations
+of functions, so that's where we're going to start.
+And we want to give you a taste of how linear approximations
+are used in the real world.
+To illustrate this, I'm going to work through an example
+involving zip line design.
+As a zip line designer, I care about how fast
+a rider will travel.
+And a zip line rider's velocity is
+going to depend on the mass of the rider.
+And it's also going to be affected
+by wind and other weather-related phenomena.
+But as a designer, I can't control the rider's mass.
+And I can't control the weather.
+But given a fixed horizontal span between two trees, what
+I can control is the total vertical height traversed
+throughout the zip line ride.
+So let's formulate a problem.
+Let h be the total height traversed by a rider.
+And let v be the maximum velocity
+achieved during the ride.
+What I want to know is how changes in the vertical height
+will change the maximum velocity experienced by the rider.
+That is, I'm asking for a relationship between delta v
+and delta h.
+
+To get started, we need to understand
+the maximum velocity.
+A good first approach is to use conservation of energy.
+Let E denote the total energy in the system.
+So what is E?
+Well, E is whatever energy I start with,
+which is the total potential energy, which is mgh.
+Here, m is the mass of the rider,
+g is the gravitational constant, and h
+is the total vertical height traversed during the zip line
+ride.
+Of course, this isn't the only energy in the system.
+We need to add to this the kinetic energy
+that the rider starts off with.
+And I know that when I go down a zip line ride,
+I usually give myself a small push off the platform.
+So the rider's probably going to start with some small amount
+of kinetic energy.
+But I don't need to worry too much
+about what this is, because this is just all wrapped up
+into this total energy term E.
+And the key thing here is that E is a constant,
+because energy is conserved.
+So whatever energy I start with, this is a fixed constant.
+This is the total energy in my system at any given time.
+
+Then, the maximum possible velocity
+that the rider can experience is when
+all of this energy in the system is
+converted into kinetic energy.
+Now, we know that this is not very realistic,
+because some of this energy is going
+to be converted into heat due to friction or wind resistance.
+But we aren't going to worry about this.
+We're going to ignore these effects for now,
+and focus on this idealized system where all of this energy
+is transferred into kinetic energy
+to find the maximum possible velocity.
+The expression for kinetic energy is 1/2 mv squared.
+So the maximum velocity happens when
+E is equal to 1/2 mv squared.
+So I'm going to leave it to you to find the expression for v
+in terms of E, just by doing some algebra.
+And then, you are going to find a linear approximation
+that we are going to use in figuring out
+the relationship between delta v and delta h.
+Good luck.

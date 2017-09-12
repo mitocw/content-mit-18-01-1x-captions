@@ -1,0 +1,46 @@
+#
+# File:   content-mit-18-01-1x-captions/U2S8 Natural logarithm and its derivative [54SyB-6UWRA].txt
+#
+# Captions for MITx 18.01.1x module
+#
+# This file has 37 caption lines.
+#
+# Do not add or delete any lines.  If there is text missing at the end, please add it to the last line.
+#
+#----------------------------------------
+
+We want to find the derivative of log x with respect to x.
+To do this, we are going to use the fact
+that the function e to the x is the inverse
+of the natural logarithm.
+What does this mean?
+This exactly says that e to the log x is equal to x.
+If we let u equal log x, then this equation
+is exactly saying that e to the u is equal to x.
+So now, we're going to start with this equation,
+and we are going to implicitly differentiate.
+I'm leaving some room here, so that I can differentiate
+both sides with respect to x.
+
+The derivative of x with respect to x is equal to 1.
+Applying the chain rule, we can find the derivative
+of the left hand side, which is equal to the derivative
+with respect to u of e to the u times the derivative of u
+with respect to x.
+Notice that du dx here is the unknown quantity.
+But we know that the right hand side is equal to 1,
+and we can compute this derivative here.
+The derivative of e to the u with respect to u
+is e to the u.
+So this gives us e to the u times du dx is equal to 1.
+
+Remember that e to the u is just a fancy way of writing x.
+So plugging in log x for u, we see
+that x times the derivative of log x with respect to x
+is equal to 1.
+Rearranging, this is the derivative
+of log x with respect to x is equal to 1/x.
+I'm going to go ahead and write that up here and box it.
+And now, we have another function
+to add to our arsenal of functions
+that we know how to differentiate.
